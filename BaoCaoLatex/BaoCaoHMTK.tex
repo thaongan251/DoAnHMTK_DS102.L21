@@ -1,0 +1,915 @@
+\documentclass[12pt,a4paper,oneside]{book}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath, amsthm, amssymb,latexsym,amscd,amsfonts,enumerate,titlesec,titletoc}
+\usepackage[top=3.5cm, bottom=3.0cm, left=3.5cm, right=2.0cm]{geometry}
+% căn lề theo quy chuẩn KLTN
+\usepackage{color, fancyhdr, graphicx, wrapfig}
+%\usepackage[unicode]{hyperref}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage[thinlines]{easytable}
+\usepackage{array}
+\usepackage{etoolbox}% http://ctan.org/pkg/etoolbox
+\usepackage{subfig} 
+\usepackage{tocbasic}
+\captionsetup{labelfont=bf}
+
+\usepackage{etoolbox}
+
+
+%\usepackage[labelfont=bf]{caption}
+
+\def\chaptertitlename{\fontsize{14pt}{14pt}\selectfont{CHƯƠNG}}
+\titleformat{\chapter}[display]
+{\vspace{-2cm}\normalfont\Large\filcenter\bfseries}
+{{{\chaptertitlename\,}\thechapter}} {0pc}{{}\MakeUppercase}
+
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+
+
+\pagestyle{fancy}
+\makeatletter
+\renewcommand{\ps@plain}{
+\renewcommand{\@oddfoot}{\textrm{\centerline{\thepage}}}
+\renewcommand{\@evenhead}{\@oddhead}
+%\renewcommand{\@oddfoot}{}
+\renewcommand{\@evenfoot}{\@oddfoot}}
+
+\pagestyle{plain}
+
+%%%%%%%%%%%%%%%%%
+\begin{document}
+
+
+\fontsize{14pt}{25pt}\selectfont % Lệnh thay đổi cỡ chữ thành cỡ 14, cỡ dòng 18 (theo quy chuẩn của Khóa Luận TN).
+\setlength{\baselineskip}{26truept}
+%\fontsize{13pt}{14pt}\selectfont
+\pagenumbering{arabic}
+%\pagenumbering{roman}
+%\frontmatter
+\pagestyle{empty}
+\begin{titlepage}
+	\centerline{ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH}
+	\centerline{\bf\underline{TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN}}
+	\centerline{\bf KHOA KHOA HỌC \& KỸ THUẬT THÔNG TIN}
+	\vspace{3.0cm}
+	\centerline{\bf\fontsize{20pt}{16}\selectfont BÁO CÁO ĐỒ ÁN CUỐI KỲ}
+	\centerline{\bf\fontsize{14.5pt}{16}\selectfont MÔN: HỌC MÁY THỐNG KÊ}
+	\centerline{\bf\fontsize{14.5pt}{16}\selectfont LỚP: DS102.L21}
+	\vspace{2.5cm}
+	\begin{center}{\bf\fontsize{20pt}{28}\selectfont BÀI TOÁN NHẬN DIỆN TIN GIẢ \\FAKE NEWS DETECTION PROJECT}
+	\end{center}
+	\vspace{2cm}
+	\center{ Sinh viên thực hiện}\\ \center{\textbf{Thái Minh Triết - 19522397\\Chu Hà Thảo Ngân - 19521882}}
+	\vfill
+	\centerline{\bf Thành phố Hồ Chí Minh - 07/2020}
+\end{titlepage}
+\newpage
+
+\begin{titlepage}
+	\centerline{ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH}
+	\centerline{\bf\underline{TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN}}
+	\centerline{\bf KHOA KHOA HỌC \& KỸ THUẬT THÔNG TIN}
+	\vspace*{3.0cm}
+	\centerline{\bf\fontsize{20pt}{16}\selectfont BÁO CÁO ĐỒ ÁN CUỐI KỲ}
+	\centerline{\bf\fontsize{14.5pt}{16}\selectfont MÔN: HỌC MÁY THỐNG KÊ}
+	\centerline{\bf\fontsize{14.5pt}{16}\selectfont LỚP: DS102.L21}
+	\vspace*{2.5cm}
+	\begin{center}{\bf\fontsize{20pt}{28}\selectfont BÀI TOÁN NHẬN DIỆN TIN GIẢ\\ FAKE NEWS DETECTION PROJECT}\\
+	\end{center}
+	\vspace{2cm}
+	\center{ Giảng viên hướng dẫn}\\ \center{\textbf{TS. Nguyễn Tấn Trần Minh Khang\\ThS. Võ Duy Nguyên}}
+	\vfill
+	\centerline{\bf Thành phố Hồ Chí Minh - 07/2020}
+\end{titlepage}
+
+\newpage
+
+\newpage
+\def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
+                       \if@mainmatter
+                         \refstepcounter{chapter}%
+                         \typeout{\@chapapp\space\thechapter.}%
+                         \addcontentsline{toc}{chapter}%
+                              {\bf  Chương \protect\numberline{\thechapter. } #1}%
+                       \else
+                         \addcontentsline{toc}{chapter}{ #1}%
+                       \fi
+                    \else
+                      \addcontentsline{toc}{chapter}{ #1}%
+                    \fi
+                    \chaptermark{#1}%
+                    \addtocontents{lof}{\protect\addvspace{10\p@}}%
+                    \addtocontents{lot}{\protect\addvspace{10\p@}}%
+                    \if@twocolumn
+                      \@topnewpage[\@makechapterhead{#2}]%
+                    \else
+                      \@makechapterhead{#2}%
+                      \@afterheading
+                    \fi}
+%\setcounter{page}{3}
+%%%%%%%%%%%%%%%%%%%%%%%
+%\pagenumbering{roman}
+\markboth{{\it Mục lục}}{{\it Mục lục}}
+%\addcontentsline{toc}{section}{{\bf Mục lục\rm }}
+%\cleardoublepage
+\tableofcontents
+\addtocontents{toc}{\protect\thispagestyle{empty}}
+%{\protect\thispagestyle{empty}}
+
+\makeatletter
+\patchcmd{\@chapter}{\addtocontents{lof}{\protect\addvspace{10\p@}}}{}{}{}% LoF
+\patchcmd{\@chapter}{\addtocontents{lot}{\protect\addvspace{10\p@}}}{}{}{}% LoT
+\makeatother
+
+\renewcommand*{\listfigurename}{DANH MỤC HÌNH ẢNH}
+\listoffigures
+\thispagestyle{empty}
+
+\renewcommand*{\listtablename}{DANH MỤC BẢNG BIỂU}
+\listoftables
+\thispagestyle{empty}
+%%%%%%%%%%%%%%
+
+\pagestyle{plain}
+\chapter*{LỜI CẢM ƠN}
+	\addcontentsline{toc}{chapter}{LỜI CẢM ƠN}
+	Lời đầu tiên, chúng tôi xin trân trọng cảm ơn hai Thầy giảng viên hướng dẫn là TS. Nguyễn Tấn Trần Minh Khang và ThS. Võ Duy Nguyên, các thầy đã tận tình giảng dạy chúng tôi trong suốt quá trình học tập cũng như đã hướng dẫn chúng tôi hoàn thành đồ án của môn học này.
+	
+	Xin cảm ơn anh Hồ Thái Ngọc (PMCL2016) đã có sự giúp đỡ tận tình trong các tiết học lý thuyết và thực nghiệm tại lớp.
+	
+	Do giới hạn về kiến thức và khả năng lý luận còn nhiều hạn chế, kính mong sự chỉ dẫn và đóng góp của các quý Thầy để bài báo cáo của chúng tôi được hoàn thiện hơn. Xin chân thành cảm ơn!
+	\vskip 1,5cm
+	\hskip 9cm {\bf Nhóm sinh viên
+	\vskip 1,5cm
+	\hskip 9cm Thái Minh Triết
+	
+	\hskip 8.5cm Chu Hà Thảo Ngân
+	}
+
+\chapter*{NHẬN XÉT CỦA GIẢNG VIÊN HƯỚNG DẪN}
+	\addcontentsline{toc}{chapter}{NHẬN XÉT CỦA GIẢNG VIÊN HƯỚNG DẪN}
+	
+\chapter*{TÓM TẮT}
+	\addcontentsline{toc}{chapter}{TÓM TẮT}
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+	Trong kỷ nguyên của Internet và mạng xã hội, cứ mỗi giây trôi qua, thế giới có gần 55.000 bài đăng trên Facebook, 456.000 tweet được gửi đi trên Twitter và có 86 bài blog xuất hiện trên Internet. Có thể thấy lượng thông tin được sản sinh ra và lan truyền nhanh chóng như thế nào trên không gian mạng. Tuy nhiên, những nguồn tin này luôn tiềm ẩn những thông tin giả mạo mà nếu không nhận diện và ngăn chặn kịp thời sẽ gây tổn hại đến đến các cá nhân, tổ chức kinh tế, chính trị và xã hội. 
+
+
+	Các phương pháp nhận diện tin giả trước đây thường mang tính thủ công khi phải cần đến các chuyên gia để có thể thẩm định nguồn tin là đúng hay sai sự thật. Bên cạnh đó, các phương pháp nhận diện tự động ứng dụng lý thuyết Học máy và Xử lý ngôn ngữ tự nhiên là những hướng tiếp cận mới, trở thành xu hướng nghiên cứu nóng hổi vì mang lại hiệu quả cao, tiết kiệm thời gian và chi phí, vốn là những mặt còn nhiều hạn chế của các phương pháp cũ.
+
+
+	Trong đồ án này, chúng tôi tiến hành thực nghiệm những phương pháp Học máy phổ biến cùng các mô hình trích xuất đặc trưng từ dữ liệu văn bản, bao gồm 2 mô hình Bag-of-Words là TFIDFVectorizer và CountVectorizer cùng mô hình Word2Vec, với mục tiêu tìm hiểu khả năng trích xuất thông tin từ bộ dữ liệu cũng như độ hiệu quả của từng phương pháp trong việc phân loại một mẩu tin là đáng tin cậy hay là sai sự thật.
+
+	\vspace{0.5cm}
+	\textbf{Từ khóa: Machine Learning, Fake News Detection, Natural Language Processing, Classification, Word Embedding}
+	\pagebreak
+	
+\chapter{GIỚI THIỆU CHUNG}
+
+	\section{Mục tiêu đề tài}
+	
+	\section{Bài toán học máy}
+	
+	\section{Quy trình giải quyết bài toán}
+	
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.88\columnwidth]{QuyTrinhHMTK}
+		\end{center}
+		\caption{Quy trình thực hiện bài toán}
+	\end{figure}
+	\section{Ứng dụng}
+
+
+
+\chapter{TỔNG QUAN VỀ BỘ DỮ LIỆU}
+
+	
+
+	\section{Giới thiệu chung về bộ dữ liệu}
+
+
+
+
+	
+	\section{Phân tích và trực quan bộ dữ liệu}
+
+
+
+
+\chapter{TIỀN XỬ LÝ VÀ VECTƠ HÓA DỮ LIỆU}
+	\section{Tiền xử lý dữ liệu}
+	\section{Trích xuất đặc trưng}
+		\subsection{CountVectorizer}
+		\subsection{TFIDF}
+		\subsection{Word2Vec}
+
+\chapter{HUẤN LUYỆN VÀ TINH CHỈNH CÁC MÔ HÌNH HỌC MÁY}
+	\section{Cơ sở lý thuyết}
+		\subsection{Logistic Regression}
+			Phương pháp Logistic Regression là một mô hình hồi quy được sử dụng phổ biến cho bài toán phân lớp nhị phân.
+
+			Mô hình hoạt động dựa trên hàm sigmoid với đường cong chữ S đặc trưng, dùng để dự đoán xác suất xảy ra hay không xảy ra của một nhãn nào đó.
+			
+			\begin{figure}[H]
+				\begin{center}
+					\includegraphics[width=0.8\columnwidth]{Picture1}
+				\end{center}
+				\caption{Đồ thị hàm sigmoid}
+			\end{figure}
+			
+			Đầu ra của bài toán logistic regression với dữ liệu đầu vào \textbf{x} và vector hệ số \textbf{w} thường viết chung dưới dạng:
+			
+			\begin{center}
+				$f(x) = \dfrac{1}{1+e^{-\textbf{w}^T\textbf{x}}}$
+			\end{center}
+			
+			Sau khi tìm được mô hình, việc xác định class \textbf{y} cho một điểm dữ liệu \textbf{x} được xác định bằng việc so sánh hai biểu thức xác suất:
+			
+			\begin{center}
+				$P(y=1|\textbf{x};\textbf{w}); P(y=0|\textbf{x};\textbf{w})$
+			\end{center}
+			
+			Vì tổng hai biểu thức này luôn bằng 1 nên một cách gọn hơn, ta cần xác định xem $P(y=1|\textbf{x};\textbf{w})$ có lớn hơn 0.5 hay không. Nếu lớn hơn 0.5, ta kết luận điểm dữ liệu thuộc class 1, ngược lại thì điểm dữ liệu thuộc class 0.
+			
+		\subsection{Multinomial Naive Bayes}
+			Bộ phân lớp Naive Bayes (NBC) thường được sử dụng trong các bài toán phân loại văn bản, với thời gian train và test rất nhanh. Điều này có được do giả sử về tính độc lập giữa các thành phần, nếu biết class. Nếu giả sử về tính độc lập được thoả mãn (dựa vào bản chất của dữ liệu), NBC được cho là cho kết quả tốt hơn so với SVM và Logistic Regression khi có ít dữ liệu training.
+
+			NBC có thể hoạt động với các feature vector mà một phần là liên tục (sử dụng Gaussian Naive Bayes), phần còn lại ở dạng rời rạc (sử dụng Multinomial hoặc Bernoulli).
+
+			Mô hình Multinomial Naive Bayes chủ yếu được sử dụng trong bài toán phân loại văn bản mà vector đặc trưng được xây dựng dựa trên ý tưởng Bag of words (BoW). Lúc này, mỗi văn bản được biểu diễn bởi một vector có độ dài d (là số từ trong văn bản). Giá trị của thành phần thứ i trong mỗi vector là số lần từ thứ i xuất hiện trong văn bản đó.
+
+			Khi đó $p(\textbf{x}_i|c)$ tỉ lệ với tần suất từ thứ i (hay đặc trưng thứ i trong trường hợp tổng quát) xuất hiện trong các văn bản có class c. Giá trị này được tính bởi công thức:
+			
+			\begin{center}
+				$\lambda_{ci} = p(\textbf{x}_i|c) = \cfrac{N_{ci}}{N_c}$    $(*)$
+			\end{center}
+			
+			Trong đó:
+			
+			\begin{itemize}
+				\item $N_{ci}$ là tổng số lần từ thứ i xuất hiện trong các văn bản của class c, nó được tính là tổng của tất cả các thành phần thứ i của các feature vectors ứng với class c.
+				\item $N_c$ là tổng số từ (kể cả lặp) xuất hiện trong class c. Nói cách khác, nó bằng tổng độ dài của toàn bộ các văn bản thuộc vào class c.
+			\end{itemize}
+			
+			Cách tính này có một hạn chế là nếu có một từ mới chưa bao giờ xuất hiện trong nhãn c thì biểu thức $(*)$ sẽ bằng 0. Để giải quyết việc này, một kỹ thuật được gọi là làm mềm Laplace (Laplace Smoothing) được áp dụng:
+			
+			\begin{center}
+				$\hat{\lambda}=\cfrac{N_{ci}+\alpha}{N_c+d\alpha}$
+			\end{center}
+			
+			Với $\alpha$ là một số dương (thường bằng 1) để tránh trường hợp tử số bằng 0. Mẫu số được cộng với $d\alpha$ để đảm bảo tổng xác suất bằng 1.
+			
+			Như vậy, mỗi nhãn c được mô tả bằng một bộ các số dương có tổng bằng 1:
+			
+			\begin{center}
+				$\hat{\lambda_c}=\hat{\lambda}c1,..., \hat{\lambda}cd$
+			\end{center}
+
+		\subsection{Support Vector Machine}
+		\subsection{Thuật toán Passive Agressive}
+		\subsection{Decission Tree}
+		Decision Tree (cây quyết định) là mô hình thuộc nhóm thuật toán học máy học có giám sát (Supervised Learning). Mô hình cây quyết định cho biết giá trị của một biến mục tiêu thuộc lớp nào bằng cách dựa vào các giá trị của một tập các biến dự đoán, hay tập các câu hỏi.
+		
+		Cây quyết định có dạng cấu trúc cây, bao gồm: nút gốc (root node), nút quyết định (decision node) và nút lá (leaf node).
+		
+		\begin{itemize}
+		\item Nút gốc: Là nút đầu tiên trong cấu trúc cây, thường nằm trên cùng, các nút khác trong cấu trúc cây bắt nguồn từ nút gốc.
+		\item Nút quyết định: Là nút có một hoặc nhiều phân nhánh tới nút con, nút này tương ứng với biến dự đoán.
+		\item Nút lá: Là giá trị dự đoán của biến mục tiêu.
+		\item Nhánh nối giữa một nút và nút con thể hiện giá trị cụ thể cho biến đó.
+		\end{itemize}
+		
+		Quy tắc để có được giá trị dự đoán cụ thể là biểu diễn đường đi từ nút gốc đi xuyên qua cây theo các nhánh đến nút lá. Từ đó, cây quyết định sẽ sinh ra các luật để dự đoán lớp của các dữ liệu chưa biết.
+		
+		Giải bài toán phân lớp dựa trên mô hình cây quyết định chính là xây dựng một cây quyết định, ký hiệu S.
+		
+		S đóng vai trò như một ánh xạ từ tập dữ liệu vào tập nhãn:
+		
+		\centerline{$S: D \to Y$}
+		\subsection{Random Forest}
+		Random Forest là thuật toán học có giám sát nên có thể giải quyết bài toán classification.
+		
+		Random Forest (hay còn gọi là Rừng Ngẫu Nhiên)  được phát triển bởi Leo Breiman tại đại học California, Berkeley; là một trong những thuật toán thuộc kỹ thuật Bagging của phương pháp Ensemble Learning với mục đích dùng để phân loại bằng cách xây dựng vô số các cây quyết định (decision tree) trong thời gian huấn luyện. Đầu ra là tập hợp mô hình phân lớp của những cây riêng biệt. Mỗi cây quyết định đều có những yếu tố ngẫu nhiên: Lấy ngẫu nhiên dữ liệu để xây dựng cây quyết định hoặc lấy ngẫu nhiên các thuộc tính để xây dựng cây quyết định.
+		Ở bước huấn luyện Random Forest sẽ xây dựng nhiều cây quyết định, các cây quyết định có thể khác nhau. Sau đó ở bước dự đoán, với một dữ liệu mới, thì ở mỗi cây quyết định, đi từ trên xuống theo các nút điều kiện để được các dự đoán, sau đó kết quả cuối cùng được tổng hợp từ kết quả của các cây quyết định.
+		
+		Trong những năm gần đây, Random Forest được sử dụng khá phổ biến bởi những điểm vượt trội của nó so với các thuật toán khác: xử lý được với dữ liệu có số lượng các thuộc tính lớn, làm việc với tập dữ liệu thiếu giá trị, thường có độ chính xác cao trong phân loại, tránh được overfitting với tập dữ liệu và quá trình học nhanh.
+		
+	\section{Huấn luyện và tinh chỉnh mô hình}
+		Sau khi đã nắm vững cơ sở lý thuyết của các phương pháp Học máy, chúng tôi tiến hành huấn luyện và thẩm định các bộ giá trị siêu tham số ứng với từng mô hình nhằm tìm ra bộ tham số tối ưu.
+		
+		Do hạn chế về mặt tài nguyên và thời gian, chúng tôi chỉ thử nghiệm một số lượng nhất định giá trị siêu tham số của các mô hình, do đó các mô hình sau khi tinh chỉnh có thể chưa là tốt nhất. Sau cùng, chúng tôi mong muốn có thể đưa ra bộ tham số tốt nhất của từng mô hình trên từng bộ vector hóa cụ thể, nhằm thực hiện việc so sánh và đánh giá một cách khách quan nhất về hiệu suất giữa các mô hình trên bộ dữ liệu.
+		
+		Việc tinh chỉnh mô hình Học máy được thực hiện bằng cách sử dụng công cụ GridsearchCV hỗ trợ bởi thư viện sklearn, đánh giá qua phương pháp k-Fold Cross Validation với k=3 trên tập huấn luyện đã được tiền xử lý và vector hóa, cùng độ đo F1\_macro.
+	
+		Sau đây là bảng kết quả tinh chỉnh mô hình với GridSearchCV.
+	
+		\begin{table}[H]
+			\renewcommand{\arraystretch}{1.5}
+			{
+				\footnotesize
+				\begin{center}
+					\begin{tabular}{ |m{3.4cm}|m{3.7cm}|m{3.7cm}|m{3.7cm}|}
+						\hline
+						\multicolumn{4}{|c|} {\rule{0pt}{20pt} \textbf{Kết quả tinh chỉnh mô hình với GridSearchCV}} \\[0.8em]
+						\hline 
+						\rule{0pt}{25pt}&\centering \textbf{CountVectorizer} &\centering \textbf{TfidfVectorizer}&\centering \textbf{Word2Vec} \tabularnewline
+						\hline 
+						\multirow{2}{2em}{\textbf{LogisticRegression}} & solver = sag & solver = saga & solver = newton-cg \\
+						& C = 1 & C = 1000 &C = 10 \\ 
+						\hline 
+						\multirow{2}{4em}{\textbf{MultinomialNB}} & alpha = 0.1 & alpha = 0.1 & alpha = 1.1 \\ 
+						& fit\_prior = True & fit\_prior = False &fit\_prior = True \\ 
+						\hline 
+						\multirow{3}{1em}{\textbf{SVC}} & kernel = linear & kernel = rbf &kernel = rbf  \\
+						& C = 0.1 & C = 100 & C = 10 \\ 
+						& gama = 1 & gamma = 0.1 &gamma = 0.1  \\
+						\hline
+						\multirow{2}{4em}{\textbf{PassiveAgressive\\Classifier}} & C = 0.001 & C = 0.1 &C = 0.001 \\
+						& early\_stopping = True & early\_stopping = False & early\_stopping = False\\                         
+						\hline 
+						\multirow{4}{4em}{\textbf{DecissionTree\\Classifier}} & criterion = entropy & criterion = gini & criterion = entropy  \\
+						& max\_depth = None & max\_depth = 16 & max\_depth = 6 \\ 
+						& min\_sample\_leaf = 2 & min\_sample\_leaf = 1 & min\_sample\_leaf = 3  \\
+						& min\_sample\_split = 5  & min\_sample\_split = 2 & min\_sample\_split = 2  \\
+						\hline 
+						\multirow{6}{4em}{\textbf{RadomForest\\Classifier}} & criterion = entropy & criterion = gini & criterion = entropy  \\
+						& max\_depth = None & max\_depth = None & max\_depth = None \\
+						& min\_sample\_split = 5 & min\_sample\_split = 10 & min\_sample\_split =  5 \\
+						& min\_sample\_leaf = 1 & min\_sample\_leaf = 1 & min\_sample\_leaf =  1 \\
+						& max\_features = auto & max\_features = auto & max\_features =  auto \\
+						& n\_estimators = 400 & n\_estimators = 400 & n\_estimators = 300 \\
+						\hline
+					\end{tabular}
+					\caption{Bảng kết quả GridSearchCV}
+				\end{center}
+			}
+		\end{table}
+
+\chapter{ĐÁNH GIÁ HIỆU SUẤT MÔ HÌNH}
+	\section{Các độ đo đánh giá mô hình}
+	\subsection{Confusion Matrix}
+		Khi đánh giá một mô hình phân lớp, để biết được cụ thể các lớp được phân loại như thế nào, lớp nào được phân loại đúng nhiều nhất, dữ liệu lớp nào thường bị phân nhầm vào lớp khác,... chúng ta thường sử dụng một ma trận được gọi là Confusion Matrix (hay còn gọi là Ma trận nhầm lẫn).
+		
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.47\textwidth]{confusionmatrix}
+		\caption{Cấu trúc cơ bản của một Confusion Matrix}
+		\end{figure}
+		
+		Trong bài toán phân lớp nhị phân, Confusion Matrix là một ma trận có kích thước là 2x2 (như hình 5.1), trong đó:
+		\begin{itemize}
+		\item \textbf{True Positive (TP):} số điểm dữ liệu có nhãn là Positive được dự đoán là Positive.
+		\item \textbf{False Positive (FP):} số điểm dữ liệu có nhãn là Positive được dự đoán là Negative.
+		\item \textbf{False Negative (TN):} số điểm dữ liệu có nhãn là Negative được dự đoán là Positive.
+		\item \textbf{True Negative (FN):} số điểm dữ liệu có nhãn là Negative được dự đoán là Negative.
+		\end{itemize}
+		
+		Một cách tổng quát, Confusion Matrix là một ma trận vuông có kích thước mỗi chiều bằng số lượng lớp dữ liệu. Giá trị tại hàng thứ i, cột thứ j là số lượng điểm lẽ ra thuộc vào class i nhưng lại được dự đoán là thuộc vào class j. Bên cạnh cách đinh nghĩa trên thì vẫn có một số tài liệu định nghĩa ngược lại.
+		
+		Để có cái nhìn rõ hơn thì Confusion Matrix còn được biểu diễn bằng cách chuẩn hóa (normalize). Việc chuẩn hóa Confusion Matrix được thực hiện bằng cách lấy từng phần tử trong mỗi hàng chia cho tổng phần tử trên hàng đó. Như vậy tổng của các phần tử trên một hàng luôn bằng 1.
+
+		\begin{figure}[H]
+			\centering
+			\subfloat[Trước khi chuẩn hóa]{% 
+				\includegraphics[width=0.48\textwidth]{ucm}} 
+			\hfill
+			\subfloat[Sau khi chuẩn hóa]{%
+				\includegraphics[width=0.48\textwidth]{ncm}} 
+			\caption{Ví dụ về Confusion Matrix trước và sau khi được chuẩn hóa} 
+		\end{figure}
+
+	\subsection{Accuracy}
+	Độ chính xác Accuracy là độ đo đơn giản dùng để đánh giá hiệu suất phân loại của một mô hình Học máy. Cách đánh giá này đơn giản tính tỉ lệ số lượng điểm dữ liệu được dự đoán đúng trên tổng số điểm dữ liệu trong tập kiểm thử:
+	
+	\centerline{$accuracy = \cfrac{TP+TN}{TP+TN+FP+FN}$}
+	\vspace{1em}
+	Độ đo Accuracry thường không phù hợp đối với bài toán phân loại có số lượng điểm dữ liệu giữa các lớp quá mất cân bằng, vì mô hình có xu hướng đánh giá dựa trên lớp có nhiều điểm dữ liệu hơn. Tuy nhiên đối với bộ dữ liệu sử dụng trong bài toán này thì độ đo Accuracy vẫn mang lại hiệu quả do phân bố điểm dữ liệu trên hai lớp là cân bằng.
+	\subsection{Precision - Recall - F1}
+	Độ đo Precison được tính bằng tỉ lệ giữa số điểm dữ liệu có nhãn là Positive được dự đoán đúng trên tổng số dự đoán cho nhãn Positive đưa ra bởi mô hình:
+	
+	\centerline{$precision = \cfrac{TP}{TP+FP}$}
+	\vspace{1em}
+	Độ đo Recall (còn gọi là Sensitivity hay độ phủ) được tính bằng tỉ lệ giữa số điểm dữ liệu có nhãn là Positive được dự đoán đúng trên tổng số điểm dữ liệu có nhãn là Positive:
+		
+	\centerline{$recall = \cfrac{TP}{TP+FN}$}
+	\vspace{1em}
+	
+	Nếu \textbf{Precision cao} trong khi \textbf{Recall thấp}: Mô hình có độ chính xác cao trên tổng số dự đoán Positive được mô hình đưa ra, tuy nhiên nó lại có xu hướng bỏ sót nhiều điểm dữ liệu có nhãn là Positive trong thực tế.
+	
+	Nếu \textbf{Recall cao} trong khi \textbf{Precision thấp}: Mô hình có độ phủ tốt trên các nhãn Positive, tuy nhiên độ chính xác của kết quả dự đoán các điểm dữ liệu này lại không cao.
+	
+	Để thể hiện sự tổng hòa giữa Precision và Recall, một độ đo khác được sử dụng để đánh giá mô hình phân lớp, đó là độ đo F1 và được tính bằng trung bình điều hòa của Precision và Recall:  
+	
+	\centerline{$F_1 = 2 \times \cfrac{precision\cdot recall}{precision+recall}$}
+	\vspace{1em}
+	Độ đo $F_1$ thường được dùng khi chúng ta cần sự đồng đều giữa precision và recall hoặc khi bộ dữ liệu quá mất cân bằng. Vì vậy nó được sử dụng rất phổ biển trong các bài toán thực tế và trong nghiên cứu khoa học.
+	
+	\subsection{Đường cong ROC và chỉ số AUC}
+	Đường cong ROC (Receiver Operating Characteristic Curve) là một đồ thị đánh giá hiệu suất thường được sử dụng trong bài toán phân lớp nhị phân. Ứng dụng đầu tiên của nó là cho việc nghiên cứu các hệ thống nhận diện trong việc phát hiện các tín hiệu radio khi có sự hiện diện của nhiễu vào thập niên 1940, sau sự kiện cuộc tấn công Trân Châu Cảng. 
+	
+	Đường cong ROC thường được biểu diễn bằng cặp chỉ số (TPR, FPR) tại mỗi ngưỡng với TPR là trục tung và FPR là trục hoành. Trong đó:
+	\begin{itemize}
+	\item $TPR = Recall = \cfrac{TP}{TP+FN}$
+	\item $FPR = \cfrac{FP}{TN+FP}\vspace{1em}$: tỉ lệ giữa số điểm dữ liệu có nhãn Negative bị dự đoán sai trên tổng số điểm dữ liệu có nhãn là Negative.
+	\end{itemize}
+	
+	Đây chính là các chỉ số dùng để tính toán hiệu suất phân loại của mô hình. Để hợp chúng lại thành 1 chỉ số duy nhất, ta sử dụng đường cong ROC để hiển thị từng cặp (TPR, FPR) cho các ngưỡng khác nhau với mỗi điểm trên đường cong biểu diễn 1 cặp (TPR, FPR) cho 1 ngưỡng, sau đó tính chỉ số AUC cho đường cong này. 
+	
+	Chỉ số AUC (Area under the curve) chính là diện tích không gian bên dưới đường cong ROC, là con số thể hiện hiệu suất phân loại của mô hình. 
+	
+	AUC càng gần về 1 (ROC hội tụ về góc trên bên trái) thì mô hình càng phân loại chính xác, AUC càng gần về 0.5 (ROC hội tụ về đường chéo) thì hiệu suất phân loại càng tệ. Nếu AUC càng gần về 0 thì mô hình sẽ phân loại ngược kết quả (phân loại Positive thành Negative và ngược lại)
+	
+			\begin{figure}[H]
+				\centering
+				\includegraphics[width=1\textwidth]{roc_auc}
+				\caption{Ví dụ về đường cong ROC và AUC}
+			\end{figure}
+	
+	\pagebreak
+	\section{Kết quả đánh giá hiệu suất mô hình}
+		Khi đã tìm được những giá trị siêu tham số tốt nhất của từng mô hình trên từng bộ vector hóa, chúng tôi tiến hành dự đoán các điểm dữ liệu trong tập kiểm thử và thu được kết quả đánh giá dưới đây.
+
+	\begin{table}[H]
+		\renewcommand{\arraystretch}{1.5}
+		\small
+		\begin{center}
+			\begin{tabular}{ | P{12.8em} | P{3.3cm}| P{3cm} | P{2.8cm} |} 
+			\hline
+		      & \textbf{CountVectorizer} & \textbf{TfidfVectorizer} & \textbf{Word2Vec} \\ 
+			\hline
+			\textbf{LogisticRegression} & \textbf{0.9362} & 0.9596 & 0.9135 \\ 
+			\hline
+			\textbf{MultinomialNB} & 0.9148 & 0.9205 & 0.8062 \\
+			\hline
+			\textbf{SVC} & 0.9186 & 0.9609 & \textbf{0.9293} \\
+			\hline
+			\textbf{PassiveAgressiveClassifier} & 0.9274 & \textbf{0.9628} & 0.9085 \\
+			\hline
+			\textbf{DecissionTreeClassifier} & 0.8119 & 0.8176 & 0.7898 \\
+			\hline
+			\textbf{RandomForestClassifer} & 0.9104 & 0.9173 & 0.9034 \\
+			\hline
+			\end{tabular}
+		\end{center}
+		\caption{Bảng tổng hợp kết quả đánh giá độ chính xác (Accuracy) của các mô hình}
+	\end{table}
+	\hfill
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.03\textwidth]{cvroc}
+		\caption{Đường cong ROC cho bộ CountVectorizer}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\includegraphics[width=1.03\textwidth]{tfroc}
+		\caption{Đường cong ROC cho bộ TfidfVectorizer} 
+	\end{figure}
+	\hfill
+	\begin{figure}[H]
+		\includegraphics[width=1.03\textwidth]{w2vroc}
+		\caption{Đường cong ROC cho bộ Word2Vec} 
+	\end{figure}
+	\pagebreak
+
+	\subsection{Kết quả đánh giá LogisicRegression}
+		\begin{figure}[H]
+			\subfloat[\textbf{CountVectorizer}]{% 
+				\includegraphics[width=0.33\textwidth]{cvlr}} 
+			\hfill
+			\subfloat[\textbf{TfidfVectorizer}]{%
+				\includegraphics[width=0.33\textwidth]{tflr}} 
+			\hfill
+			\subfloat[\textbf{Word2Vec}]{%
+				\includegraphics[width=0.33\textwidth]{w2vlr}}
+			\caption{Confusion Matrix LogisticRegression} 
+		\end{figure}
+
+		\begin{table}[H]
+			\renewcommand{\arraystretch}{1.5}
+			\begin{center}
+			\subfloat[\textbf{CountVectorizer}]{% 
+				\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+				\hline
+      			  & precision & recall & f1-score & support \\ 
+				\hline
+				0 & 0.94 & 0.93 & 0.94 & 790\\ 
+				\hline
+				1 & 0.93 & 0.94 & 0.94 & 794\\
+				\hline
+				macro avg & 0.94 & 0.94 & 0.94 & 1584\\
+				\hline
+				\end{tabular}} 
+			\hfill
+			\textbf{\hrule}
+			\subfloat[\textbf{TfidfVectorizer}]{%
+				\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+				\hline
+      			  & precision & recall & f1-score & support \\ 
+				\hline
+				0 & 0.96 & 0.96 & 0.96 & 790\\ 
+				\hline
+				1 & 0.96 & 0.96 & 0.96 & 794\\
+				\hline
+				macro avg & 0.96 & 0.96 & 0.96 & 1584\\
+				\hline
+				\end{tabular}} 
+			\hfill
+			\hrule
+			\subfloat[\textbf{Word2Vec}]{% 
+				\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+				\hline
+      			  & precision & recall & f1-score & support \\ 
+				\hline
+				0 & 0.90 & 0.93 & 0.91 & 790\\ 
+				\hline
+				1 & 0.93 & 0.90 & 0.91 & 794\\
+				\hline
+				macro avg & 0.91 & 0.91 & 0.91 & 1584\\
+				\hline
+				
+				\end{tabular}}
+			\hrule
+			\end{center}
+			
+			\caption{Classification report LogisticRegression}
+		\end{table}
+
+
+
+\subsection{Kết quả đánh giá MultinomialNB}
+
+\begin{figure}[H]
+	\subfloat[\textbf{CountVectorizer}]{% 
+		\includegraphics[width=0.33\textwidth]{cvnb}} 
+	\hfill
+	\subfloat[\textbf{TfidfVectorizer}]{%
+		\includegraphics[width=0.33\textwidth]{tfnb}} 
+	\hfill
+	\subfloat[\textbf{Word2Vec}]{%
+		\includegraphics[width=0.33\textwidth]{w2vnb}}
+	\caption{Confusion Matrix MultinomialNB} 
+\end{figure}
+
+\begin{table}[H]
+	\renewcommand{\arraystretch}{1.5}
+	\begin{center}
+	\subfloat[\textbf{CountVectorizer}]{% 
+		\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+		\hline
+	      & precision & recall & f1-score & support \\ 
+		\hline
+		0 & 0.91 & 0.92 & 0.92 & 790\\ 
+		\hline
+		1 & 0.92 & 0.91 & 0.91 & 794\\
+		\hline
+		macro avg & 0.91 & 0.91 & 0.91 & 1584\\
+		\hline
+		\end{tabular}} 
+	\hfill
+	\hrule
+	\vspace{3ex}
+	\subfloat[\textbf{TfidfVectorizer}]{% 
+		\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+		\hline
+	      & precision & recall & f1-score & support \\ 
+		\hline
+		0 & 0.92 & 0.92 & 0.92 & 790\\ 
+		\hline
+		1 & 0.92 & 0.93 & 0.92 & 794\\
+		\hline
+		macro avg & 0.92 & 0.92 & 0.92 & 1584\\
+		\hline
+		\end{tabular}} 
+	\hfill
+	\hrule
+	\vspace{3ex}
+	\subfloat[\textbf{Word2Vec}]{% 
+		\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+		\hline
+	      & precision & recall & f1-score & support \\ 
+		\hline
+		0 & 0.81 & 0.81 & 0.81 & 790\\ 
+		\hline
+		1 & 0.81 & 0.81 & 0.81 & 794\\
+		\hline
+		macro avg & 0.81 & 0.81 & 0.81 & 1584\\
+		\hline
+		
+		\end{tabular}}
+	\hrule
+	\end{center}
+	
+	\caption{Classification report MultinomialNB}
+\end{table}
+
+\subsection{Kết quả dánh giá SVC}
+
+\begin{figure}[H]
+	\subfloat[\textbf{CountVectorizer}]{% 
+		\includegraphics[width=0.33\textwidth]{cvsvc}} 
+	\hfill
+	\subfloat[\textbf{TfidfVectorizer}]{%
+		\includegraphics[width=0.33\textwidth]{tfsvc}} 
+	\hfill
+	\subfloat[\textbf{Word2Vec}]{%
+		\includegraphics[width=0.33\textwidth]{w2vsvc}}
+	\caption{Confusion Matrix SVC} 
+\end{figure}
+
+\begin{table}[H]
+	\renewcommand{\arraystretch}{1.5}
+	\begin{center}
+	\subfloat[\textbf{CountVectorizer}]{% 
+		\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+		\hline
+	      & precision & recall & f1-score & support \\ 
+		\hline
+		0 & 0.92 & 0.92 & 0.92 & 790\\ 
+		\hline
+		1 & 0.92 & 0.92 & 0.92 & 794\\
+		\hline
+		macro avg & 0.92 & 0.92 & 0.92 & 1584\\
+		\hline
+		\end{tabular}} 
+	\hfill
+	\hrule
+	\vspace{3ex}
+	\subfloat[\textbf{TfidfVectorizer}]{% 
+		\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+		\hline
+	      & precision & recall & f1-score & support \\ 
+		\hline
+		0 & 0.96 & 0.96 & 0.96 & 790\\ 
+		\hline
+		1 & 0.96 & 0.96 & 0.96 & 794\\
+		\hline
+		macro avg & 0.96 & 0.96 & 0.96 & 1584\\
+		\hline
+		\end{tabular}} 
+	\hfill
+	\hrule
+	\vspace{3ex}
+	\subfloat[\textbf{Word2Vec}]{% 
+		\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+		\hline
+	      & precision & recall & f1-score & support \\ 
+		\hline
+		0 & 0.92 & 0.94 & 0.93 & 790\\ 
+		\hline
+		1 & 0.94 & 0.92 & 0.93 & 794\\
+		\hline
+		macro avg & 0.93 & 0.93 & 0.93 & 1584\\
+		\hline
+		
+		\end{tabular}}
+	\hrule
+	\end{center}
+	
+	\caption{Classification report SVC}
+\end{table}
+
+\subsection{Kết quả đánh giá PassiveAgressiveClassifier}
+
+\begin{figure}[H]
+	\subfloat[\textbf{CountVectorizer}]{% 
+		\includegraphics[width=0.33\textwidth]{cvpa}} 
+	\hfill
+	\subfloat[\textbf{TfidfVectorizer}]{%
+		\includegraphics[width=0.33\textwidth]{tfpa}} 
+	\hfill
+	\subfloat[\textbf{Word2Vec}]{%
+		\includegraphics[width=0.33\textwidth]{w2vpa}}
+	\caption{Confusion Matrix PassiveAgressiveClassifier} 
+\end{figure}
+
+\begin{table}[H]
+	\renewcommand{\arraystretch}{1.5}
+	\begin{center}
+	\subfloat[\textbf{CountVectorizer}]{% 
+		\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+		\hline
+	      & precision & recall & f1-score & support \\ 
+		\hline
+		0 & 0.94 & 0.91 & 0.93 & 790\\ 
+		\hline
+		1 & 0.91 & 0.94 & 0.93 & 794\\
+		\hline
+		macro avg & 0.93 & 0.93 & 0.93 & 1584\\
+		\hline
+		\end{tabular}} 
+	\hfill
+	\hrule
+	\vspace{3ex}
+	\subfloat[\textbf{TfidfVectorizer}]{% 
+		\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+		\hline
+	      & precision & recall & f1-score & support \\ 
+		\hline
+		0 & 0.96 & 0.97 & 0.96 & 790\\ 
+		\hline
+		1 & 0.97 & 0.96 & 0.96 & 794\\
+		\hline
+		macro avg & 0.96 & 0.96 & 0.96 & 1584\\
+		\hline
+		\end{tabular}} 
+	\hfill
+	\hrule
+	\vspace{3ex}
+	\subfloat[\textbf{Word2Vec}]{% 
+		\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+		\hline
+	      & precision & recall & f1-score & support \\ 
+		\hline
+		0 & 0.89 & 0.93 & 0.91 & 790\\ 
+		\hline
+		1 & 0.93 & 0.89 & 0.91 & 794\\
+		\hline
+		macro avg & 0.91 & 0.91 & 0.91 & 1584\\
+		\hline
+		
+		\end{tabular}}
+	\hrule
+	\end{center}
+	
+	\caption{Classification report PassiveAgressiveClassifier}
+\end{table}
+
+\subsection{Kết quả đánh giá DecisionTreeClassifier}
+
+\begin{figure}[H]
+	\subfloat[\textbf{CountVectorizer}]{% 
+		\includegraphics[width=0.33\textwidth]{cvdtree}} 
+	\hfill
+	\subfloat[\textbf{TfidfVectorizer}]{%
+		\includegraphics[width=0.33\textwidth]{tfdtree}} 
+	\hfill
+	\subfloat[\textbf{Word2Vec}]{%
+		\includegraphics[width=0.33\textwidth]{w2vdtree}}
+	\caption{Confusion Matrix DecisionTreeClassifier} 
+\end{figure}
+
+\begin{table}[H]
+	\renewcommand{\arraystretch}{1.5}
+	\begin{center}
+	\subfloat[\textbf{CountVectorizer}]{% 
+		\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+		\hline
+	      & precision & recall & f1-score & support \\ 
+		\hline
+		0 & 0.79 & 0.84 & 0.82 & 790\\ 
+		\hline
+		1 & 0.83 & 0.78 & 0.81 & 794\\
+		\hline
+		macro avg & 0.81 & 0.81 & 0.81 & 1584\\
+		\hline
+		\end{tabular}} 
+	\hfill
+	\hrule
+	\vspace{3ex}
+	\subfloat[\textbf{TfidfVectorizer}]{% 
+		\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+		\hline
+	      & precision & recall & f1-score & support \\ 
+		\hline
+		0 & 0.84 & 0.79 & 0.81 & 790\\ 
+		\hline
+		1 & 0.80 & 0.85 & 0.82 & 794\\
+		\hline
+		macro avg & 0.82 & 0.82 & 0.82 & 1584\\
+		\hline
+		\end{tabular}} 
+	\hfill
+	\hrule
+	\vspace{3ex}
+	\subfloat[\textbf{Word2Vec}]{% 
+		\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+		\hline
+	      & precision & recall & f1-score & support \\ 
+		\hline
+		0 & 0.81 & 0.75 & 0.78 & 790\\ 
+		\hline
+		1 & 0.77 & 0.83 & 0.80 & 794\\
+		\hline
+		macro avg & 0.79 & 0.79 & 0.79 & 1584\\
+		\hline
+		\end{tabular}}
+	\hrule
+	\end{center}
+	
+	\caption{Classification report DecisionTreeClassifier}
+\end{table}
+
+\subsection{Kết quả đánh giá RandomForestClassifier}
+
+\begin{figure}[H]
+	\subfloat[\textbf{CountVectorizer}]{% 
+		\includegraphics[width=0.33\textwidth]{cvrf}} 
+	\hfill
+	\subfloat[\textbf{TfidfVectorizer}]{%
+		\includegraphics[width=0.33\textwidth]{tfrf}} 
+	\hfill
+	\subfloat[\textbf{Word2Vec}]{%
+		\includegraphics[width=0.33\textwidth]{w2vrf}}
+	\caption{Confusion Matrix RandomForestClassifier} 
+\end{figure}
+
+\begin{table}[H]
+	\renewcommand{\arraystretch}{1.5}
+	\begin{center}
+	\subfloat[\textbf{CountVectorizer}]{% 
+		\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+		\hline
+	      & precision & recall & f1-score & support \\ 
+		\hline
+		0 & 0.92 & 0.90 & 0.91 & 790\\ 
+		\hline
+		1 & 0.91 & 0.92 & 0.91 & 794\\
+		\hline
+		macro avg & 0.91 & 0.91 & 0.91 & 1584\\
+		\hline
+		\end{tabular}} 
+	\hfill
+	\hrule
+	\vspace{3ex}
+	\subfloat[\textbf{TfidfVectorizer}]{% 
+		\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+		\hline
+	      & precision & recall & f1-score & support \\ 
+		\hline
+		0 & 0.92 & 0.92 & 0.92 & 790\\ 
+		\hline
+		1 & 0.92 & 0.92 & 0.92 & 794\\
+		\hline
+		macro avg & 0.92 & 0.92 & 0.92 & 1584\\
+		\hline
+		\end{tabular}} 
+	\hfill
+	\hrule
+	\vspace{3ex}
+	\subfloat[\textbf{Word2Vec}]{% 
+		\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
+		\hline
+	      & precision & recall & f1-score & support \\
+		\hline
+		0 & 0.91 & 0.89 & 0.90 & 790\\ 
+		\hline
+		1 & 0.89 & 0.92 & 0.90 & 794\\
+		\hline
+		macro avg & 0.90 & 0.90 & 0.90 & 1584\\
+		\hline
+		
+		\end{tabular}}
+	\hrule
+	\end{center}
+	
+	\caption{Classification report RandomForestClassifier}
+\end{table}
+
+\chapter{PHÂN TÍCH LỖI VÀ HƯỚNG PHÁT TRIỂN}
+\section{Phân tích lỗi}
+\section{Hướng phát triển}
+
+\chapter*{KẾT LUẬN}
+\addcontentsline{toc}{chapter}{KẾT LUẬN}
+
+
+
+
+\newpage
+\renewcommand{\bibname}{\bf \LARGE \quad DANH MỤC TÀI LIỆU THAM KHẢO}
+\addcontentsline{toc}{chapter}{DANH MỤC TÀI LIỆU THAM KHẢO}
+\baselineskip
+18pt
+\begin{thebibliography}{99}
+	
+	\bibitem{Anh} Trần Thị Tuấn Anh , \textit{Bài toán ứng dụng cực trị trong kinh tế}, Tài liệu giảng dạy, Trường Đại học Kinh tế Thành phố Hồ Chí Minh.
+	
+	\bibitem{Han} Bùi Quang Hân, Trần Văn Bồi, Phạm Ngọc Tiến, Nguyễn Thành Tương (1998), \textit{Giải toán Vật lí 10, Tập 1 }, NXB Giáo dục.
+		
+	\bibitem{Han} Bùi Quang Hân, Đào Văn Cư, Phạm Ngọc Tiến, Nguyễn Thành Tương (2000), \textit{Giải toán Vật lí 11 Tập 1 }, NXB Giáo dục.
+		
+
+		
+	\bibitem{Dung} Trần Nam Dũng (2018), \textit{Giải tích và các bài toán cực trị}, Tạp chí Thông tin Toán học, Tập 22 Số 4.
+	
+	\bibitem{Doan} Nguyễn Huy Đoan (Chủ biên) (2008), \textit{Bài tập Giải tích 12 nâng cao}, NXB Giáo dục.
+	
+	\bibitem{Hao} Trần Văn Hạo (Tổng Chủ biên) (2008), \textit{Giải tích 12 }, NXB Giáo dục.	
+	
+	\bibitem{Liem}  Nguyễn Xuân Liêm, Nguyễn Mạnh Quý (2009), \textit{Giáo trình phép tính vi phân và tích phân của hàm nhiều biến số}, NXB Đại học Sư phạm.
+	
+	\bibitem{Quynh} Đoàn Quỳnh (Tổng Chủ biên) (2008), \textit{Giải tích 12 nâng cao}, NXB Giáo dục.
+	
+	\bibitem{Tuan} Vũ Tuấn (Chủ biên) (2008), \textit{Bài tập Giải tích 12}, NXB Giáo dục.
+	
+	\bibitem{Thuy} Lê Đình Thúy, Nguyễn Quỳnh Lan (2012), \textit{Toán cao cấp cho các nhà kinh tế},  NXB Đại học Kinh tế Quốc dân.
+	
+	\bibitem{Vu} Lê Anh Vũ , \textit{Bài giảng Toán cao cấp }, Đại học Kinh tế- Luật, Đại học Quốc gia Thành phố Hồ Chí Minh.
+\end{thebibliography}
+
+\end{document} 
