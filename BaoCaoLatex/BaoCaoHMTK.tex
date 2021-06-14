@@ -271,7 +271,55 @@
 			\end{center}
 
 		\subsection{Support Vector Machine}
+		Mục tiêu của SVM là tìm ra một siêu phẳng trong không gian N chiều (ứng với N đặc trưng) chia dữ liệu thành hai phần tương ứng với lớp của chúng. Nói theo ngôn ngữ của đại số tuyển tính, siêu phẳng này phải có lề cực đại và phân chia hai bao lồi và cách đều chúng.
+		
+			\begin{figure}[H]
+			\begin{center}
+		\includegraphics[width=0.8\columnwidth]{SVM_hyperplane}
+			\end{center}
+		\caption{Siêu phẳng tạo ra một biên giới phân chia 2 lớp của dữ liệu}
+			\end{figure}		
+		
+		\textbf{Biên (hay lề - Margin)}
+		
+		Là khoảng cách giữa siêu phẳng đến 2 điểm dữ liệu gần	nhất tương ứng với 2 phân lớp. Một cách trực quan, đường thẳng phân tách 2 tập nhãn là tốt nhất nếu như nó không quá gần một tập nào đó, nghĩa là độ rộng biên M là cực đại.
+		
+			\begin{figure}[H]
+			\begin{center}
+				\includegraphics[width=0.8\columnwidth]{SVM_maxmargin}
+			\end{center}
+			\caption{Siêu phẳng tối ưu có lề cực đại}
+			\end{figure}
+		
+		\textbf{Vector hỗ trợ}
+		
+		Phía trên chính là ý tưởng của phương pháp SVM. Bên cạnh đó, các vector hỗ trợ - là các điểm dữ liệu nằm trên hoặc gần nhất với siêu phẳng chúng ảnh hưởng đến vị trí và hướng của siêu phẳng. Các vector này được sử dụng để tối ưu hóa lề và nếu xóa các điểm này, vị trí của siêu phẳng sẽ thay đổi. Một điểm lưu ý nữa đó là các vector hỗ trợ phải cách đều siêu phẳng.
+		
+		SVM giải quyết vấn đề overfitting rất tốt, là phương pháp phân lớp nhanh, có hiệu suất tổng hợp tốt và có hiệu suất tính toán cao.
+		
+		\textbf{Tham số C}
+		
+		Tham số C được gọi là "siêu tham số" (hyperparameter). Tham số C cho biết mức độ tối ưu hoá SVM để giảm thiểu phân lớp sai (misclassification) đối với điểm dữ liệu mới đi vào. Nếu mô hình SVM quá khớp (overfitting), ta có thể điều chỉnh giảm tham số C (khi đó độ rộng biên sẽ tăng lên) và ngược lại, tham số C càng lớn thì độ rộng biên càng hẹp.
+		
+		\textbf{Tham số gamma}
+		
+		Gamma là một siêu tham số được sử dụng với SVM phi tuyến tính. Một trong những nhân phi tuyến tính được sử dụng phổ biến nhất là hàm cơ sở xuyên tâm (RBF). Tham số gamma của RBF kiểm soát khoảng cách ảnh hưởng của một điểm đào tạo duy nhất.
+		
+		Giá trị thấp của gamma cho thấy bán kính tương tự lớn dẫn đến nhiều điểm được nhóm lại với nhau. Đối với các giá trị cao của gamma, các điểm cần phải rất gần nhau để được xem xét trong cùng một nhóm (hoặc lớp). Do đó, các mô hình có giá trị gamma rất lớn có xu hướng quá mức.
+		
+		\textbf{Thủ thuật Kernel}
+		Một kernel là một hàm ánh xạ dữ liệu từ không gian ít nhiều hơn sang không gian nhiều chiều hơn, từ đó ta tìm được siêu phẳng phân tách dữ liệu. Các kiểu kernel:
+		\begin{itemize}
+			\item Tuyến tính
+			\item Đa thức
+			\item RBF
+			\item sigmoid
+		\end{itemize}
+		
+		
+		
 		\subsection{Thuật toán Passive Agressive}
+		
 		\subsection{Decission Tree}
 		Decision Tree (cây quyết định) là mô hình thuộc nhóm thuật toán học máy học có giám sát (Supervised Learning). Mô hình cây quyết định cho biết giá trị của một biến mục tiêu thuộc lớp nào bằng cách dựa vào các giá trị của một tập các biến dự đoán, hay tập các câu hỏi.
 		
@@ -284,17 +332,39 @@
 		\item Nhánh nối giữa một nút và nút con thể hiện giá trị cụ thể cho biến đó.
 		\end{itemize}
 		
-		Quy tắc để có được giá trị dự đoán cụ thể là biểu diễn đường đi từ nút gốc đi xuyên qua cây theo các nhánh đến nút lá. Từ đó, cây quyết định sẽ sinh ra các luật để dự đoán lớp của các dữ liệu chưa biết.
+		Quy tắc để có được giá trị dự đoán cụ thể là biểu diễn đường đi từ nút gốc đi xuyên qua cây theo các nhánh đến nút lá. Từ đó, cây quyết định sẽ sinh ra các luật để dự đoán lớp của các dữ liệu chưa biết. Giải bài toán phân lớp dựa trên mô hình cây quyết định chính là xây dựng một cây quyết định.
 		
-		Giải bài toán phân lớp dựa trên mô hình cây quyết định chính là xây dựng một cây quyết định, ký hiệu S.
+		Hai thuật toán xây dựng cây quyết định phổ biến là CART và ID3.
 		
-		S đóng vai trò như một ánh xạ từ tập dữ liệu vào tập nhãn:
+		\textbf{Thuật toán CART sử dụng độ đo Gini}
 		
-		\centerline{$S: D \to Y$}
+		Gini index là chỉ số mức độ nhiễu loạn thông tin hay sự khác biệt về giá trị lớp của mỗi điểm dữ liệu trong một tập hợp con. Gini index cho phép đánh giá sự tối ưu của từng cách phân nhánh thông qua xác định mức độ purity của từng nút trong mô hình cây quyết định.
+		
+		Công thức tổng quát hệ số Gini:
+		\begin{equation}
+			GINI(t) = 1 - \sum_{j} [p(j|t)]^2
+		\end{equation}
+	
+		Trong đó, t là một nút bất kỳ có chứa các điểm dữ liệu mang lớp j của biến mục tiêu và p là xác suất để một điểm dữ liệu trong t có lớp j, nếu tất cả các điểm dữ liệu đều mang lớp j, lúc này p = 1 và hệ số Gini sẽ bằng 0, khi đó nút được công nhận là pure node
+		
+		\textbf{Thuật toán ID3 sử dụng độ đo Entropy}
+		
+		Công thức tổng quát Entropy:
+		\begin{equation}
+			Entropy(t) = - \sum_{j} [p(j|t)]^2 * log_{2}[p(j|t)] 
+		\end{equation}
+	
+		Khi xác suất p càng lớn thì $log_{2}[p(j|t)]$ sẽ mang giá trị âm tiến tới 0, nhân với giá trị âm xác suất thì công thức Entropy luôn bé hơn 1. Giống như Gini index, giá trị Entropy càng nhỏ thì nút càng chứa nhiều điểm dữ liệu có cùng lớp j bất kỳ.
+		
+		Hai thuật toán như nhau trong đa số trường hợp. Gini thường chạy nhanh hơn nên được mặc định trong Scikit-Learn. Entropy thường cho cây cân bằng hơn.
+			
 		\subsection{Random Forest}
 		Random Forest là thuật toán học có giám sát nên có thể giải quyết bài toán classification.
 		
-		Random Forest (hay còn gọi là Rừng Ngẫu Nhiên)  được phát triển bởi Leo Breiman tại đại học California, Berkeley; là một trong những thuật toán thuộc kỹ thuật Bagging của phương pháp Ensemble Learning với mục đích dùng để phân loại bằng cách xây dựng vô số các cây quyết định (decision tree) trong thời gian huấn luyện. Đầu ra là tập hợp mô hình phân lớp của những cây riêng biệt. Mỗi cây quyết định đều có những yếu tố ngẫu nhiên: Lấy ngẫu nhiên dữ liệu để xây dựng cây quyết định hoặc lấy ngẫu nhiên các thuộc tính để xây dựng cây quyết định.
+		Random Forest (hay còn gọi là Rừng Ngẫu Nhiên)  được phát triển bởi Leo Breiman tại đại học California, Berkeley; là một trong những thuật toán thuộc kỹ thuật Bagging của phương pháp Ensemble Learning với mục đích dùng để phân loại bằng cách xây dựng vô số các cây quyết định (decision tree) trong thời gian huấn luyện. Đầu ra là tập hợp mô hình phân lớp của những cây riêng biệt:
+		${h(X, \Theta n)}$ trong đó $\Theta n$ là những vector ngẫu nhiên phân phối độc lập như nhau và mỗi cây sẽ chọn ra được một đơn vị chọn lớp phổ biến nhất thuộc dữ liệu đầu vào X.
+		
+		Mỗi cây quyết định đều có những yếu tố ngẫu nhiên: Lấy ngẫu nhiên dữ liệu để xây dựng cây quyết định hoặc lấy ngẫu nhiên các thuộc tính để xây dựng cây quyết định.
 		Ở bước huấn luyện Random Forest sẽ xây dựng nhiều cây quyết định, các cây quyết định có thể khác nhau. Sau đó ở bước dự đoán, với một dữ liệu mới, thì ở mỗi cây quyết định, đi từ trên xuống theo các nút điều kiện để được các dự đoán, sau đó kết quả cuối cùng được tổng hợp từ kết quả của các cây quyết định.
 		
 		Trong những năm gần đây, Random Forest được sử dụng khá phổ biến bởi những điểm vượt trội của nó so với các thuật toán khác: xử lý được với dữ liệu có số lượng các thuộc tính lớn, làm việc với tập dữ liệu thiếu giá trị, thường có độ chính xác cao trong phân loại, tránh được overfitting với tập dữ liệu và quá trình học nhanh.

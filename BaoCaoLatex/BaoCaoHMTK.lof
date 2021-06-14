@@ -1,0 +1,37 @@
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Quy tr\IeC {\`\i }nh th\IeC {\d \uhorn }c hi\IeC {\d \ecircumflex }n b\IeC {\`a}i to\IeC {\'a}n\relax }}{9}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \IeC {\DJ }\IeC {\`\ocircumflex } th\IeC {\d i} h\IeC {\`a}m sigmoid\relax }}{13}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Si\IeC {\^e}u ph\IeC {\h \abreve }ng t\IeC {\d a}o ra m\IeC {\d \ocircumflex }t bi\IeC {\^e}n gi\IeC {\'\ohorn }i ph\IeC {\^a}n chia 2 l\IeC {\'\ohorn }p c\IeC {\h u}a d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u\relax }}{16}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Si\IeC {\^e}u ph\IeC {\h \abreve }ng t\IeC {\'\ocircumflex }i \IeC {\uhorn }u c\IeC {\'o} l\IeC {\`\ecircumflex } c\IeC {\d \uhorn }c \IeC {\dj }\IeC {\d a}i\relax }}{17}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces C\IeC {\'\acircumflex }u tr\IeC {\'u}c c\IeC {\ohorn } b\IeC {\h a}n c\IeC {\h u}a m\IeC {\d \ocircumflex }t Confusion Matrix\relax }}{23}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces V\IeC {\'\i } d\IeC {\d u} v\IeC {\`\ecircumflex } Confusion Matrix tr\IeC {\uhorn }\IeC {\'\ohorn }c v\IeC {\`a} sau khi \IeC {\dj }\IeC {\uhorn }\IeC {\d \ohorn }c chu\IeC {\h \acircumflex }n h\IeC {\'o}a\relax }}{24}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tr\IeC {\uhorn }\IeC {\'\ohorn }c khi chu\IeC {\h \acircumflex }n h\IeC {\'o}a}}}{24}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sau khi chu\IeC {\h \acircumflex }n h\IeC {\'o}a}}}{24}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces V\IeC {\'\i } d\IeC {\d u} v\IeC {\`\ecircumflex } \IeC {\dj }\IeC {\uhorn }\IeC {\`\ohorn }ng cong ROC v\IeC {\`a} AUC\relax }}{27}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces \IeC {\DJ }\IeC {\uhorn }\IeC {\`\ohorn }ng cong ROC cho b\IeC {\d \ocircumflex } CountVectorizer\relax }}{28}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces \IeC {\DJ }\IeC {\uhorn }\IeC {\`\ohorn }ng cong ROC cho b\IeC {\d \ocircumflex } TfidfVectorizer\relax }}{29}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \IeC {\DJ }\IeC {\uhorn }\IeC {\`\ohorn }ng cong ROC cho b\IeC {\d \ocircumflex } Word2Vec\relax }}{29}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Confusion Matrix LogisticRegression\relax }}{30}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{30}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{30}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{30}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Confusion Matrix MultinomialNB\relax }}{31}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{31}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{31}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{31}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Confusion Matrix SVC\relax }}{32}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{32}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{32}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{32}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Confusion Matrix PassiveAgressiveClassifier\relax }}{33}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{33}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{33}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{33}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Confusion Matrix DecisionTreeClassifier\relax }}{34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{34}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{34}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{34}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Confusion Matrix RandomForestClassifier\relax }}{35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{35}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{35}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{35}
+\contentsfinish 
