@@ -15,9 +15,10 @@
 \usepackage{subfig} 
 \usepackage{tocbasic}
 \captionsetup{labelfont=bf}
-
+\usepackage{url}
 \usepackage{etoolbox}
-
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
 
 %\usepackage[labelfont=bf]{caption}
 
@@ -171,9 +172,13 @@
 \chapter{GIỚI THIỆU CHUNG}
 
 	\section{Mục tiêu đề tài}
-	
+	Mục tiêu đặt ra của bài toán nhằm tìm hiểu và xây dựng các mô hình máy học để nhận diện tin tức giả bằng cách phân loại các tin tức từ bộ dữ liệu theo 2 nhãn: REAL (tin thật) và FAKE (tin giả).
 	\section{Bài toán học máy}
+	Bài toán này thuộc lớp bài toán phân loại, có tổng 2 lớp đại diện: tin giả và tin thật.
 	
+	Đầu vào của bài toán là tiêu đề tin tức hoặc nội dung đoạn tin tức.
+	
+	Đầu ra là kết quả dự đoán: bằng 0 cho tin thật, bằng 1 cho tin giả.
 	\section{Quy trình giải quyết bài toán}
 	
 	\begin{figure}[H]
@@ -191,7 +196,44 @@
 	
 
 	\section{Giới thiệu chung về bộ dữ liệu}
-
+	
+	Bộ dữ liệu Detecting Fake News Dataset của tác giả Hassan Amin được chia sẻ trên nền tảng Kaggle (?) 
+	
+	Rahul Patodi (link drive thầy gửi) <--- ông này chỉ viết blog tổng hợp các dataset lên drive ổng (?)
+	
+	\begin{table}[h!]
+		\begin{center}
+			\caption{Thông tin bộ dữ liệu.}
+			\label{tab:table1}
+			\begin{tabular}{c|l}
+				\multicolumn{1}{c|}{\textbf{Thông tin}} & \multicolumn{1}{c}{\textbf{Nội dung}}\\	
+				\hline
+				Tên bộ dữ liệu & Detecting Fake News Dataset\\
+				\hline
+				Nguồn dữ liệu & \url{https://www.kaggle.com/hassanamin/textdb3}\\
+				\hline
+				Kích thước bộ dữ liệu & 6335 điểm dữ liệu\\
+				\hline
+				Thông tin thuộc tính & 
+				\begin{tabular}{l}
+					4 thuộc tính. Trong đó:\\
+						\tabitem Unnamed: ID dạng số ngẫu nhiên\\
+						\tabitem title: Tiêu đề tin tức\\
+						\tabitem text: Nội dung tin tức\\
+						\tabitem label: Nhãn phân loại tin tức\\
+				\end{tabular}\\ 
+				\hline
+				Ý nghĩa các nhãn & 
+				\begin{tabular}{l}
+					Có 2 nhãn "REAL" và "FAKE":\\
+					\tabitem REAL: Đây là tin tức thật\\
+					\tabitem REAL: Đây là tin tức giả\\
+				\end{tabular}\\
+				\hline
+				Thông tin Tác giả & Hassan Amin\\
+			\end{tabular}
+		\end{center}
+	\end{table}
 
 
 

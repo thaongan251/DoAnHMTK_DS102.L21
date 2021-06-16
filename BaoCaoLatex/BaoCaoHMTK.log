@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.6.6)  15 JUN 2021 02:04
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.6.6)  17 JUN 2021 00:16
 entering extended mode
 **BaoCaoHMTK.tex
 (D:\__UIT\HK4\DS102_HMTK\DoAnHMTK_DS102.L21\BaoCaoLatex\BaoCaoHMTK.tex
@@ -784,25 +784,49 @@ Normal \dimen register pool exhausted, switching to extended pool.
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\koma-script\tocbasic.sty"
 Package: tocbasic 2009/06/08 v3.03b KOMA-Script package (handling toc-files)
 )
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen257
+\lightrulewidth=\dimen258
+\cmidrulewidth=\dimen259
+\belowrulesep=\dimen260
+\belowbottomsep=\dimen261
+\aboverulesep=\dimen262
+\abovetopsep=\dimen263
+\cmidrulesep=\dimen264
+\cmidrulekern=\dimen265
+\defaultaddspace=\dimen266
+\@cmidla=\count119
+\@cmidlb=\count120
+\@aboverulesep=\dimen267
+\@belowrulesep=\dimen268
+\@thisruleclass=\count121
+\@lastruleclass=\count122
+\@thisrulewidth=\dimen269
+)
 (D:\__UIT\HK4\DS102_HMTK\DoAnHMTK_DS102.L21\BaoCaoLatex\BaoCaoHMTK.aux
 
 LaTeX Warning: Label `Han' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -847,32 +871,32 @@ driver: pdftex
 -----------------------
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count119
-\scratchdimen=\dimen257
+\scratchcounter=\count123
+\scratchdimen=\dimen270
 \scratchbox=\box40
-\nofMPsegments=\count120
-\nofMParguments=\count121
+\nofMPsegments=\count124
+\nofMParguments=\count125
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count122
-\MPscratchDim=\dimen258
-\MPnumerator=\count123
+\MPscratchCnt=\count126
+\MPscratchDim=\dimen271
+\MPnumerator=\count127
 \everyMPtoPDFconversion=\toks37
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
-LaTeX Info: Redefining \subref on input line 43.
+LaTeX Info: Redefining \subref on input line 44.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 55.
-LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 56.
+LaTeX Font Info:    Try loading font information for U+msa on input line 56.
  ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+LaTeX Font Info:    Try loading font information for U+msb on input line 56.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 55.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 56.
 
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -909,10 +933,23 @@ File: QuyTrinhHMTK.png Graphic file (type png)
  <use QuyTrinhHMTK.png>
 [9
 
- <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/QuyTrinhHMTK.png>]
-[10]
+] [10 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/QuyTrinhHMTK.png>
+]
 Ch\uhorn \ohorn ng 2.
-[11
+LaTeX Font Info:    Try loading font information for T5+cmtt on input line 213.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\t5cmtt.fd"
+File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 220.
+
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 220.
+ [11
 
 ]
 Ch\uhorn \ohorn ng 3.
@@ -920,193 +957,187 @@ Ch\uhorn \ohorn ng 3.
 
 ]
 Ch\uhorn \ohorn ng 4.
-<Picture1.png, id=51, 260.47313pt x 177.66376pt>
+<Picture1.png, id=53, 260.47313pt x 177.66376pt>
 File: Picture1.png Graphic file (type png)
  <use Picture1.png> [13
 
  <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/Picture1.png>] [14]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 255.
-
-
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 255.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 297.
  [15]
-<SVM_hyperplane.png, id=68, 813.0375pt x 344.28625pt>
+<SVM_hyperplane.png, id=69, 813.0375pt x 344.28625pt>
 File: SVM_hyperplane.png Graphic file (type png)
  <use SVM_hyperplane.png>
-<SVM_maxmargin.jpeg, id=69, 588.1975pt x 311.1625pt>
+<SVM_maxmargin.jpeg, id=70, 588.1975pt x 311.1625pt>
 File: SVM_maxmargin.jpeg Graphic file (type jpg)
  <use SVM_maxmargin.jpeg>
 [16 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/SVM_hyperplane.png 
 (PNG copy)>] [17 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/SVM_ma
 xmargin.jpeg>] [18] [19] [20] [21]
-Overfull \hbox (72.96552pt too wide) in paragraph at lines 392--392
+Overfull \hbox (72.96552pt too wide) in paragraph at lines 434--434
 []|\T5/cmr/bx/n/10 LogisticRegression|  
  []
 
 
-Overfull \hbox (39.03908pt too wide) in paragraph at lines 395--395
+Overfull \hbox (39.03908pt too wide) in paragraph at lines 437--437
 []|\T5/cmr/bx/n/10 MultinomialNB|  
  []
 
 
-Overfull \hbox (13.06625pt too wide) in paragraph at lines 398--398
+Overfull \hbox (13.06625pt too wide) in paragraph at lines 440--440
 []|\T5/cmr/bx/n/10 SVC|  
  []
 
 
-Overfull \hbox (44.14755pt too wide) in paragraph at lines 402--402
+Overfull \hbox (44.14755pt too wide) in paragraph at lines 444--444
 []|\T5/cmr/bx/n/10 PassiveAgressive  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 402--402
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 444--444
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (29.11372pt too wide) in paragraph at lines 405--405
+Overfull \hbox (29.11372pt too wide) in paragraph at lines 447--447
 []|\T5/cmr/bx/n/10 DecissionTree  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 405--405
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 447--447
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (26.97397pt too wide) in paragraph at lines 410--410
+Overfull \hbox (26.97397pt too wide) in paragraph at lines 452--452
 []|\T5/cmr/bx/n/10 RadomForest  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 410--410
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 452--452
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (21.54672pt too wide) in paragraph at lines 386--418
+Overfull \hbox (21.54672pt too wide) in paragraph at lines 428--460
  [] 
  []
 
 [22]
 Ch\uhorn \ohorn ng 5.
-<confusionmatrix.png, id=96, 1054.94125pt x 747.79375pt>
+<confusionmatrix.png, id=97, 1054.94125pt x 747.79375pt>
 File: confusionmatrix.png Graphic file (type png)
 
 <use confusionmatrix.png> [23
 
  <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/confusionmatrix.png (P
 NG copy)>]
-<ucm.png, id=101, 336.25626pt x 295.1025pt>
+<ucm.png, id=102, 336.25626pt x 295.1025pt>
 File: ucm.png Graphic file (type png)
  <use ucm.png>
-<ncm.png, id=102, 329.23pt x 295.1025pt>
+<ncm.png, id=103, 329.23pt x 295.1025pt>
 File: ncm.png Graphic file (type png)
  <use ncm.png> [24 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/ucm.
 png> <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/ncm.png>] [25] [26
 ]
-<roc_auc.png, id=114, 401.5pt x 281.05pt>
+<roc_auc.png, id=115, 401.5pt x 281.05pt>
 File: roc_auc.png Graphic file (type png)
  <use roc_auc.png> [27 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/
 roc_auc.png>]
-Overfull \hbox (2.44177pt too wide) in paragraph at lines 521--521
+Overfull \hbox (2.44177pt too wide) in paragraph at lines 563--563
  []|\T5/cmr/bx/n/10.95 PassiveAgressiveClassifier| 
  []
 
 
-Overfull \hbox (8.02809pt too wide) in paragraph at lines 511--528
+Overfull \hbox (8.02809pt too wide) in paragraph at lines 553--570
  [] 
  []
 
-<cvroc.png, id=119, 960.58875pt x 559.08875pt>
+<cvroc.png, id=120, 960.58875pt x 559.08875pt>
 File: cvroc.png Graphic file (type png)
  <use cvroc.png>
-Overfull \hbox (13.22998pt too wide) in paragraph at lines 534--535
+Overfull \hbox (13.22998pt too wide) in paragraph at lines 576--577
  [][] 
  []
 
-<tfroc.png, id=120, 960.58875pt x 559.08875pt>
+<tfroc.png, id=121, 960.58875pt x 559.08875pt>
 File: tfroc.png Graphic file (type png)
  <use tfroc.png>
-Overfull \hbox (13.22998pt too wide) in paragraph at lines 539--540
+Overfull \hbox (13.22998pt too wide) in paragraph at lines 581--582
 [][] 
  []
 
 [28 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/cvroc.png>]
-<w2vroc.png, id=125, 960.58875pt x 559.08875pt>
+<w2vroc.png, id=126, 960.58875pt x 559.08875pt>
 File: w2vroc.png Graphic file (type png)
  <use w2vroc.png>
-Overfull \hbox (13.22998pt too wide) in paragraph at lines 544--545
+Overfull \hbox (13.22998pt too wide) in paragraph at lines 586--587
 [][] 
  []
 
 [29 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/tfroc.png> <D:/__UI
 T/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vroc.png>]
-<cvlr.png, id=132, 313.17pt x 262.9825pt>
+<cvlr.png, id=133, 313.17pt x 262.9825pt>
 File: cvlr.png Graphic file (type png)
  <use cvlr.png>
-<tflr.png, id=133, 313.17pt x 262.9825pt>
+<tflr.png, id=134, 313.17pt x 262.9825pt>
 File: tflr.png Graphic file (type png)
  <use tflr.png>
-<w2vlr.png, id=134, 313.17pt x 262.9825pt>
+<w2vlr.png, id=135, 313.17pt x 262.9825pt>
 File: w2vlr.png Graphic file (type png)
  <use w2vlr.png>
-<cvnb.png, id=135, 313.17pt x 262.9825pt>
+<cvnb.png, id=136, 313.17pt x 262.9825pt>
 File: cvnb.png Graphic file (type png)
  <use cvnb.png>
-<tfnb.png, id=136, 313.17pt x 262.9825pt>
+<tfnb.png, id=137, 313.17pt x 262.9825pt>
 File: tfnb.png Graphic file (type png)
  <use tfnb.png>
-<w2vnb.png, id=137, 313.17pt x 262.9825pt>
+<w2vnb.png, id=138, 313.17pt x 262.9825pt>
 File: w2vnb.png Graphic file (type png)
  <use w2vnb.png> [30 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/cv
 lr.png> <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/tflr.png> <D:/_
 _UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vlr.png>] <cvsvc.png, id=1
-44, 313.17pt x 262.9825pt>
+45, 313.17pt x 262.9825pt>
 File: cvsvc.png Graphic file (type png)
 
-<use cvsvc.png> <tfsvc.png, id=145, 313.17pt x 262.9825pt>
+<use cvsvc.png> <tfsvc.png, id=146, 313.17pt x 262.9825pt>
 File: tfsvc.png Graphic file (type png)
  <use tfsvc.png>
-<w2vsvc.png, id=146, 313.17pt x 262.9825pt>
+<w2vsvc.png, id=147, 313.17pt x 262.9825pt>
 File: w2vsvc.png Graphic file (type png)
  <use w2vsvc.png> [31 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/c
 vnb.png> <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/tfnb.png> <D:/
 __UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vnb.png>] <cvpa.png, id=1
-53, 313.17pt x 262.9825pt>
+54, 313.17pt x 262.9825pt>
 File: cvpa.png Graphic file (type png)
 
-<use cvpa.png> <tfpa.png, id=154, 313.17pt x 262.9825pt>
+<use cvpa.png> <tfpa.png, id=155, 313.17pt x 262.9825pt>
 File: tfpa.png Graphic file (type png)
  <use tfpa.png>
-<w2vpa.png, id=155, 313.17pt x 262.9825pt>
+<w2vpa.png, id=156, 313.17pt x 262.9825pt>
 File: w2vpa.png Graphic file (type png)
  <use w2vpa.png> [32 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/cv
 svc.png> <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/tfsvc.png> <D:
 /__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vsvc.png>] <cvdtree.png,
- id=162, 313.17pt x 262.9825pt>
+ id=163, 313.17pt x 262.9825pt>
 File: cvdtree.png Graphic file (type png)
 
-<use cvdtree.png> <tfdtree.png, id=163, 313.17pt x 262.9825pt>
+<use cvdtree.png> <tfdtree.png, id=164, 313.17pt x 262.9825pt>
 File: tfdtree.png Graphic file (type png)
 
-<use tfdtree.png> <w2vdtree.png, id=164, 313.17pt x 262.9825pt>
+<use tfdtree.png> <w2vdtree.png, id=165, 313.17pt x 262.9825pt>
 File: w2vdtree.png Graphic file (type png)
 
 <use w2vdtree.png> [33 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/
 cvpa.png> <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/tfpa.png> <D:
 /__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vpa.png>]
-<cvrf.png, id=171, 313.17pt x 262.9825pt>
+<cvrf.png, id=172, 313.17pt x 262.9825pt>
 File: cvrf.png Graphic file (type png)
  <use cvrf.png>
-<tfrf.png, id=172, 313.17pt x 262.9825pt>
+<tfrf.png, id=173, 313.17pt x 262.9825pt>
 File: tfrf.png Graphic file (type png)
  <use tfrf.png>
-<w2vrf.png, id=173, 313.17pt x 262.9825pt>
+<w2vrf.png, id=174, 313.17pt x 262.9825pt>
 File: w2vrf.png Graphic file (type png)
  <use w2vrf.png> [34 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/cv
 dtree.png> <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/tfdtree.png>
@@ -1128,13 +1159,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5819 strings out of 495285
- 78514 string characters out of 3179870
- 151326 words of memory out of 3000000
- 8850 multiletter control sequences out of 15000+200000
- 33950 words of font info for 83 fonts, out of 3000000 for 9000
+ 5973 strings out of 495285
+ 80593 string characters out of 3179870
+ 152127 words of memory out of 3000000
+ 8992 multiletter control sequences out of 15000+200000
+ 34261 words of font info for 84 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 44i,12n,45p,790b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,15n,45p,790b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
 :/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
@@ -1146,10 +1177,10 @@ es (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Program Files (x86)/Mi
 KTeX 2.8/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files (x86)/MiKTeX 2.8/fo
 nts/type1/vntex/vnr/vnr10.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vn
 tex/vnr/vnr12.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnti
-12.pfb>
-Output written on BaoCaoHMTK.pdf (40 pages, 909289 bytes).
+12.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vntt12.pfb>
+Output written on BaoCaoHMTK.pdf (40 pages, 918232 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
+ 241 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,7 +5,7 @@
 \contentsline {chapter}{\bf Ch\IeC {\uhorn }\IeC {\ohorn }ng \numberline {1. } GI\IeC {\'\OHORN }I THI\IeC {\d \ECIRCUMFLEX }U CHUNG}{9}
 \contentsline {section}{\numberline {1.1}M\IeC {\d u}c ti\IeC {\^e}u \IeC {\dj }\IeC {\`\ecircumflex } t\IeC {\`a}i}{9}
 \contentsline {section}{\numberline {1.2}B\IeC {\`a}i to\IeC {\'a}n h\IeC {\d o}c m\IeC {\'a}y}{9}
-\contentsline {section}{\numberline {1.3}Quy tr\IeC {\`\i }nh gi\IeC {\h a}i quy\IeC {\'\ecircumflex }t b\IeC {\`a}i to\IeC {\'a}n}{9}
+\contentsline {section}{\numberline {1.3}Quy tr\IeC {\`\i }nh gi\IeC {\h a}i quy\IeC {\'\ecircumflex }t b\IeC {\`a}i to\IeC {\'a}n}{10}
 \contentsline {section}{\numberline {1.4}\IeC {\'\UHORN }ng d\IeC {\d u}ng}{10}
 \contentsline {chapter}{\bf Ch\IeC {\uhorn }\IeC {\ohorn }ng \numberline {2. } T\IeC {\h \OCIRCUMFLEX }NG QUAN V\IeC {\`\ECIRCUMFLEX } B\IeC {\d \OCIRCUMFLEX } D\IeC {\~\UHORN } LI\IeC {\d \ECIRCUMFLEX }U}{11}
 \contentsline {section}{\numberline {2.1}Gi\IeC {\'\ohorn }i thi\IeC {\d \ecircumflex }u chung v\IeC {\`\ecircumflex } b\IeC {\d \ocircumflex } d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u}{11}
