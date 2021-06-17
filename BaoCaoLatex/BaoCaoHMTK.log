@@ -1,13 +1,15 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.6.6)  17 JUN 2021 00:16
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.5.30)  17 JUN 2021 15:03
 entering extended mode
 **BaoCaoHMTK.tex
-(D:\__UIT\HK4\DS102_HMTK\DoAnHMTK_DS102.L21\BaoCaoLatex\BaoCaoHMTK.tex
+
+("E:\#2. Compressed\BaoCaoLatexTmp\tmp_git\New folder\DoAnHMTK_DS102.L21\BaoCao
+Latex\BaoCaoHMTK.tex"
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\book.cls"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\bk12.clo"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\bk12.clo
 File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -23,36 +25,36 @@ File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\vietnam.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\vntex\vietnam.sty
 Package: vietnam 2009/07/12 v1.3 support for Vietnamese
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ifthen.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\fontenc.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\t5enc.def"
+(E:\Program_Data\Miktex_2.8\tex\latex\vntex\t5enc.def
 File: t5enc.def 2006/11/21 v1.4 Vietnamese T5 encoding
 )
 LaTeX Font Info:    Try loading font information for T5+cmr on input line 100.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\t5cmr.fd"
+(E:\Program_Data\Miktex_2.8\tex\latex\vntex\t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\inputenc.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\utf8.def"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\t1enc.dfu"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -202,7 +204,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ot1enc.dfu"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -233,7 +235,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\omsenc.dfu"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -249,7 +251,7 @@ Now handling font encoding U ...
 Now handling font encoding T5 ...
 ... processing UTF-8 mapping file for font encoding T5
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\t5enc.dfu"
+(E:\Program_Data\Miktex_2.8\tex\latex\vntex\t5enc.dfu
 File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
@@ -414,27 +416,27 @@ File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\vncaps.tex"
+(E:\Program_Data\Miktex_2.8\tex\latex\vntex\vncaps.tex
 File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsmath.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ams\math\amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amstext.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ams\math\amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsgen.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ams\math\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks16
 \ex@=\dimen103
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsbsy.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ams\math\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsopn.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ams\math\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count88
@@ -475,7 +477,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\classes\amsthm.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ams\classes\amsthm.sty
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks21
 \thm@bodyfont=\toks22
@@ -487,34 +489,34 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip48
 \dth@everypar=\toks26
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\amssymb.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\amsfonts.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\amsfonts\amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\latexsym.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amscd.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ams\math\amscd.sty
 Package: amscd 1999/11/29 v2.0
 \athelp@=\toks27
 \minaw@=\dimen112
 \bigaw@=\dimen113
 \minCDarrowwidth=\dimen114
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\enumerate.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\tools\enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks28
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\titlesec\titlesec.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2007/08/12 v2.8 Sectioning titles
 \ttl@box=\box28
 \beforetitleunit=\skip49
@@ -526,22 +528,22 @@ Package: titlesec 2007/08/12 v2.8 Sectioning titles
 \titlewidthlast=\dimen118
 \titlewidthfirst=\dimen119
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\titlesec\titletoc.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\titlesec\titletoc.sty
 Package: titletoc 2007/08/12 v1.6 TOC entries
 \ttl@leftsep=\dimen120
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\geometry\geometry.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\geometry\geometry.sty
 Package: geometry 2008/12/21 v4.2 Page Geometry
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks30
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
+(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\ifpdf.sty
 Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in pdf mode detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ifvtex.sty"
+(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\ifvtex.sty
 Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
@@ -554,20 +556,20 @@ Package ifvtex Info: VTeX not detected.
 \Gm@even@mp=\dimen124
 \Gm@dimlist=\toks31
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\color.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\geometry\geometry.cfg))
+(E:\Program_Data\Miktex_2.8\tex\latex\graphics\color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\color.cfg"
+(E:\Program_Data\Miktex_2.8\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
+(E:\Program_Data\Miktex_2.8\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
 \Gread@gobject=\count103
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\fancyhdr\fancyhdr.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\fancyhdr\fancyhdr.sty
 \fancy@headwidth=\skip51
 \f@ncyO@elh=\skip52
 \f@ncyO@erh=\skip53
@@ -578,16 +580,16 @@ File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
 \f@ncyO@olf=\skip58
 \f@ncyO@orf=\skip59
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
+(E:\Program_Data\Miktex_2.8\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
@@ -595,7 +597,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\wrapfig\wrapfig.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\wrapfig\wrapfig.sty
 \wrapoverhang=\dimen127
 \WF@size=\dimen128
 \c@WF@wrappedlines=\count104
@@ -603,10 +605,10 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \WF@everypar=\toks32
 Package: wrapfig 2003/01/31  v 3.6
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\indentfirst.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\float\float.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count105
 \float@exts=\toks33
@@ -614,12 +616,12 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks34
 \@floatcapt=\box31
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\multirow\multirow.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\multirow\multirow.sty
 \bigstrutjot=\dimen129
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\easy\easytable.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\easy\easytable.sty
 Document Style `easytable' v1.0 <2001/06/13>.
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\easy\easy.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\easy\easy.sty
 Document Style `easy' v1.1 <2001/05/31>.
 Package: easy 2001/05/31 v1.1
 \@easy@level=\count106
@@ -732,7 +734,7 @@ Package: easy 2001/05/31 v1.1
 Package: easytable 2001/05/31v1.1
 \@tab@size@rule=\dimen224
 \@tab@size@dash=\dimen225
-) ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\array.sty"
+) (E:\Program_Data\Miktex_2.8\tex\latex\tools\array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen226
 \extrarowheight=\dimen227
@@ -740,20 +742,20 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip60
 \backup@length=\skip61
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\etoolbox\etoolbox.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\etoolbox\etoolbox.sty
 Package: etoolbox 2009/08/06 v1.8 e-TeX tools for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\misc\etex.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\misc\etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count110
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\subfig\subfig.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\caption\caption.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\caption\caption.sty
 Package: caption 2009/10/09 v3.1k Customizing captions (AR)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\caption\caption3.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\caption\caption3.sty
 Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
 \captionmargin=\dimen228
 \captionmargin@=\dimen229
@@ -781,14 +783,14 @@ Normal \dimen register pool exhausted, switching to extended pool.
 \sf@top=\skip65
 \sf@bottom=\skip66
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\koma-script\tocbasic.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\koma-script\tocbasic.sty
 Package: tocbasic 2009/06/08 v3.03b KOMA-Script package (handling toc-files)
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ltxmisc\url.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ltxmisc\url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\booktabs\booktabs.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\booktabs\booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen257
 \lightrulewidth=\dimen258
@@ -808,7 +810,8 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count122
 \@thisrulewidth=\dimen269
 )
-(D:\__UIT\HK4\DS102_HMTK\DoAnHMTK_DS102.L21\BaoCaoLatex\BaoCaoHMTK.aux
+("E:\#2. Compressed\BaoCaoLatexTmp\tmp_git\New folder\DoAnHMTK_DS102.L21\BaoCao
+Latex\BaoCaoHMTK.aux"
 
 LaTeX Warning: Label `Han' multiply defined.
 
@@ -869,7 +872,7 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-("C:\Program Files (x86)\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
+(E:\Program_Data\Miktex_2.8\tex\context\base\supp-pdf.tex
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
 \scratchdimen=\dimen270
@@ -888,17 +891,17 @@ LaTeX Info: Redefining \subref on input line 44.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 56.
 LaTeX Font Info:    Try loading font information for U+msa on input line 56.
- ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
+ (E:\Program_Data\Miktex_2.8\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 56.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
+(E:\Program_Data\Miktex_2.8\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 56.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ulasy.fd"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
@@ -906,19 +909,22 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 {C:/ProgramData/MiKTeX/2.8/pdftex/config/pdftex.map}] [1
 
 ]
-(D:\__UIT\HK4\DS102_HMTK\DoAnHMTK_DS102.L21\BaoCaoLatex\BaoCaoHMTK.toc [1
+("E:\#2. Compressed\BaoCaoLatexTmp\tmp_git\New folder\DoAnHMTK_DS102.L21\BaoCao
+Latex\BaoCaoHMTK.toc" [1
 
-]
-[2])
+] [2])
 \tf@toc=\write3
- [3] (D:\__UIT\HK4\DS102_HMTK\DoAnHMTK_DS102.L21\BaoCaoLatex\BaoCaoHMTK.lof)
+ [3]
+("E:\#2. Compressed\BaoCaoLatexTmp\tmp_git\New folder\DoAnHMTK_DS102.L21\BaoCao
+Latex\BaoCaoHMTK.lof")
 \tf@lof=\write4
  [4
 
-] (D:\__UIT\HK4\DS102_HMTK\DoAnHMTK_DS102.L21\BaoCaoLatex\BaoCaoHMTK.lot)
+]
+("E:\#2. Compressed\BaoCaoLatexTmp\tmp_git\New folder\DoAnHMTK_DS102.L21\BaoCao
+Latex\BaoCaoHMTK.lot")
 \tf@lot=\write5
-
-[5
+ [5
 
 ] [6
 
@@ -933,22 +939,22 @@ File: QuyTrinhHMTK.png Graphic file (type png)
  <use QuyTrinhHMTK.png>
 [9
 
-] [10 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/QuyTrinhHMTK.png>
-]
+] [10 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/B
+aoCaoLatex/QuyTrinhHMTK.png>]
 Ch\uhorn \ohorn ng 2.
-LaTeX Font Info:    Try loading font information for T5+cmtt on input line 213.
+LaTeX Font Info:    Try loading font information for T5+cmtt on input line 214.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\t5cmtt.fd"
+(E:\Program_Data\Miktex_2.8\tex\latex\vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 220.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 221.
 
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\omscmr.fd"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 220.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 221.
  [11
 
 ]
@@ -961,65 +967,66 @@ Ch\uhorn \ohorn ng 4.
 File: Picture1.png Graphic file (type png)
  <use Picture1.png> [13
 
- <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/Picture1.png>] [14]
+ <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCao
+Latex/Picture1.png>] [14]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 297.
- [15]
-<SVM_hyperplane.png, id=69, 813.0375pt x 344.28625pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 295.
+ [15] <SVM_hyperplane.png, id=69, 813.0375pt x 344.28625pt>
 File: SVM_hyperplane.png Graphic file (type png)
- <use SVM_hyperplane.png>
-<SVM_maxmargin.jpeg, id=70, 588.1975pt x 311.1625pt>
+
+<use SVM_hyperplane.png> <SVM_maxmargin.jpeg, id=70, 588.1975pt x 311.1625pt>
 File: SVM_maxmargin.jpeg Graphic file (type jpg)
- <use SVM_maxmargin.jpeg>
-[16 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/SVM_hyperplane.png 
-(PNG copy)>] [17 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/SVM_ma
-xmargin.jpeg>] [18] [19] [20] [21]
-Overfull \hbox (72.96552pt too wide) in paragraph at lines 434--434
+
+<use SVM_maxmargin.jpeg> [16 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New fold
+er/DoAnHMTK_DS102.L21/BaoCaoLatex/SVM_hyperplane.png (PNG copy)>] [17 <E:/#2. C
+ompressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/SVM_
+maxmargin.jpeg>] [18] [19] [20] [21]
+Overfull \hbox (72.96552pt too wide) in paragraph at lines 432--432
 []|\T5/cmr/bx/n/10 LogisticRegression|  
  []
 
 
-Overfull \hbox (39.03908pt too wide) in paragraph at lines 437--437
+Overfull \hbox (39.03908pt too wide) in paragraph at lines 435--435
 []|\T5/cmr/bx/n/10 MultinomialNB|  
  []
 
 
-Overfull \hbox (13.06625pt too wide) in paragraph at lines 440--440
+Overfull \hbox (13.06625pt too wide) in paragraph at lines 438--438
 []|\T5/cmr/bx/n/10 SVC|  
  []
 
 
-Overfull \hbox (44.14755pt too wide) in paragraph at lines 444--444
+Overfull \hbox (44.14755pt too wide) in paragraph at lines 442--442
 []|\T5/cmr/bx/n/10 PassiveAgressive  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 444--444
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 442--442
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (29.11372pt too wide) in paragraph at lines 447--447
+Overfull \hbox (29.11372pt too wide) in paragraph at lines 445--445
 []|\T5/cmr/bx/n/10 DecissionTree  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 447--447
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 445--445
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (26.97397pt too wide) in paragraph at lines 452--452
+Overfull \hbox (26.97397pt too wide) in paragraph at lines 450--450
 []|\T5/cmr/bx/n/10 RadomForest  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 452--452
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 450--450
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (21.54672pt too wide) in paragraph at lines 428--460
+Overfull \hbox (21.54672pt too wide) in paragraph at lines 426--458
  [] 
  []
 
@@ -1030,53 +1037,56 @@ File: confusionmatrix.png Graphic file (type png)
 
 <use confusionmatrix.png> [23
 
- <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/confusionmatrix.png (P
-NG copy)>]
+ <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCao
+Latex/confusionmatrix.png (PNG copy)>]
 <ucm.png, id=102, 336.25626pt x 295.1025pt>
 File: ucm.png Graphic file (type png)
  <use ucm.png>
 <ncm.png, id=103, 329.23pt x 295.1025pt>
 File: ncm.png Graphic file (type png)
- <use ncm.png> [24 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/ucm.
-png> <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/ncm.png>] [25] [26
-]
-<roc_auc.png, id=115, 401.5pt x 281.05pt>
+ <use ncm.png> [24 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMT
+K_DS102.L21/BaoCaoLatex/ucm.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New 
+folder/DoAnHMTK_DS102.L21/BaoCaoLatex/ncm.png>] [25] [26] <roc_auc.png, id=115,
+ 401.5pt x 281.05pt>
 File: roc_auc.png Graphic file (type png)
- <use roc_auc.png> [27 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/
-roc_auc.png>]
-Overfull \hbox (2.44177pt too wide) in paragraph at lines 563--563
+ <use roc_auc.png>
+[27 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/Bao
+CaoLatex/roc_auc.png>]
+Overfull \hbox (2.44177pt too wide) in paragraph at lines 561--561
  []|\T5/cmr/bx/n/10.95 PassiveAgressiveClassifier| 
  []
 
 
-Overfull \hbox (8.02809pt too wide) in paragraph at lines 553--570
+Overfull \hbox (8.02809pt too wide) in paragraph at lines 551--568
  [] 
  []
 
 <cvroc.png, id=120, 960.58875pt x 559.08875pt>
 File: cvroc.png Graphic file (type png)
  <use cvroc.png>
-Overfull \hbox (13.22998pt too wide) in paragraph at lines 576--577
+Overfull \hbox (13.22998pt too wide) in paragraph at lines 574--575
  [][] 
  []
 
 <tfroc.png, id=121, 960.58875pt x 559.08875pt>
 File: tfroc.png Graphic file (type png)
  <use tfroc.png>
-Overfull \hbox (13.22998pt too wide) in paragraph at lines 581--582
+Overfull \hbox (13.22998pt too wide) in paragraph at lines 579--580
 [][] 
  []
 
-[28 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/cvroc.png>]
-<w2vroc.png, id=126, 960.58875pt x 559.08875pt>
+[28 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/Bao
+CaoLatex/cvroc.png>] <w2vroc.png, id=126, 960.58875pt x 559.08875pt>
 File: w2vroc.png Graphic file (type png)
- <use w2vroc.png>
-Overfull \hbox (13.22998pt too wide) in paragraph at lines 586--587
+
+<use w2vroc.png>
+Overfull \hbox (13.22998pt too wide) in paragraph at lines 584--585
 [][] 
  []
 
-[29 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/tfroc.png> <D:/__UI
-T/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vroc.png>]
+[29 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/Bao
+CaoLatex/tfroc.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHM
+TK_DS102.L21/BaoCaoLatex/w2vroc.png>]
 <cvlr.png, id=133, 313.17pt x 262.9825pt>
 File: cvlr.png Graphic file (type png)
  <use cvlr.png>
@@ -1094,10 +1104,11 @@ File: tfnb.png Graphic file (type png)
  <use tfnb.png>
 <w2vnb.png, id=138, 313.17pt x 262.9825pt>
 File: w2vnb.png Graphic file (type png)
- <use w2vnb.png> [30 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/cv
-lr.png> <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/tflr.png> <D:/_
-_UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vlr.png>] <cvsvc.png, id=1
-45, 313.17pt x 262.9825pt>
+ <use w2vnb.png> [30 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnH
+MTK_DS102.L21/BaoCaoLatex/cvlr.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/N
+ew folder/DoAnHMTK_DS102.L21/BaoCaoLatex/tflr.png> <E:/#2. Compressed/BaoCaoLat
+exTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vlr.png>] <cvsvc.png,
+ id=145, 313.17pt x 262.9825pt>
 File: cvsvc.png Graphic file (type png)
 
 <use cvsvc.png> <tfsvc.png, id=146, 313.17pt x 262.9825pt>
@@ -1105,10 +1116,11 @@ File: tfsvc.png Graphic file (type png)
  <use tfsvc.png>
 <w2vsvc.png, id=147, 313.17pt x 262.9825pt>
 File: w2vsvc.png Graphic file (type png)
- <use w2vsvc.png> [31 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/c
-vnb.png> <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/tfnb.png> <D:/
-__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vnb.png>] <cvpa.png, id=1
-54, 313.17pt x 262.9825pt>
+ <use w2vsvc.png> [31 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAn
+HMTK_DS102.L21/BaoCaoLatex/cvnb.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/
+New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/tfnb.png> <E:/#2. Compressed/BaoCaoLa
+texTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vnb.png>] <cvpa.png,
+ id=154, 313.17pt x 262.9825pt>
 File: cvpa.png Graphic file (type png)
 
 <use cvpa.png> <tfpa.png, id=155, 313.17pt x 262.9825pt>
@@ -1116,10 +1128,11 @@ File: tfpa.png Graphic file (type png)
  <use tfpa.png>
 <w2vpa.png, id=156, 313.17pt x 262.9825pt>
 File: w2vpa.png Graphic file (type png)
- <use w2vpa.png> [32 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/cv
-svc.png> <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/tfsvc.png> <D:
-/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vsvc.png>] <cvdtree.png,
- id=163, 313.17pt x 262.9825pt>
+ <use w2vpa.png> [32 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnH
+MTK_DS102.L21/BaoCaoLatex/cvsvc.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/
+New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/tfsvc.png> <E:/#2. Compressed/BaoCaoL
+atexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vsvc.png>] <cvdtree
+.png, id=163, 313.17pt x 262.9825pt>
 File: cvdtree.png Graphic file (type png)
 
 <use cvdtree.png> <tfdtree.png, id=164, 313.17pt x 262.9825pt>
@@ -1128,9 +1141,10 @@ File: tfdtree.png Graphic file (type png)
 <use tfdtree.png> <w2vdtree.png, id=165, 313.17pt x 262.9825pt>
 File: w2vdtree.png Graphic file (type png)
 
-<use w2vdtree.png> [33 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/
-cvpa.png> <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/tfpa.png> <D:
-/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vpa.png>]
+<use w2vdtree.png> [33 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoA
+nHMTK_DS102.L21/BaoCaoLatex/cvpa.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git
+/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/tfpa.png> <E:/#2. Compressed/BaoCaoL
+atexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vpa.png>]
 <cvrf.png, id=172, 313.17pt x 262.9825pt>
 File: cvrf.png Graphic file (type png)
  <use cvrf.png>
@@ -1139,12 +1153,14 @@ File: tfrf.png Graphic file (type png)
  <use tfrf.png>
 <w2vrf.png, id=174, 313.17pt x 262.9825pt>
 File: w2vrf.png Graphic file (type png)
- <use w2vrf.png> [34 <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/cv
-dtree.png> <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/tfdtree.png>
- <D:/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vdtree.png>] [35 <D:
-/__UIT/HK4/DS102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/cvrf.png> <D:/__UIT/HK4/DS
-102_HMTK/DoAnHMTK_DS102.L21/BaoCaoLatex/tfrf.png> <D:/__UIT/HK4/DS102_HMTK/DoAn
-HMTK_DS102.L21/BaoCaoLatex/w2vrf.png>]
+ <use w2vrf.png> [34 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnH
+MTK_DS102.L21/BaoCaoLatex/cvdtree.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_gi
+t/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/tfdtree.png> <E:/#2. Compressed/Bao
+CaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vdtree.png>] [3
+5 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCa
+oLatex/cvrf.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_
+DS102.L21/BaoCaoLatex/tfrf.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New f
+older/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vrf.png>]
 Ch\uhorn \ohorn ng 6.
 [36
 
@@ -1153,32 +1169,32 @@ Ch\uhorn \ohorn ng 6.
 ] [38
 
 ]
-(D:\__UIT\HK4\DS102_HMTK\DoAnHMTK_DS102.L21\BaoCaoLatex\BaoCaoHMTK.aux)
+("E:\#2. Compressed\BaoCaoLatexTmp\tmp_git\New folder\DoAnHMTK_DS102.L21\BaoCao
+Latex\BaoCaoHMTK.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  5973 strings out of 495285
- 80593 string characters out of 3179870
+ 79942 string characters out of 3180474
  152127 words of memory out of 3000000
  8992 multiletter control sequences out of 15000+200000
  34261 words of font info for 84 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  44i,15n,45p,790b,446s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
-:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
-Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program F
-iles (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Program Files (x86)/Mi
-KTeX 2.8/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files (x86)/MiKTeX 2.8/fo
-nts/type1/vntex/vnr/vnr10.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vn
-tex/vnr/vnr12.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnti
-12.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on BaoCaoHMTK.pdf (40 pages, 918232 bytes).
+<E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Pro
+gram_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Program_Data
+/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmmi12.pfb><E:/Program_Data/Miktex_2
+.8/fonts/type1/public/amsfonts/cm/cmmi7.pfb><E:/Program_Data/Miktex_2.8/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnbx10.pfb><E:
+/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnbx12.pfb><E:/Program_Data/Mikt
+ex_2.8/fonts/type1/vntex/vnr/vnr10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/
+vntex/vnr/vnr12.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnti12.pf
+b><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vntt12.pfb>
+Output written on BaoCaoHMTK.pdf (40 pages, 914030 bytes).
 PDF statistics:
  241 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
