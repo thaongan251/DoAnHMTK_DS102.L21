@@ -160,10 +160,10 @@
 	Trong kỷ nguyên của Internet và mạng xã hội, cứ mỗi giây trôi qua, thế giới có gần 55.000 bài đăng trên Facebook, 456.000 tweet được gửi đi trên Twitter và có 86 bài blog xuất hiện trên Internet. Có thể thấy lượng thông tin được sản sinh ra và lan truyền nhanh chóng như thế nào trên không gian mạng. Tuy nhiên, những nguồn tin này luôn tiềm ẩn những thông tin giả mạo mà nếu không nhận diện và ngăn chặn kịp thời sẽ gây tổn hại đến đến các cá nhân, tổ chức kinh tế, chính trị và xã hội. 
 
 
-	Các phương pháp nhận diện tin giả trước đây thường mang tính thủ công khi phải cần đến các chuyên gia để có thể thẩm định nguồn tin là đúng hay sai sự thật. Bên cạnh đó, các phương pháp nhận diện tự động ứng dụng lý thuyết Học máy và Xử lý ngôn ngữ tự nhiên là những hướng tiếp cận mới, trở thành xu hướng nghiên cứu nóng hổi vì mang lại hiệu quả cao, tiết kiệm thời gian và chi phí, vốn là những mặt còn nhiều hạn chế của các phương pháp cũ.
+	Các phương pháp nhận diện tin giả trước đây thường mang tính thủ công khi phải cần đến các chuyên gia để có thể thẩm định nguồn tin. Bên cạnh đó, các phương pháp nhận diện tự động ứng dụng lý thuyết Học máy và Xử lý ngôn ngữ tự nhiên là những hướng tiếp cận mới, trở thành xu hướng nghiên cứu nóng hổi vì mang lại hiệu quả cao, tiết kiệm thời gian và chi phí, vốn là những mặt còn nhiều hạn chế của các phương pháp cũ.
 
 
-	Trong đồ án này, chúng tôi tiến hành thực nghiệm những phương pháp Học máy phổ biến cùng các mô hình trích xuất đặc trưng từ dữ liệu văn bản, bao gồm 2 mô hình Bag-of-Words là TFIDFVectorizer và CountVectorizer cùng mô hình Word2Vec, với mục tiêu tìm hiểu khả năng trích xuất thông tin từ bộ dữ liệu cũng như độ hiệu quả của từng phương pháp trong việc phân loại một mẩu tin là đáng tin cậy hay là sai sự thật.
+	Trong đồ án này, chúng tôi tiến hành thực nghiệm những phương pháp Học máy thường dùng cho bài toán phân loại, cùng các mô hình trích xuất đặc trưng từ dữ liệu văn bản, bao gồm 2 mô hình Bag-of-Words là TFIDFVectorizer và CountVectorizer cùng mô hình Word2Vec, với mục tiêu tìm hiểu khả năng trích xuất thông tin từ bộ dữ liệu cũng như độ hiệu quả của từng phương pháp trong việc phân loại một mẩu tin là đáng tin cậy hay là sai sự thật.
 
 	\vspace{0.5cm}
 	\textbf{Từ khóa: Machine Learning, Fake News Detection, Natural Language Processing, Classification, Word Embedding}
@@ -315,7 +315,7 @@
 		
 			\begin{figure}[H]
 			\begin{center}
-		\includegraphics[width=0.8\columnwidth]{SVM_hyperplane}
+		\includegraphics[width=0.68\columnwidth]{SVM_hyperplane}
 			\end{center}
 		\caption{Siêu phẳng tạo ra một biên giới phân chia 2 lớp của dữ liệu}
 			\end{figure}		
@@ -326,7 +326,7 @@
 		
 			\begin{figure}[H]
 			\begin{center}
-				\includegraphics[width=0.8\columnwidth]{SVM_maxmargin}
+				\includegraphics[width=0.68\columnwidth]{SVM_maxmargin}
 			\end{center}
 			\caption{Siêu phẳng tối ưu có lề cực đại}
 			\end{figure}
@@ -360,6 +360,33 @@
 		
 		\subsection{Thuật toán Passive Agressive}
 		
+		Thuật toán Pasive Agressive là một phân nhóm các thuật toán Online learning dùng cho hai bài toán Hồi quy và Phân loại. Thuật toán này được giới thiệu lần đầu vào năm 2006, bởi Koby Crammer cùng các cộng sự tại Đại học Hebrew của Jerusalem, Israel.
+		
+		Trong các thuật toán Online learning, các điểm dữ liệu được chia nhỏ và đưa vào mô hình một cách tuần tự, và dựa trên mỗi nhóm nhỏ dữ liệu này, các mô hình Học máy sẽ 'học' và tự điều chỉnh. Cơ chế này rất hữu ích trong trường hợp kích thước dữ liệu quá lớn khiến cho việc huấn luyện trên toàn bộ tâp dữ liệu gặp nhiều khó khăn. Điển hình là bài toán nhận diện tin giả trên các nền tảng mạng xã hội như Twitter, Facebook,... nơi mà dữ liệu được sinh ra liên tục và nhanh chóng đạt kích thước khổng lồ. Trong trường hợp đó, các thuật toán Online Learning được xem là lý tưởng.
+		
+		
+		\begin{figure}[H]
+			\begin{center}
+				\includegraphics[width=0.8\columnwidth]{onl_learn}
+			\end{center}
+			\caption{Thuật toán Online Learning cho việc xử lý dữ liệu lớn}
+		\end{figure}
+		
+		Nội dung của thuật toán Passive Agressive có thể được hiểu một cách ngắn gọn từ tên của nó:
+
+		\begin{itemize}
+		\item \textbf{Passive:} Nếu dự đoán điểm dữ liệu chính xác thì mô hình được giữ lại và không điều chỉnh (điểm dữ liệu không đủ khiến mô hình phải điều chỉnh).
+		\item \textbf{Agressive:} Nếu dự đoán sai, mô hình phải thực hiện các điều chỉnh. Trong số đó sẽ có những điều chỉnh làm cho mô hình dự đoán đúng điểm dữ liệu đó.
+		\end{itemize}
+		
+		Thư viện scikit-learn cũng hỗ trợ thuật toán Passive Agressive thông qua hai hàm PassiveAgressiveRegressor() và PassiveAgressiveClassifier() trong module linear\_model.
+		Ở đồ án này, mô hình PassiveAgressiveClassifier() được sử dụng với các tham số quan trọng sau:
+		\begin{itemize}
+		\item \textbf{C:} là độ chính quy hóa của mô hình. C càng lớn thì độ Agressive của mô hình càng cao.
+		\item \textbf{max\_iter:} số lần lặp tối đa của mô hình trên tập dữ liệu huấn luyện. Giá tri mặc định là 1000.
+		\item \textbf{tol:} tiêu chuẩn dừng vòng lặp của mô hình. Giá trị mặc định là 0.001.
+		\item \textbf{early\_stopping:} Nếu nhận giá trị True, mô hình sẽ tự động dừng huấn luyện nếu kết quả thẩm định không cải thiện.
+		\end{itemize}
 		\subsection{Decission Tree}
 		Decision Tree (cây quyết định) là mô hình thuộc nhóm thuật toán học máy học có giám sát (Supervised Learning). Mô hình cây quyết định cho biết giá trị của một biến mục tiêu thuộc lớp nào bằng cách dựa vào các giá trị của một tập các biến dự đoán, hay tập các câu hỏi.
 		
@@ -475,8 +502,8 @@
 		\begin{itemize}
 		\item \textbf{True Positive (TP):} số điểm dữ liệu có nhãn là Positive được dự đoán là Positive.
 		\item \textbf{False Positive (FP):} số điểm dữ liệu có nhãn là Positive được dự đoán là Negative.
-		\item \textbf{False Negative (TN):} số điểm dữ liệu có nhãn là Negative được dự đoán là Positive.
-		\item \textbf{True Negative (FN):} số điểm dữ liệu có nhãn là Negative được dự đoán là Negative.
+		\item \textbf{False Negative (FN):} số điểm dữ liệu có nhãn là Negative được dự đoán là Positive.
+		\item \textbf{True Negative (TN):} số điểm dữ liệu có nhãn là Negative được dự đoán là Negative.
 		\end{itemize}
 		
 		Một cách tổng quát, Confusion Matrix là một ma trận vuông có kích thước mỗi chiều bằng số lượng lớp dữ liệu. Giá trị tại hàng thứ i, cột thứ j là số lượng điểm lẽ ra thuộc vào class i nhưng lại được dự đoán là thuộc vào class j. Bên cạnh cách đinh nghĩa trên thì vẫn có một số tài liệu định nghĩa ngược lại.
@@ -615,7 +642,8 @@
 				\hline
 				\end{tabular}} 
 			\hfill
-			\textbf{\hrule}
+			\hrule
+			\vspace{3ex}
 			\subfloat[\textbf{TfidfVectorizer}]{%
 				\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
 				\hline
@@ -630,6 +658,7 @@
 				\end{tabular}} 
 			\hfill
 			\hrule
+			\vspace{3ex}
 			\subfloat[\textbf{Word2Vec}]{% 
 				\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 
 				\hline
