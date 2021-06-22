@@ -1,9 +1,10 @@
 \documentclass[12pt,a4paper,oneside]{book}
-\usepackage[utf8]{vietnam}
+\usepackage[utf8x]{vietnam}
 \usepackage{amsmath, amsthm, amssymb,latexsym,amscd,amsfonts,enumerate,titlesec,titletoc}
 \usepackage[top=3.5cm, bottom=3.0cm, left=3.5cm, right=2.0cm]{geometry}
 % căn lề theo quy chuẩn KLTN
 \usepackage{color, fancyhdr, graphicx, wrapfig}
+\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,runcolor=black,urlcolor=black,unicode]{hyperref}
 %\usepackage[unicode]{hyperref}
 \usepackage{indentfirst}
 \usepackage{graphicx}
@@ -18,6 +19,8 @@
 \usepackage{url}
 \usepackage{etoolbox}
 \usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\usepackage{textcomp}
+
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
 
 %\usepackage[labelfont=bf]{caption}
@@ -147,7 +150,7 @@
 	\vskip 1,5cm
 	\hskip 9cm Thái Minh Triết
 	
-	\hskip 8.5cm Chu Hà Thảo Ngân
+	\hskip 8.6cm Chu Hà Thảo Ngân
 	}
 
 \chapter*{NHẬN XÉT CỦA GIẢNG VIÊN HƯỚNG DẪN}
@@ -172,24 +175,29 @@
 \chapter{GIỚI THIỆU CHUNG}
 
 	\section{Mục tiêu đề tài}
-	Mục tiêu đặt ra của bài toán nhằm tìm hiểu và xây dựng các mô hình máy học để nhận diện tin tức giả bằng cách phân loại các tin tức từ bộ dữ liệu theo 2 nhãn: REAL (tin thật) và FAKE (tin giả).
-	\section{Bài toán học máy}
-	Bài toán này thuộc lớp bài toán phân loại, có tổng 2 lớp đại diện: tin giả và tin thật.
-		
-	Đầu vào của bài toán là tiêu đề tin tức hoặc nội dung đoạn tin tức.
-		
-	Đầu ra là kết quả dự đoán: bằng 0 cho tin thật, bằng 1 cho tin giả.
+	Mục tiêu đặt ra của đồ án này nhằm tìm hiểu và xây dựng các mô hình Học máy để nhận diện tin tức giả bằng cách phân loại các tin tức từ bộ dữ liệu theo 2 nhãn: REAL (tin thật) và FAKE (tin giả). Những mô hình Học máy mà chúng tôi khảo sát trong đồ án này dựa trên 6 phương pháp sau đây: Logistic Regression, Multinomial Naive Bayes, Support Vector Machine, Passive Agressive, Decission Tree và Random Forest.
 	
-	\section{Quy trình giải quyết bài toán}
+	Ngoài ra, mục tiêu của đề tài còn nhằm tìm hiểu và so sánh khả năng trích xuất thông tin của một số bộ trích chọn đặc trưng gồm TFIDFVectorizer, Countvectorizer và Word2Vec, cũng như độ hiểu quả của chúng trên các mô hình Học máy khác nhau. Qua đó có thể tìm ra mô hình và bộ vector hóa mang lại hiệu suất cao nhất trên bộ dữ liệu.
+	
+	\section{Bài toán học máy}
+	Bài toán Nhận diện tin giả là một dạng điển hình của bài toán Supervised Learning (Học có giám sát), vì bộ dữ liệu sử dụng cho bài toán cần được gán nhãn rõ ràng. 
+	
+	Với việc phân loại tin thật và tin giả thì có thể thấy đây là một bài toán Phân lớp nhị phân (Binary Classification) với đầu vào và đầu ra như sau:
+	\begin{itemize}
+	\item \textbf{Input:} Thông tin về tiêu đề và nội dung của một tin tức.
+	\item \textbf{Output:} Một trong hai nhãn: FAKE (hay 0) nếu dự đoán là tin giả, REAL (hay 1) nếu dự đoán là tin thật.
+	\end{itemize}
+	
+	\section{Quy trình thực hiện bài toán}
 	
 	\begin{figure}[H]
 		\begin{center}
 			\includegraphics[width=0.88\columnwidth]{QuyTrinhHMTK}
 		\end{center}
-		\caption{Quy trình thực hiện bài toán}
+		\caption{Quy trình thực hiện bài toán Nhận diện tin giả}
 	\end{figure}
-	\section{Ứng dụng}
-
+	\section{Ứng dụng thực tiễn}
+	Mã nguồn của bài toán Nhận diện tin giả có thể được tích hợp thành các module sử dụng trên nền tảng web, đặc biệt là các trang báo điện tử không chính thống. Qua đó có thể xác định, kiểm soát và ngăn chặn kịp thời tin giả, tin sai lệch lây lan trên không gian mạng, góp phần mang lại sự ổn định trong cộng đồng, củng cố niềm tin của người dân và uy tín của các tổ chức xã hội.
 
 
 \chapter{TỔNG QUAN VỀ BỘ DỮ LIỆU}
@@ -197,21 +205,21 @@
 	
 
 	\section{Giới thiệu chung về bộ dữ liệu}
-
-	Bộ dữ liệu Detecting Fake News Dataset của tác giả Hassan Amin được chia sẻ trên nền tảng Kaggle (?) 
-		
-	Rahul Patodi (link drive thầy gửi) <--- ông này chỉ viết blog tổng hợp các dataset lên drive ổng (?)
+	
+	Bộ dữ liệu được chia sẻ bởi nhiều nguồn khác nhau trên nền tảng Kaggle. Thông qua tìm hiểu, chúng tôi tìm thấy được bộ dữ liệu gốc của tác giả Raluca Chitic đăng tải vào ngày 23/05/2018. Tại thời điểm đó, tác giả đã được trích dẫn là chủ nhân của bộ dữ liệu trong một số bài báo nghiên cứu (\href{https://www.researchgate.net/publication/339299161_Application_of_Supervised_Machine_Learning_Algorithms_to_Detect_Online_Fake_News}{\textit{Application of Supervised Machine Learning Algorithms to Detect Online Fake News}}).
+	
+	Sau đây là thông tin của bộ dữ liệu.
 	
 	\begin{table}[h!]
 		\begin{center}
-			\caption{Thông tin bộ dữ liệu.}
+			
 			\label{tab:table1}
 			\begin{tabular}{c|l}
 				\multicolumn{1}{c|}{\textbf{Thông tin}} & \multicolumn{1}{c}{\textbf{Nội dung}}\\	
 				\hline
 				Tên bộ dữ liệu & Detecting Fake News Dataset\\
 				\hline
-				Nguồn dữ liệu & \url{https://www.kaggle.com/hassanamin/textdb3}\\
+				Nguồn dữ liệu & \url{https://www.kaggle.com/rchitic17/real-or-fake}\\
 				\hline
 				Kích thước bộ dữ liệu & 6335 điểm dữ liệu\\
 				\hline
@@ -231,8 +239,9 @@
 					\tabitem REAL: Đây là tin tức giả\\
 				\end{tabular}\\
 				\hline
-				Thông tin Tác giả & Hassan Amin\\
+				Thông tin Tác giả & Raluca Chitic
 			\end{tabular}
+			\caption{Thông tin bộ dữ liệu.}
 		\end{center}
 	\end{table}
 
@@ -241,12 +250,160 @@
 
 
 
-\chapter{TIỀN XỬ LÝ VÀ VECTƠ HÓA DỮ LIỆU}
+\chapter{TIỀN XỬ LÝ VÀ VECTOR HÓA DỮ LIỆU}
+	
+	Trước khi thực hiện các bước tiền xử lý và vector hóa dữ liệu, chúng tôi sử dụng hàm traintestsplit() hỗ trợ bởi thư viên scikit-learn để tiến hành phân chia tập train và tập test với tỉ lệ 75\% train - 25\% test. 
+	
+	Ở mỗi tập dữ liệu, chúng tôi bỏ đi cột \textit{Unnamed} và gộp nội dung 2 cột \textit{title} và \textit{text} lại để làm dữ liệu đầu vào. Đối với nhãn \textit{label}, chúng tôi ánh xạ giá trị dạng chuỗi ký tự về dạng nhị phân để mô hình có thể hoạt động hiệu quả.
+		
+	\[
+	 label = \begin{cases}	    0 & \text{ nếu \textit{label} = FAKE} \\
+	  1 & \text{ nếu \textit{label} = REAL}
+	 \end{cases}
+	\]
+	
 	\section{Tiền xử lý dữ liệu}
+	
+	Chúng tôi tiến hành thực hiện tuần tự các bước tiền xử lý sau trên cả hai tập train và test.
+	
+	\subsection {Loại bỏ ký tự số}
+	
+	Trong một mẩu tin tức hay một bài viết, những con số thường mang tính định lượng và không làm thay đổi ý nghĩa nội dung. Do đó, cách tốt nhất là loại bỏ chúng để hạn chế nhiễu trong dữ liệu.
+	
+	Chúng tôi loại bỏ các ký tự số bằng cách duyệt qua từng ký tự trong nội dung mẩu tin, sử dụng phương thức \textit{isdigit()} nhằm xác định ký tự số và thay thế chúng bằng ký tự rỗng. Sau bước này, dữ liệu đã được lọc bỏ các chữ số hoàn toàn.
+	
+	\subsection {Loại bỏ dấu câu và các ký tự đặc biệt}
+	
+	Ở bước này, chúng tôi tiến hành loại bỏ các ký tự không phải là chữ cái tiếng Anh, bao gồm các dấu ngắt câu và các ký tự đặc biệt sau:
+	\begin{center}
+	!"\#\$\%\&'()*+, -./:;<=>?@[\textbackslash]\textasciicircum \_ \`\{|\}$\sim$“”¨«»®´·º½¾¿¡§‘’£₤
+	\end{center}
+		
+	Chúng tôi sử dụng hàm sub() trong module \textit{re} (Regular Expression) kết hợp với module \textit{string.punctuation} trong Python để tìm và loại bỏ đi những ký tự trên. 
+	
+	Sau khi thực hiện xong bước này, chúng tôi chuyển đổi nội dung của từng điểm dữ liệu thành danh sách các token bằng cách sử dụng phương thức \textit{split()} trong module \textit{re}, nhằm thực hiện các bước tiền xử lý tiếp theo.
+	
+	\subsection{Loại bỏ stop words}
+	
+	Stop words là những từ xuất hiện phổ biến nhưng không mang nhiều ý nghĩa. Trong tiếng Anh, một số từ là stop word như `a', `an', `the', `is'...  thường bị các công cụ tìm kiếm bỏ qua một phần hoặc hoàn toàn do chúng thường không liên quan đến nội dung mà văn bản đang đề cập.
+
+ 	Việc loại bỏ các stop words có thể mang lại một số hiệu quả nhất định. Kích thước dữ liệu có thể được cắt giảm mà không làm mất đi ý nghĩa của nội dung, giúp tiết kiệm tài nguyên tính toán và thời gian huấn luyện. Việc loại bỏ stop words cũng là cách hạn chế tác động của nhiễu đến mô hình, mô hình sẽ tập trung vào những phần nội dung mang nhiều ý nghĩa hơn để phân biệt tin thật và tin giả.
+ 	
+ 	Ở bước này, chúng tôi loại bỏ những token nằm trong danh sách stop words lấy từ module \textit{text.ENGLISH\_STOP\_WORDS} của thư viện scikit-learn.
+ 	
+ 	\subsection{Chuyển từ về dạng nguyên mẫu}
+ 	
+ 	Chúng tôi sử dụng hàm \textit{WordNetLemmatizer()} của bộ công cụ xử lý ngôn ngữ tự nhiên \textit{nltk toolkit} để thực hiện việc chuyển đổi các token về dạng nguyên mẫu. Việc chuyển đổi này nhằm  đơn giản hóa dữ liệu, giúp mô hình phân lớp tốt hơn.
+ 	
+ 	Sau bước này, tại mỗi điểm dữ liệu, chúng tôi gộp các token lại thành một văn bản hoàn chỉnh đã được tiền xử lý, sẵn sàng cho việc vector hóa để đưa vào các mô hình thực nghiệm.
+ 	
 	\section{Trích xuất đặc trưng}
-		\subsection{CountVectorizer}
-		\subsection{TFIDF}
-		\subsection{Word2Vec}
+	
+	\subsection{CountVectorizer}
+	
+	\subsection{TF-IDF}
+	
+
+			
+			TF-IDF viết tắt của Term Frequency - Inverse Document Frequency, là một hướng tiếp cận khác của mô hình Bag-of-Words. TF-IDF của một từ (cụm từ) hay token là một giá trị thể hiện mức độ quan trọng của từ (cụm từ) này trong một văn bản (document), mà bản thân văn bản này đang nằm trong một tập hợp các văn bản (corpus). Từ nào càng xuất hiện nhiều trong một văn bản và đồng thời xuất hiện trong các văn bản khác thì nó mang tính đặc trưng cao cho văn bản đó.
+	
+			\textbf{Công thức tính TF-IDF}
+			 \paragraph{TF - Term Frequency}
+			là giá trị thể hiện tần suất xuất hiện của một từ trong văn bản. Nếu từ đó xuất hiện càng nhiều thì trọng số càng cao. Công thức tính bằng thương của số lần xuất hiện 1 từ trong văn bản và số lần xuất hiện nhiều nhất của một từ bất kỳ trong văn bản đó. Giá trị này sẽ thuộc khoảng [0, 1].
+			\begin{equation}
+				\operatorname{tf}(t, d)= \frac{\operatorname{f}(t,d)}{max\{\operatorname{f}(w,d) : w \in d \}}
+			\end{equation}
+		 	\begin{itemize}
+		 		\item \textbf{$\operatorname{f}(t,d)$} – số lần xuất hiện từ \textbf{t} trong văn bản \textbf{d}
+		 		\item \textbf{$max\{\operatorname{f}(w,d) : w \in d \}$} – số lần xuất hiện nhiều nhất của một từ bất kỳ trong văn bản.
+		 	\end{itemize}
+		 	
+	 		 Nếu chỉ xét theo tần suất xuất hiện của từng từ thì việc phân loại văn bản rất có thể cho kết quả sai dẫn tỷ lệ chính xác sẽ thấp. Giải pháp khắc phục cho điều này là sử dụng phương pháp thống kê \textbf{TF-IDF}.
+	 		\paragraph{IDF – Inverse Document Frequency} là tần suất xuất hiện của một từ trong tập văn bản. Mục đích tính IDF là để giảm giá trị của những từ phổ biến. 
+	 		\begin{equation}
+	 			\operatorname{idf}(t,D) = \log\frac{\lvert D \rvert}{\lvert \{ d \in D : t \in d \} \rvert}
+	 		\end{equation}
+	 		\begin{itemize}
+	 			\item $\lvert D \rvert$ – tổng số văn bản trong tập \textbf{D}
+	 			\item $\lvert \{ d \in D : t \in d \} \rvert$ – số văn bản chứa từ nhất định, với điều kiện \textbf{t} xuất hiện trong văn bản \textbf{d}. Nếu từ đó không xuất hiện ở bất cứ 1 văn bản nào trong tập thì mẫu số sẽ bằng 0. Do đó, phép chia cho không không hợp lệ, vì thế người ta thường thay bằng mẫu thức là $1 + \lvert \{ d \in D : t \in d \} \rvert$
+	 		\end{itemize}
+	
+	 		\paragraph{Giá trị TF-IDF}
+			\begin{equation}
+			\operatorname{tfidf}(t,d,D) = \operatorname{tf}(t,d) \times \operatorname{idf}(t,D)
+			\end{equation}
+			
+			Trong ngôn ngữ luôn có những từ xuất hiện thường xuyên hơn. Chính vì vậy  ta cần có một phương pháp để làm mịn đường cong tần số trên hay là việc cân bằng mức độ quan trọng giữa các từ. TF-IDF cũng được sử dụng để lọc những từ stopwords trong các bài toán như tóm tắt văn bản và phân loại văn bản.
+			
+			Để chuyển văn bản đầu vào thành các vector TFIDF, chúng tôi sử dụng công cụ \textit{TfidfVectorizer} của thư viện sklearn với các tham số sau:
+			
+			\begin{itemize}
+			\item ngram\_range = (1,2): tính TFIDF cho Unigram và Bigram.
+			\item analyzer = `word' : đơn vị tính TFIDF là từ.
+			\item min\_df = 5: bỏ qua các từ hoặc cụm từ chỉ xuất hiện trong dưới 5 văn bản.
+			\item max\_df = 0.9: bỏ qua các từ hoặc cụm từ xuất hiện trong hơn 90\% tổng số văn bản.
+			\item strip\_accent = `unicode': loại bỏ các ký tự Unicode.
+			\item sublinear\_tf = True: Thay tf bằng 1+ $\log$(tf)
+			\end{itemize}
+			
+			
+	\subsection{Word2Vec}
+	
+	Trong Xử lý ngôn ngữ tự nhiên, Word Embedding là một kỹ thuật được sử dụng để chuyển hóa văn bản, từ hay cụm từ về dạng vector số, để từ đó làm đầu vào cho việc huấn luyện các mô hình Học máy hoặc các mô hình Học sâu. Word Embedding đảm bảo rằng các từ tương tự nhau sẽ có giá trị vector gần giống nhau. Ví dụ như vector của King, Queen hoặc vector của Man, Woman là tương tự nhau và đặc biệt ta có King – Man + Woman ≈ Queen.
+	
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.8\columnwidth]{wordembedding}
+		\end{center}
+		\caption{Mô tả các vector Word Embedding Queen, King, Man, Woman}
+	\end{figure}
+	
+	Word2Vec là một trong những mô hình đầu tiên về Word Embedding sử dụng mạng neural và vẫn còn khá phổ biến ở thời điểm hiện tại, có khả năng vector hóa từng từ dựa trên tập các từ chính và các từ ngữ cảnh.
+	
+	Về mặt toán học, thực chất Word2Vec là việc ánh xạ từ một tập các từ vựng (vocabulary) sang một không gian vector, mỗi vector được biểu diễn bởi n số thực. Mỗi từ ứng với 1 vector cố định. Sau quá trình huấn luyện mô hình bằng thuật toán backprobagation, trọng số các vector của từng từ được cập nhật liên tục. Từ đó, ta có thể thực hiện tính toán bằng các khoảng cách quen thuộc như euclide, cosine, mahattan,... Những từ càng "gần" nhau về mặt khoảng cách thường là các từ hay xuất hiện cùng nhau trong văn cảnh, các từ đồng nghĩa, các từ thuộc cùng 1 trường từ vựng,
+	
+	Mô hình chung của Word2Vec dựa trên 1 mạng neural khá đơn giản. Gọi V là tập các tất cả các từ hay vocabulary với n từ khác nhau. Layer input biểu diễn dưới dạng one-hot encoding với n node đại diện cho n từ trong vocabulary. Activation function (hàm kích hoạt) chỉ có tại layer cuối là softmax function, loss function là cross entropy loss, tương tự như cách biểu diễn mô hình của các bài toán classification thông thường. Ở giữa hai layer input và output là một layer trung gian với size = k, chính là vector sẽ được sử dụng để biểu diễn các từ sau khi huấn luyện mô hình.
+	
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.7\columnwidth]{w2v_ex}
+		\end{center}
+		\caption{Ví dụ về mô hình Word2Vec}
+	\end{figure}
+	
+	Trong Word2Vec có hai khái niệm quan trọng là \textit{center word} và \textit{context words}.
+	Hiểu đơn giản là ta sẽ sử dụng từ ở giữa (\textit{center word}) cùng với các từ xung quanh nó (\textit{context words}) để mô hình thông qua đó để tiến hành huấn luyện. Dựa trên đó, mô hình Word2Vec có hai cách tiếp cận chính:
+	
+	\begin{itemize}
+	\item \textbf{CBOW (Continuous Bag of Words)} 
+	
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.32\columnwidth]{cbow}
+		\end{center}
+		\caption{Mô hình CBOW}
+	\end{figure}
+	Ý tưởng chính của CBOW là dựa vào các \textit{context word} để dự đoán \textit{center word}. CBOW có điểm thuận lợi là huấn luyện mô hình nhanh hơn so với mô hình Skip-gram, thường cho kết quả tốt hơn với frequence words (hay các từ thường xuất hiện trong ngữ cảnh)
+	\item \textbf{Skip-gram}
+	
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.32\columnwidth]{skipgram}
+		\end{center}
+		\caption{Mô hình Skip-gram}
+	\end{figure}
+		
+	Mô hình Skip-gram thì ngược lại với CBOW, dùng \textit{target word} để dự đoán các từ xung quanh. Skip-gram huấn luyện chậm hơn. Thường làm việc khá tốt với các tập data nhỏ, đặc biệt do đặc trưng của mô hình nên khả năng vector hóa cho các từ ít xuất hiện tốt hơn CBOW.
+	
+	\end{itemize}
+	
+	Trong đồ án này, chúng tôi sử dụng mô hình Word2Vec đã được huấn luyện sẵn trên bộ dữ liệu Google News kích thước 300 chiều với khoảng 3 triệu từ và cụm từ. Thông thường việc huấn luyện trên có thể mất đến hàng giờ, tuy nhiên mô hình đã có sẵn nên việc tải và load lên Google Colab với thư viện Gensim chỉ mất vài phút. 
+	
+	Sau khi đã có mô hình, chúng tôi thực hiện việc chuyển đổi dữ liệu dạng văn bản về dạng vector số thực bằng cách lấy trung bình của các giá trị vector từ pretrain model ứng với từng từ trong mỗi văn bản. Một cách chi tiết hơn, chúng tôi xét mỗi từ trong một văn bản, nếu một từ có trong bộ pretrain model Googel News Vector, mô hình sẽ trả về một vector số thực 300 chiều ứng với từ đó. Trung bình của các vector số thực này sẽ là một vector 300 chiều đại diện cho điểm dữ liệu (văn bản).
+	
+	Như vậy ma trận thu được sau khi chuyển đổi sẽ có số chiều là n x 300, với n là kích thước của tập huấn luyện hay tập kiểm thử.
+	
+	Để không gặp lỗi nhận giá trị âm khi huấn luyện một số mô hình như MultinomialNB, chúng tôi sử dụng công cụ \textit{MinmaxScaler} của thư viện scikit-learn để ánh xạ tập số thực về tập giá trị nằm trong khoảng (0,1)
 
 \chapter{HUẤN LUYỆN VÀ TINH CHỈNH CÁC MÔ HÌNH HỌC MÁY}
 	\section{Cơ sở lý thuyết}
@@ -362,7 +519,7 @@
 		
 		Thuật toán Pasive Agressive là một phân nhóm các thuật toán Online learning dùng cho hai bài toán Hồi quy và Phân loại. Thuật toán này được giới thiệu lần đầu vào năm 2006, bởi Koby Crammer cùng các cộng sự tại Đại học Hebrew của Jerusalem, Israel.
 		
-		Trong các thuật toán Online learning, các điểm dữ liệu được chia nhỏ và đưa vào mô hình một cách tuần tự, và dựa trên mỗi nhóm nhỏ dữ liệu này, các mô hình Học máy sẽ 'học' và tự điều chỉnh. Cơ chế này rất hữu ích trong trường hợp kích thước dữ liệu quá lớn khiến cho việc huấn luyện trên toàn bộ tâp dữ liệu gặp nhiều khó khăn. Điển hình là bài toán nhận diện tin giả trên các nền tảng mạng xã hội như Twitter, Facebook,... nơi mà dữ liệu được sinh ra liên tục và nhanh chóng đạt kích thước khổng lồ. Trong trường hợp đó, các thuật toán Online Learning được xem là lý tưởng.
+		Trong các thuật toán Online learning, tập huấn luyện được chia nhỏ và đưa vào mô hình một cách tuần tự, và dựa trên mỗi nhóm nhỏ dữ liệu này, các mô hình Học máy sẽ 'học' và tự điều chỉnh. Cơ chế này rất hữu ích trong trường hợp kích thước dữ liệu quá lớn khiến cho việc huấn luyện trên toàn bộ tâp dữ liệu gặp nhiều khó khăn. Điển hình là bài toán nhận diện tin giả trên các nền tảng mạng xã hội như Twitter, Facebook,... nơi mà dữ liệu được sinh ra liên tục và nhanh chóng đạt kích thước khổng lồ. Trong trường hợp đó, các thuật toán Online Learning được xem là lý tưởng.
 		
 		
 		\begin{figure}[H]
@@ -385,7 +542,7 @@
 		\item \textbf{C:} là độ chính quy hóa của mô hình. C càng lớn thì độ Agressive của mô hình càng cao.
 		\item \textbf{max\_iter:} số lần lặp tối đa của mô hình trên tập dữ liệu huấn luyện. Giá tri mặc định là 1000.
 		\item \textbf{tol:} tiêu chuẩn dừng vòng lặp của mô hình. Giá trị mặc định là 0.001.
-		\item \textbf{early\_stopping:} Nếu nhận giá trị True, mô hình sẽ tự động dừng huấn luyện nếu kết quả thẩm định không cải thiện.
+		\item \textbf{early\_stopping:} Nếu nhận giá trị True, mô hình sẽ tự động dừng huấn luyện nếu kết quả trên tập thẩm định không cải thiện.
 		\end{itemize}
 		\subsection{Decission Tree}
 		Decision Tree (cây quyết định) là mô hình thuộc nhóm thuật toán học máy học có giám sát (Supervised Learning). Mô hình cây quyết định cho biết giá trị của một biến mục tiêu thuộc lớp nào bằng cách dựa vào các giá trị của một tập các biến dự đoán, hay tập các câu hỏi.
@@ -418,7 +575,7 @@
 		
 		Công thức tổng quát Entropy:
 		\begin{equation}
-			Entropy(t) = - \sum_{j} [p(j|t)]^2 * log_{2}[p(j|t)] 
+			Entropy(t) = - \sum_{j} [p(j|t)]^2 \times log_{2}[p(j|t)] 
 		\end{equation}
 	
 		Khi xác suất p càng lớn thì $log_{2}[p(j|t)]$ sẽ mang giá trị âm tiến tới 0, nhân với giá trị âm xác suất thì công thức Entropy luôn bé hơn 1. Giống như Gini index, giá trị Entropy càng nhỏ thì nút càng chứa nhiều điểm dữ liệu có cùng lớp j bất kỳ.
@@ -437,9 +594,9 @@
 		Trong những năm gần đây, Random Forest được sử dụng khá phổ biến bởi những điểm vượt trội của nó so với các thuật toán khác: xử lý được với dữ liệu có số lượng các thuộc tính lớn, làm việc với tập dữ liệu thiếu giá trị, thường có độ chính xác cao trong phân loại, tránh được overfitting với tập dữ liệu và quá trình học nhanh.
 		
 	\section{Huấn luyện và tinh chỉnh mô hình}
-		Sau khi đã nắm vững cơ sở lý thuyết của các phương pháp Học máy, chúng tôi tiến hành huấn luyện và thẩm định các bộ giá trị siêu tham số ứng với từng mô hình nhằm tìm ra bộ tham số tối ưu.
+		Sau khi đã tìm hiểu cơ sở lý thuyết của các phương pháp Học máy, chúng tôi tiến hành huấn luyện và thẩm định các bộ giá trị siêu tham số ứng với từng mô hình nhằm tìm ra bộ tham số tối ưu.
 		
-		Do hạn chế về mặt tài nguyên và thời gian, chúng tôi chỉ thử nghiệm một số lượng nhất định giá trị siêu tham số của các mô hình, do đó các mô hình sau khi tinh chỉnh có thể chưa là tốt nhất. Sau cùng, chúng tôi mong muốn có thể đưa ra bộ tham số tốt nhất của từng mô hình trên từng bộ vector hóa cụ thể, nhằm thực hiện việc so sánh và đánh giá một cách khách quan nhất về hiệu suất giữa các mô hình trên bộ dữ liệu.
+		Do hạn chế về mặt tài nguyên và thời gian, chúng tôi chỉ thử nghiệm một số lượng nhất định tham số của các mô hình, do đó các mô hình sau khi tinh chỉnh có thể chưa là tốt nhất. Sau cùng, chúng tôi mong muốn có thể đưa ra bộ tham số tốt nhất của từng mô hình trên từng bộ vector hóa cụ thể, nhằm thực hiện việc so sánh và đánh giá một cách khách quan nhất về hiệu suất giữa các mô hình trên bộ dữ liệu.
 		
 		Việc tinh chỉnh mô hình Học máy được thực hiện bằng cách sử dụng công cụ GridsearchCV hỗ trợ bởi thư viện sklearn, đánh giá qua phương pháp k-Fold Cross Validation với k=3 trên tập huấn luyện đã được tiền xử lý và vector hóa, cùng độ đo F1\_macro.
 	
@@ -455,31 +612,29 @@
 						\multicolumn{4}{|c|} {\rule{0pt}{20pt} \textbf{Kết quả tinh chỉnh mô hình với GridSearchCV}} \\[0.8em]
 						\hline 
 						\rule{0pt}{25pt}&\centering \textbf{CountVectorizer} &\centering \textbf{TfidfVectorizer}&\centering \textbf{Word2Vec} \tabularnewline
+						\hline
+						\multirow{2}{2em}{\textbf{LogisticRegression}} & solver = sag & solver = saga & solver = lbfgs \\
+						& C = 0.1 & C = 1000 & C = 10 \\ 
 						\hline 
-						\multirow{2}{2em}{\textbf{LogisticRegression}} & solver = sag & solver = saga & solver = newton-cg \\
-						& C = 1 & C = 1000 &C = 10 \\ 
+						\multirow{2}{4em}{\textbf{MultinomialNB}} & alpha = 0.1 & alpha = 0.1 & alpha = 0.8 \\ 
+						& fit\_prior = True & fit\_prior = True &fit\_prior = True\\ 
 						\hline 
-						\multirow{2}{4em}{\textbf{MultinomialNB}} & alpha = 0.1 & alpha = 0.1 & alpha = 1.1 \\ 
-						& fit\_prior = True & fit\_prior = False &fit\_prior = True \\ 
-						\hline 
-						\multirow{3}{1em}{\textbf{SVC}} & kernel = linear & kernel = rbf &kernel = rbf  \\
-						& C = 0.1 & C = 100 & C = 10 \\ 
+						\multirow{3}{1em}{\textbf{SVC}} & kernel = linear & kernel = rbf & kernel = rbf  \\
+						& C = 0.1 & C = 10 & C = 10 \\ 
 						& gama = 1 & gamma = 0.1 &gamma = 0.1  \\
 						\hline
-						\multirow{2}{4em}{\textbf{PassiveAgressive\\Classifier}} & C = 0.001 & C = 0.1 &C = 0.001 \\
+						\multirow{2}{4em}{\textbf{PassiveAgressive\\Classifier}} & C = 0.001 & C = 0.1 &C = 0.01 \\
 						& early\_stopping = True & early\_stopping = False & early\_stopping = False\\                         
 						\hline 
 						\multirow{4}{4em}{\textbf{DecissionTree\\Classifier}} & criterion = entropy & criterion = gini & criterion = entropy  \\
-						& max\_depth = None & max\_depth = 16 & max\_depth = 6 \\ 
-						& min\_sample\_leaf = 2 & min\_sample\_leaf = 1 & min\_sample\_leaf = 3  \\
-						& min\_sample\_split = 5  & min\_sample\_split = 2 & min\_sample\_split = 2  \\
+						& max\_depth = None & max\_depth = 32 & max\_depth = None \\ 
+						& min\_sample\_leaf = 1 & min\_sample\_leaf = 2 & min\_sample\_leaf = 1  \\
+						& min\_sample\_split = 2  & min\_sample\_split = 5 & min\_sample\_split = 2  \\
 						\hline 
-						\multirow{6}{4em}{\textbf{RadomForest\\Classifier}} & criterion = entropy & criterion = gini & criterion = entropy  \\
-						& max\_depth = None & max\_depth = None & max\_depth = None \\
-						& min\_sample\_split = 5 & min\_sample\_split = 10 & min\_sample\_split =  5 \\
+						\multirow{4}{4em}{\textbf{RadomForest\\Classifier}} & criterion = entropy & criterion = gini & criterion = entropy  \\
+						& min\_sample\_split = 2 & min\_sample\_split = 5 & min\_sample\_split =  5 \\
 						& min\_sample\_leaf = 1 & min\_sample\_leaf = 1 & min\_sample\_leaf =  1 \\
-						& max\_features = auto & max\_features = auto & max\_features =  auto \\
-						& n\_estimators = 400 & n\_estimators = 400 & n\_estimators = 300 \\
+						& n\_estimators = 100 & n\_estimators = 400 & n\_estimators = 300 \\
 						\hline
 					\end{tabular}
 					\caption{Bảng kết quả GridSearchCV}
@@ -501,8 +656,8 @@
 		Trong bài toán phân lớp nhị phân, Confusion Matrix là một ma trận có kích thước là 2x2 (như hình 5.1), trong đó:
 		\begin{itemize}
 		\item \textbf{True Positive (TP):} số điểm dữ liệu có nhãn là Positive được dự đoán là Positive.
-		\item \textbf{False Positive (FP):} số điểm dữ liệu có nhãn là Positive được dự đoán là Negative.
-		\item \textbf{False Negative (FN):} số điểm dữ liệu có nhãn là Negative được dự đoán là Positive.
+		\item \textbf{False Positive (FP):} số điểm dữ liệu có nhãn là Negative bị dự đoán là Positive.
+		\item \textbf{False Negative (FN):} số điểm dữ liệu có nhãn là Positive bị dự đoán là Negative.
 		\item \textbf{True Negative (TN):} số điểm dữ liệu có nhãn là Negative được dự đoán là Negative.
 		\end{itemize}
 		
@@ -575,21 +730,21 @@
 		\renewcommand{\arraystretch}{1.5}
 		\small
 		\begin{center}
-			\begin{tabular}{ | P{12.8em} | P{3.3cm}| P{3cm} | P{2.8cm} |} 
+			\begin{tabular}{ | P{12.8em} | P{3.3cm}| P{3cm} | P{2.5cm} |} 
 			\hline
 		      & \textbf{CountVectorizer} & \textbf{TfidfVectorizer} & \textbf{Word2Vec} \\ 
 			\hline
-			\textbf{LogisticRegression} & \textbf{0.9362} & 0.9596 & 0.9135 \\ 
+			\textbf{LogisticRegression} & \textbf{0.9242} & 0.9533 & 0.9154\\ 
 			\hline
-			\textbf{MultinomialNB} & 0.9148 & 0.9205 & 0.8062 \\
+			\textbf{MultinomialNB} & 0.9091 & 0.9129 & 0.7936 \\
 			\hline
-			\textbf{SVC} & 0.9186 & 0.9609 & \textbf{0.9293} \\
+			\textbf{SVC} & 0.9053 & 0.9520 & \textbf{0.9249} \\
 			\hline
-			\textbf{PassiveAgressiveClassifier} & 0.9274 & \textbf{0.9628} & 0.9085 \\
+			\textbf{PassiveAgressiveClassifier} & 0.9154 & \textbf{0.9552} & 0.8958 \\
 			\hline
-			\textbf{DecissionTreeClassifier} & 0.8119 & 0.8176 & 0.7898 \\
+			\textbf{DecissionTreeClassifier} & 0.8182 & 0.7891 & 0.7841 \\
 			\hline
-			\textbf{RandomForestClassifer} & 0.9104 & 0.9173 & 0.9034 \\
+			\textbf{RandomForestClassifer} & 0.9066 & 0.9104 & 0.8996 \\
 			\hline
 			\end{tabular}
 		\end{center}
@@ -598,17 +753,17 @@
 	\hfill
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=1.03\textwidth]{cvroc}
+		\includegraphics[width=1\textwidth]{cvroc}
 		\caption{Đường cong ROC cho bộ CountVectorizer}
 	\end{figure}
 	
 	\begin{figure}[H]
-		\includegraphics[width=1.03\textwidth]{tfroc}
+		\includegraphics[width=1\textwidth]{tfroc}
 		\caption{Đường cong ROC cho bộ TfidfVectorizer} 
 	\end{figure}
 	\hfill
 	\begin{figure}[H]
-		\includegraphics[width=1.03\textwidth]{w2vroc}
+		\includegraphics[width=1\textwidth]{w2vroc}
 		\caption{Đường cong ROC cho bộ Word2Vec} 
 	\end{figure}
 	\pagebreak
@@ -634,11 +789,11 @@
 				\hline
       			  & precision & recall & f1-score & support \\ 
 				\hline
-				0 & 0.93 & 0.94 & 0.94 & 794\\ 
+				0 & 0.92 & 0.93 & 0.92 & 794\\ 
 				\hline
-				1 & 0.94 & 0.93 & 0.94 & 790\\
+				1 & 0.93 & 0.92 & 0.92 & 790\\
 				\hline
-				macro avg & 0.94 & 0.94 & 0.94 & 1584\\
+				macro avg & 0.92 & 0.92 & 0.92 & 1584\\
 				\hline
 				\end{tabular}} 
 			\hfill
@@ -649,11 +804,11 @@
 				\hline
       			  & precision & recall & f1-score & support \\ 
 				\hline
-				0 & 0.96 & 0.96 & 0.96 & 794\\ 
+				0 & 0.95 & 0.95 & 0.95 & 794\\ 
 				\hline
-				1 & 0.96 & 0.96 & 0.96 & 790\\
+				1 & 0.95 & 0.95 & 0.95 & 790\\
 				\hline
-				macro avg & 0.96 & 0.96 & 0.96 & 1584\\
+				macro avg & 0.95 & 0.95 & 0.95 & 1584\\
 				\hline
 				\end{tabular}} 
 			\hfill
@@ -666,10 +821,10 @@
 				\hline
 				0 & 0.93 & 0.90 & 0.91 & 794\\
 				\hline
-				1 & 0.90 & 0.93 & 0.91 & 790\\ 
+				1 & 0.90 & 0.94 & 0.92 & 790\\ 
 				\hline
 
-				macro avg & 0.91 & 0.91 & 0.91 & 1584\\
+				macro avg & 0.92 & 0.92 & 0.92 & 1584\\
 				\hline
 				
 				\end{tabular}}
@@ -703,9 +858,9 @@
 		\hline
 	      & precision & recall & f1-score & support \\ 
 		\hline
-		0 & 0.92 & 0.91 & 0.91 & 794\\
+		0 & 0.91 & 0.91 & 0.91 & 794\\
 		\hline
-		1 & 0.91 & 0.92 & 0.92 & 790\\ 
+		1 & 0.91 & 0.91 & 0.91 & 790\\ 
 		\hline
 
 		macro avg & 0.91 & 0.91 & 0.91 & 1584\\
@@ -719,12 +874,12 @@
 		\hline
 	      & precision & recall & f1-score & support \\ 
 		\hline
-		0 & 0.92 & 0.93 & 0.92 & 794\\
+		0 & 0.91 & 0.92 & 0.91 & 794\\
 		\hline
-		1 & 0.92 & 0.92 & 0.92 & 790\\ 
+		1 & 0.92 & 0.91 & 0.91 & 790\\ 
 		\hline
 
-		macro avg & 0.92 & 0.92 & 0.92 & 1584\\
+		macro avg & 0.91 & 0.91 & 0.91 & 1584\\
 		\hline
 		\end{tabular}} 
 	\hfill
@@ -735,12 +890,12 @@
 		\hline
 	      & precision & recall & f1-score & support \\ 
 		\hline
-		0 & 0.81 & 0.81 & 0.81 & 794\\
+		0 & 0.79 & 0.80 & 0.80 & 794\\
 		\hline
-		1 & 0.81 & 0.81 & 0.81 & 790\\ 
+		1 & 0.80 & 0.79 & 0.79 & 790\\ 
 		\hline
 
-		macro avg & 0.81 & 0.81 & 0.81 & 1584\\
+		macro avg & 0.79 & 0.79 & 0.79 & 1584\\
 		\hline
 		
 		\end{tabular}}
@@ -772,12 +927,12 @@
 		\hline
 	      & precision & recall & f1-score & support \\ 
 		\hline
-		0 & 0.92 & 0.92 & 0.92 & 794\\
+		0 & 0.90 & 0.91 & 0.91 & 794\\
 		\hline
-		1 & 0.92 & 0.92 & 0.92 & 790\\ 
+		1 & 0.91 & 0.90 & 0.90 & 790\\ 
 		\hline
 
-		macro avg & 0.92 & 0.92 & 0.92 & 1584\\
+		macro avg & 0.91 & 0.91 & 0.91 & 1584\\
 		\hline
 		\end{tabular}} 
 	\hfill
@@ -788,11 +943,11 @@
 		\hline
 	      & precision & recall & f1-score & support \\ 
 		\hline
-		0 & 0.96 & 0.96 & 0.96 & 794\\ 
+		0 & 0.95 & 0.95 & 0.95 & 794\\ 
 		\hline
-		1 & 0.96 & 0.96 & 0.96 & 790\\
+		1 & 0.95 & 0.95 & 0.95 & 790\\
 		\hline
-		macro avg & 0.96 & 0.96 & 0.96 & 1584\\
+		macro avg & 0.95 & 0.95 & 0.95 & 1584\\
 		\hline
 		\end{tabular}} 
 	\hfill
@@ -803,12 +958,12 @@
 		\hline
 	      & precision & recall & f1-score & support \\ 
 		\hline
-		0 & 0.94 & 0.92 & 0.93 & 794\\
+		0 & 0.95 & 0.90 & 0.92 & 794\\
 		\hline
-		1 & 0.92 & 0.94 & 0.93 & 790\\ 
+		1 & 0.90 & 0.95 & 0.93 & 790\\ 
 		\hline
 
-		macro avg & 0.93 & 0.93 & 0.93 & 1584\\
+		macro avg & 0.93 & 0.92 & 0.92 & 1584\\
 		\hline
 		
 		\end{tabular}}
@@ -840,12 +995,12 @@
 		\hline
 	      & precision & recall & f1-score & support \\ 
 		\hline
-		0 & 0.92 & 0.94 & 0.93 & 794\\
+		0 & 0.91 & 0.93 & 0.92 & 794\\
 		\hline
-		1 & 0.94 & 0.91 & 0.93 & 790\\ 
+		1 & 0.93 & 0.90 & 0.91 & 790\\ 
 		\hline
 
-		macro avg & 0.93 & 0.93 & 0.93 & 1584\\
+		macro avg & 0.92 & 0.92 & 0.92 & 1584\\
 		\hline
 		\end{tabular}} 
 	\hfill
@@ -856,9 +1011,9 @@
 		\hline
 	      & precision & recall & f1-score & support \\ 
 		\hline
-		0 & 0.97 & 0.96 & 0.96 & 794\\
+		0 & 0.96 & 0.95 & 0.96 & 794\\
 		\hline
-		1 & 0.96 & 0.97 & 0.96 & 790\\ 
+		1 & 0.95 & 0.96 & 0.96 & 790\\ 
 		\hline
 
 		macro avg & 0.96 & 0.96 & 0.96 & 1584\\
@@ -872,12 +1027,12 @@
 		\hline
 	      & precision & recall & f1-score & support \\ 
 		\hline
-		0 & 0.93 & 0.89 & 0.91 & 794\\
+		0 & 0.86 & 0.95 & 0.90 & 794\\
 		\hline
-		1 & 0.89 & 0.93 & 0.91 & 790\\ 
+		1 & 0.94 & 0.85 & 0.89 & 790\\ 
 		\hline
 	
-		macro avg & 0.91 & 0.91 & 0.91 & 1584\\
+		macro avg & 0.90 & 0.90 & 0.90 & 1584\\
 		\hline
 		
 		\end{tabular}}
@@ -909,11 +1064,11 @@
 		\hline
 	      & precision & recall & f1-score & support \\ 
 		\hline
-		0 & 0.81 & 0.80 & 0.81 & 794\\ 
+		0 & 0.83 & 0.81 & 0.82 & 794\\ 
 		\hline
-		1 & 0.80 & 0.82 & 0.81 & 790\\
+		1 & 0.81 & 0.83 & 0.82 & 790\\
 		\hline
-		macro avg & 0.81 & 0.81 & 0.81 & 1584\\
+		macro avg & 0.82 & 0.82 & 0.82 & 1584\\
 		\hline
 		\end{tabular}} 
 	\hfill
@@ -924,12 +1079,12 @@
 		\hline
 	      & precision & recall & f1-score & support \\ 
 		\hline
-		0 & 0.80 & 0.85 & 0.82 & 794\\
+		0 & 0.77 & 0.83 & 0.80 & 794\\
 		\hline
-		1 & 0.84 & 0.79 & 0.81 & 790\\ 
+		1 & 0.81 & 0.75 & 0.78 & 790\\ 
 		\hline
 
-		macro avg & 0.82 & 0.82 & 0.82 & 1584\\
+		macro avg & 0.79 & 0.79 & 0.79 & 1584\\
 		\hline
 		\end{tabular}} 
 	\hfill
@@ -940,12 +1095,12 @@
 		\hline
 	      & precision & recall & f1-score & support \\ 
 		\hline
-		0 & 0.77 & 0.83 & 0.80 & 794\\
+		0 & 0.79 & 0.78 & 0.78 & 794\\
 		\hline
-		1 & 0.82 & 0.75 & 0.78 & 790\\ 
+		1 & 0.78 & 0.79 & 0.78 & 790\\ 
 		\hline
 
-		macro avg & 0.79 & 0.79 & 0.79 & 1584\\
+		macro avg & 0.78 & 0.78 & 0.78 & 1584\\
 		\hline
 		\end{tabular}}
 	\hrule
@@ -976,9 +1131,9 @@
 		\hline
 	      & precision & recall & f1-score & support \\ 
 		\hline
-		0 & 0.91 & 0.92 & 0.91 & 794\\
+		0 & 0.90 & 0.92 & 0.91 & 794\\
 		\hline
-		1 & 0.92 & 0.90 & 0.91 & 790\\ 
+		1 & 0.91 & 0.90 & 0.91 & 790\\ 
 		\hline
 
 		macro avg & 0.91 & 0.91 & 0.91 & 1584\\
@@ -992,11 +1147,11 @@
 		\hline
 	      & precision & recall & f1-score & support \\ 
 		\hline
-		0 & 0.92 & 0.92 & 0.92 & 794\\ 
+		0 & 0.91 & 0.92 & 0.91 & 794\\ 
 		\hline
-		1 & 0.92 & 0.92 & 0.92 & 790\\
+		1 & 0.91 & 0.91 & 0.91 & 790\\
 		\hline
-		macro avg & 0.92 & 0.92 & 0.92 & 1584\\
+		macro avg & 0.91 & 0.91 & 0.91 & 1584\\
 		\hline
 		\end{tabular}} 
 	\hfill
@@ -1009,7 +1164,7 @@
 		\hline
 		0 & 0.89 & 0.92 & 0.90 & 794\\
 		\hline
-		1 & 0.91 & 0.89 & 0.90 & 790\\ 
+		1 & 0.91 & 0.88 & 0.90 & 790\\ 
 		\hline
 
 		macro avg & 0.90 & 0.90 & 0.90 & 1584\\
@@ -1023,7 +1178,27 @@
 \end{table}
 
 \chapter{PHÂN TÍCH LỖI VÀ HƯỚNG PHÁT TRIỂN}
-\section{Phân tích lỗi}
+\section{Phân tích lỗi mô hình tốt nhất}
+
+Qua kết quả đánh giá tổng hợp thu được có thể thấy mô hình PassiveAgressiveClassifier cho hiệu suất cao nhất trên bộ TfidfVectorizer.
+
+\subsection{Lỗi False Positive}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{fp1gram}
+	\caption{Những từ Unigram xuất hiện nhiều ở lỗi False Positive}
+\end{figure}
+
+
+
+\subsection{Lỗi False Negative}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{fn1gram}
+	\caption{Những từ Unigram xuất hiện nhiều ở lỗi False Negative}
+\end{figure}
+
 \section{Hướng phát triển}
 
 \chapter*{KẾT LUẬN}
