@@ -338,6 +338,59 @@
 	\section{Trích xuất đặc trưng}
 	
 	\subsection{CountVectorizer}
+	\textbf{Bag-of-Words}
+	
+	Mô hình máy học không thể làm việc trực tiếp với văn bản thô, do đó chúng ta sẽ đưa văn bản thô thành dạng vector số. 
+	
+	Bag-of-Words hay BoW là một kĩ thuật đơn giản, linh hoạt và khá hiệu quả trong xử lý ngôn ngữ tự nhiên. Mô hình BoW đơn giản là đưa các từ, các câu hay đoạn văn ở dạng text về vector có độ dài cố định mà mỗi phần tử là một số. Những con số này số lượng của các từ xuất hiện trong văn bản. Trong mô hình này, một văn bản được thể hiện dưới dạng túi (multiset) chứa các từ của nó, được gọi là "túi" vì mô hình chỉ quan tâm liệu từ đó xuất hiện bao nhiêu lần trong văn bản, nhưng không quan tâm đến ngữ pháp và thậm chí trật tự từ.
+	
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.8\columnwidth]{bow.png}
+		\end{center}
+		\caption{Ví dụ Bag-of-Words}
+	\end{figure}
+	Ở ví dụ trên, dựa trên 3 văn bản, ta có danh sách tập các từ được sử dụng, danh sách này hay còn gọi là từ điển (vocabulary) với 18 từ. Sau khi áp dụng BoW, ta có Vector đặc trưng của văn bản thứ hai có số chiều bằng 18, với mỗi phần tử là số lần xuất hiện trong văn bản của từ tương ứng.
+	
+	\textbf{N-Grams}
+	
+	Như đề cập ở trên, mô hình BoW chỉ quan tâm số lần xuất hiện của từ, và không coi trọng trật tự của các từ hay cụm từ. Ví dụ một dữ liệu gồm 2 câu văn bản sau đây:
+	
+	\hspace{1cm} Văn bản 1: "hôm nay trời nắng"
+	
+	\hspace{1cm} Văn bản 2: "nắng trời nay hôm"
+	
+	Văn bản 1 là một câu đúng ngữ pháp và diễn đạt trôi chảy hơn các từ có thứ tự ngẫu nhiên ở văn bản 2. Tuy vậy, BoW của cả 2 văn bản là như nhau, vì thế mô hình sẽ đánh giá không tốt ở dữ liệu này.
+	
+	Thay vào đó, mô hình n-grams có thể lưu trữ thông tin thứ tự các từ này:
+	\begin{itemize}
+		\item Kích thước n = 1 được gọi là "Unigram": tính tần suất xuất hiện của một từ.
+		\item Kích thước n = 2 gọi là "Bigram": tính tần suất xuất hiện của một từ nếu biết 1 từ đứng cạnh nó.
+		\item Kích thước n = 3 là "Trigram": tính tần suất xuất hiện của một từ nếu biết 2 từ đứng cạnh nó.
+	\end{itemize}
+	Và tương tự vậy, n càng lớn thì số trường hợp càng lớn, tuy cho độ chính xác của tần suất xuất hiện của từ cao nhưng độ phức tạp sẽ khó hơn. 
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.8\columnwidth]{ngrams.jpg}
+		\end{center}
+		\caption{Ví dụ N-Grams}
+	\end{figure}
+	
+	
+	\textbf{Triển khai mô hình Bag-of-Words với CountVectorizer}
+	
+	Chúng tôi sử dụng CountVectorizer của thư viện sklearn để chuyến hoá văn bản thành các vector đặc trưng với các tham số sau:
+	\begin{itemize}
+		\item ngram\_range=(1,2): tính cho Unigram và Bigram.
+		\item tokenizer=tokenize: 
+		\item token\_pattern = None: 
+		\item analyzer='word': đơn vị tính là từ.
+		\item min\_df=5: bỏ qua các từ hoặc cụm từ chỉ xuất hiện dưới 5 văn bản.
+		\item max\_df=0.9: bỏ qua các từ hoặc cụm từ xuất hiện trong hơn 90\% tổng số văn bản.
+		\item strip\_accents='unicode': loại bỏ các ký tự Unicode
+	\end{itemize}
+	
+	Trong bài toán thực tế, tập các từ được sử dụng (vocabulary) có rất nhiều từ, như thế vector đặc trưng thu được sẽ rất dài. Và có rất nhiều từ trong tập vocabulary không xuất hiện trong văn bản, như vậy các vector đặc trưng thu được có nhiều phần tử bằng 0 (vector này được gọi là sparse vector) chiếm nhiều không gian lưu trữ không mong muốn. Hoặc một vấn đề có thể ta gặp phải là có những từ hiếm không nằm trong tập vocabulary và từ hiếm đôi khi mang lại thông tin quan trọng mà ta có thể bỏ qua. Có một phương pháp cải tiến khắc phục nhược điểm của BoW có tên là TFIDF, TFIDF sẽ chú trọng trong việc xác định độ quan trọng của một từ trong văn bản dựa trên toàn bộ tập các văn bản. 
 	
 	\subsection{TF-IDF}
 	
