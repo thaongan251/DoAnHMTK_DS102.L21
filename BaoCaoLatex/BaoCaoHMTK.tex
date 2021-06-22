@@ -140,7 +140,7 @@
 \pagestyle{plain}
 \chapter*{LỜI CẢM ƠN}
 	\addcontentsline{toc}{chapter}{LỜI CẢM ƠN}
-	Lời đầu tiên, chúng tôi xin trân trọng cảm ơn hai Thầy giảng viên hướng dẫn là TS. Nguyễn Tấn Trần Minh Khang và ThS. Võ Duy Nguyên, các thầy đã tận tình giảng dạy chúng tôi trong suốt quá trình học tập cũng như đã hướng dẫn chúng tôi hoàn thành đồ án của môn học này.
+	Lời đầu tiên, chúng tôi xin trân trọng cảm ơn hai Thầy giảng viên hướng dẫn là TS. Nguyễn Tấn Trần Minh Khang và ThS. Võ Duy Nguyên, các Thầy đã tận tình giảng dạy chúng tôi trong suốt quá trình học tập cũng như đã hướng dẫn chúng tôi hoàn thành đồ án của môn học này.
 	
 	Xin cảm ơn anh Hồ Thái Ngọc (PMCL2016) đã có sự giúp đỡ tận tình trong các tiết học lý thuyết và thực nghiệm tại lớp.
 	
@@ -160,7 +160,7 @@
 	\addcontentsline{toc}{chapter}{TÓM TẮT}
 %%%%%%%%%%%%%%%%%%%%%%%%
 
-	Trong kỷ nguyên của Internet và mạng xã hội, cứ mỗi giây trôi qua, thế giới có gần 55.000 bài đăng trên Facebook, 456.000 tweet được gửi đi trên Twitter và có 86 bài blog xuất hiện trên Internet. Có thể thấy lượng thông tin được sản sinh ra và lan truyền nhanh chóng như thế nào trên không gian mạng. Tuy nhiên, những nguồn tin này luôn tiềm ẩn những thông tin giả mạo mà nếu không nhận diện và ngăn chặn kịp thời sẽ gây tổn hại đến đến các cá nhân, tổ chức kinh tế, chính trị và xã hội. 
+	Trong kỷ nguyên của Internet và mạng xã hội, cứ mỗi giây trôi qua, thế giới có gần 55.000 bài đăng trên Facebook, 456.000 tweet được gửi đi trên Twitter và có 86 bài blog xuất hiện trên Internet. Có thể thấy lượng thông tin được sản sinh ra và lan truyền nhanh chóng như thế nào trên không gian mạng. Tuy nhiên, những nguồn tin này luôn tiềm ẩn những thông tin giả mạo mà nếu không nhận diện và ngăn chặn kịp thời sẽ gây tổn hại đến đến các cá nhân, tổ chức chính trị, kinh tế và xã hội. 
 
 
 	Các phương pháp nhận diện tin giả trước đây thường mang tính thủ công khi phải cần đến các chuyên gia để có thể thẩm định nguồn tin. Bên cạnh đó, các phương pháp nhận diện tự động ứng dụng lý thuyết Học máy và Xử lý ngôn ngữ tự nhiên là những hướng tiếp cận mới, trở thành xu hướng nghiên cứu nóng hổi vì mang lại hiệu quả cao, tiết kiệm thời gian và chi phí, vốn là những mặt còn nhiều hạn chế của các phương pháp cũ.
@@ -197,7 +197,7 @@
 		\caption{Quy trình thực hiện bài toán Nhận diện tin giả}
 	\end{figure}
 	\section{Ứng dụng thực tiễn}
-	Mã nguồn của bài toán Nhận diện tin giả có thể được tích hợp thành các module sử dụng trên nền tảng web, đặc biệt là các trang báo điện tử không chính thống. Qua đó có thể xác định, kiểm soát và ngăn chặn kịp thời tin giả, tin sai lệch lây lan trên không gian mạng, góp phần mang lại sự ổn định trong cộng đồng, củng cố niềm tin của người dân và uy tín của các tổ chức xã hội.
+	Mã nguồn giải pháp cho bài toán Nhận diện tin giả có thể được tích hợp thành các module sử dụng trên nền tảng web hoặc trong các thiết bị quét văn bản,... Qua đó có thể xác định, kiểm soát và ngăn chặn kịp thời tin giả từ các nguồn tin không chính thống lan ra cộng đồng, góp phần củng cố niềm tin của người dân và uy tín của các tổ chức xã hội.
 
 
 \chapter{TỔNG QUAN VỀ BỘ DỮ LIỆU}
@@ -206,16 +206,19 @@
 
 	\section{Giới thiệu chung về bộ dữ liệu}
 	
-	Bộ dữ liệu được chia sẻ bởi nhiều nguồn khác nhau trên nền tảng Kaggle. Thông qua tìm hiểu, chúng tôi tìm thấy được bộ dữ liệu gốc của tác giả Raluca Chitic đăng tải vào ngày 23/05/2018. Tại thời điểm đó, tác giả đã được trích dẫn là chủ nhân của bộ dữ liệu trong một số bài báo nghiên cứu (\href{https://www.researchgate.net/publication/339299161_Application_of_Supervised_Machine_Learning_Algorithms_to_Detect_Online_Fake_News}{\textit{Application of Supervised Machine Learning Algorithms to Detect Online Fake News}}).
+	Bộ dữ liệu được chia sẻ bởi nhiều nguồn khác nhau trên nền tảng Kaggle. Thông qua tìm hiểu, chúng tôi tìm thấy được bộ dữ liệu gốc của tác giả Raluca Chitic đăng tải vào ngày 23/05/2018. Vào thời điểm đó, tác giả được trích dẫn là chủ nhân của bộ dữ liệu trong một số bài báo nghiên cứu khoa học về đề tài này
+	\footnote{ \href{https://www.researchgate.net/publication/339299161_Application_of_Supervised_Machine_Learning_Algorithms_to_Detect_Online_Fake_News}{\textit{Application of Supervised Machine Learning Algorithms to Detect Online Fake News}}}.
 	
 	Sau đây là thông tin của bộ dữ liệu.
 	
 	\begin{table}[h!]
+	\renewcommand{\arraystretch}{1.5}
 		\begin{center}
 			
 			\label{tab:table1}
-			\begin{tabular}{c|l}
-				\multicolumn{1}{c|}{\textbf{Thông tin}} & \multicolumn{1}{c}{\textbf{Nội dung}}\\	
+			\begin{tabular}{|c|l|}
+				\hline
+				\multicolumn{1}{|c|}{\textbf{Thông tin}} & \multicolumn{1}{c|}{\textbf{Nội dung}}\\	
 				\hline
 				Tên bộ dữ liệu & Detecting Fake News Dataset\\
 				\hline
@@ -236,18 +239,53 @@
 				\begin{tabular}{l}
 					Có 2 nhãn "REAL" và "FAKE":\\
 					\tabitem REAL: Đây là tin tức thật\\
-					\tabitem REAL: Đây là tin tức giả\\
+					\tabitem FAKE: Đây là tin tức giả\\
 				\end{tabular}\\
 				\hline
-				Thông tin Tác giả & Raluca Chitic
+				Thông tin Tác giả & Raluca Chitic, Đại học Luxembourg \\
+				\hline
 			\end{tabular}
 			\caption{Thông tin bộ dữ liệu.}
 		\end{center}
 	\end{table}
 
-	\section{Phân tích và trực quan bộ dữ liệu}
+	\section{Khám phá và trực quan bộ dữ liệu}
+	
+	\subsection{Mô tả bộ dữ liệu}
+				\begin{figure}[H]
+					\begin{center}
+						\includegraphics[width=0.78\columnwidth]{dfinfo}
+					\end{center}
+					\caption{Thông tin mô tả bộ dữ liệu}
+				\end{figure}
+	\subsection{Phân bố nhãn của bộ dữ liệu}
+			\begin{figure}[H]
+				\begin{center}
+					\includegraphics[width=0.8\columnwidth]{phanbonhan}
+				\end{center}
+				\caption{Phân bố nhãn của bộ dữ liệu}
+			\end{figure}
+			
+	Số điểm dữ liệu có nhãn REAL: 3171
+	
+	Số điểm dữ liệu có nhãn FAKE: 3164
 
-
+	\subsection{Phân bố độ dài nội dung}
+	
+				\begin{figure}[H]
+					\begin{center}
+						\includegraphics[width=1\columnwidth]{textlen}
+					\end{center}
+					\caption{Phân bố độ dài nội dung của tin tức}
+				\end{figure}
+				
+	\subsection{Những từ xuất hiện nhiều ở mỗi nhãn}
+				\begin{figure}[H]
+					\begin{center}
+						\includegraphics[width=1\columnwidth]{wordcloud}
+					\end{center}
+					\caption{Wordcloud những từ xuất hiện nhiều ở hai nhãn}
+				\end{figure}
 
 
 \chapter{TIỀN XỬ LÝ VÀ VECTOR HÓA DỮ LIỆU}
@@ -1180,26 +1218,44 @@
 \chapter{PHÂN TÍCH LỖI VÀ HƯỚNG PHÁT TRIỂN}
 \section{Phân tích lỗi mô hình tốt nhất}
 
-Qua kết quả đánh giá tổng hợp thu được có thể thấy mô hình PassiveAgressiveClassifier cho hiệu suất cao nhất trên bộ TfidfVectorizer.
-
-\subsection{Lỗi False Positive}
-
+Qua kết quả đánh giá tổng hợp thu được, mô hình PassiveAgressiveClassifier cho hiệu suất cao nhất trên bộ TfidfVectorizer.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{fp1gram}
-	\caption{Những từ Unigram xuất hiện nhiều ở lỗi False Positive}
+	\captionsetup{width=0.6\textwidth}
+	\includegraphics[width=0.6\textwidth]{tfpa_2}
+	\caption{Confusion Matrix của mô hình Passive Agressive Classifier với TfidfVectorizer}
 \end{figure}
+Nhìn sơ lược qua Confussion Matrix, dữ liệu hầu hết hội tụ về đường chéo của ma trận, chứng tỏ hiệu suất phân loại của mô hình là rất tốt. Tuy nhiên vẫn có một số điểm dữ liệu mô hình dự đoán không chính xác, cụ thể:
+\begin{itemize}
+\item Có 38 điểm dữ liệu có nhãn là FAKE (0) bị mô hình dự đoán là REAL (1)
+\item Có 33 điểm dữ liệu có nhãn là REAL (1) bị mô hình dự đoán là FAKE (0)
+\end{itemize}
 
-
-
-\subsection{Lỗi False Negative}
+Có thể thấy mô hình bị lỗi False Negative nhiều hơn lỗi False Positive.
+Để tìm hiểu nguyên nhân gây ra lỗi, chúng tôi xem qua những từ xuất hiện nhiều ở cả 2 nhãn trên toàn bộ tập dữ liệu và ở các điểm dữ liệu bị lỗi False Positive và False Negative.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{fn1gram}
-	\caption{Những từ Unigram xuất hiện nhiều ở lỗi False Negative}
+	\includegraphics[width=1\textwidth]{frequentdata}
+	\caption{Những từ xuất hiện nhiều ở hai nhãn của tập dữ liệu}
 \end{figure}
+
+\begin{figure}[H]
+	\subfloat[\textbf{Lỗi False Negative}]{% 
+		\includegraphics[width=0.5\textwidth]{fn1gram}} 
+	\hfill
+	\subfloat[\textbf{Lỗi False Positive}]{%
+		\includegraphics[width=0.5\textwidth]{fp1gram}} 
+	\caption{Những từ xuất hiện nhiều ở lỗi False Negative và False Positive trên tập kiểm thử} 
+\end{figure}
+
+\textbf{Nhận xét:} Những từ `said', `people', `new', `trump' đều có tần suất xuất hiện rất cao ở cả hai nhãn của bộ dữ liệu. Qua hình 6.3, có thể thấy những từ này ảnh hưởng rất nhiều đến mô hình, khiến mô hình đưa ra dự đoán sai.
+
+\textbf{Hướng giải quyết:} Có thể hạn chế những tác động của những từ gây nhiễu bằng cách loại bỏ chúng hoàn toàn hoặc giảm chiều dữ liệu. Tuy nhiên, lúc này cần những phương pháp mạnh hơn để hoạt động hiệu quả trên bộ dữ liệu được thu gọn.
 
 \section{Hướng phát triển}
+Trong tương lai có thể áp dụng các phương pháp Ensemble Learning như XGBoost, Adaboost,.. và mô hình Neural Network để có thể cải thiện độ chính xác trên bộ dữ liệu.
+
+Ngoài ra, việc sử dụng các pretrained model khác như Glove, StanfordNLP, BERT với các mô hình trên cũng cần được nghiên cứu và có khả năng ứng dụng vào thực tế.
 
 \chapter*{KẾT LUẬN}
 \addcontentsline{toc}{chapter}{KẾT LUẬN}

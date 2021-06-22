@@ -1,44 +1,51 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Quy tr\IeC {\`\i }nh th\IeC {\d \uhorn }c hi\IeC {\d \ecircumflex }n b\IeC {\`a}i to\IeC {\'a}n Nh\IeC {\d \acircumflex }n di\IeC {\d \ecircumflex }n tin gi\IeC {\h a}\relax }}{11}{figure.caption.7}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces M\IeC {\^o} t\IeC {\h a} c\IeC {\'a}c vector Word Embedding Queen, King, Man, Woman\relax }}{19}{figure.caption.12}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces V\IeC {\'\i } d\IeC {\d u} v\IeC {\`\ecircumflex } m\IeC {\^o} h\IeC {\`\i }nh Word2Vec\relax }}{20}{figure.caption.13}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces M\IeC {\^o} h\IeC {\`\i }nh CBOW\relax }}{21}{figure.caption.14}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces M\IeC {\^o} h\IeC {\`\i }nh Skip-gram\relax }}{21}{figure.caption.15}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces \IeC {\DJ }\IeC {\`\ocircumflex } th\IeC {\d i} h\IeC {\`a}m sigmoid\relax }}{23}{figure.caption.16}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Si\IeC {\^e}u ph\IeC {\h \abreve }ng t\IeC {\d a}o ra m\IeC {\d \ocircumflex }t bi\IeC {\^e}n gi\IeC {\'\ohorn }i ph\IeC {\^a}n chia 2 l\IeC {\'\ohorn }p c\IeC {\h u}a d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u\relax }}{26}{figure.caption.17}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Si\IeC {\^e}u ph\IeC {\h \abreve }ng t\IeC {\'\ocircumflex }i \IeC {\uhorn }u c\IeC {\'o} l\IeC {\`\ecircumflex } c\IeC {\d \uhorn }c \IeC {\dj }\IeC {\d a}i\relax }}{26}{figure.caption.18}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Thu\IeC {\d \acircumflex }t to\IeC {\'a}n Online Learning cho vi\IeC {\d \ecircumflex }c x\IeC {\h \uhorn } l\IeC {\'y} d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u l\IeC {\'\ohorn }n\relax }}{29}{figure.caption.19}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces C\IeC {\'\acircumflex }u tr\IeC {\'u}c c\IeC {\ohorn } b\IeC {\h a}n c\IeC {\h u}a m\IeC {\d \ocircumflex }t Confusion Matrix\relax }}{35}{figure.caption.21}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces V\IeC {\'\i } d\IeC {\d u} v\IeC {\`\ecircumflex } Confusion Matrix tr\IeC {\uhorn }\IeC {\'\ohorn }c v\IeC {\`a} sau khi \IeC {\dj }\IeC {\uhorn }\IeC {\d \ohorn }c chu\IeC {\h \acircumflex }n h\IeC {\'o}a\relax }}{36}{figure.caption.22}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tr\IeC {\uhorn }\IeC {\'\ohorn }c khi chu\IeC {\h \acircumflex }n h\IeC {\'o}a}}}{36}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sau khi chu\IeC {\h \acircumflex }n h\IeC {\'o}a}}}{36}{subfigure.2.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces V\IeC {\'\i } d\IeC {\d u} v\IeC {\`\ecircumflex } \IeC {\dj }\IeC {\uhorn }\IeC {\`\ohorn }ng cong ROC v\IeC {\`a} AUC\relax }}{39}{figure.caption.23}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces \IeC {\DJ }\IeC {\uhorn }\IeC {\`\ohorn }ng cong ROC cho b\IeC {\d \ocircumflex } CountVectorizer\relax }}{40}{figure.caption.25}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces \IeC {\DJ }\IeC {\uhorn }\IeC {\`\ohorn }ng cong ROC cho b\IeC {\d \ocircumflex } TfidfVectorizer\relax }}{41}{figure.caption.26}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces \IeC {\DJ }\IeC {\uhorn }\IeC {\`\ohorn }ng cong ROC cho b\IeC {\d \ocircumflex } Word2Vec\relax }}{41}{figure.caption.27}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Confusion Matrix LogisticRegression\relax }}{42}{figure.caption.28}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{42}{subfigure.7.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{42}{subfigure.7.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{42}{subfigure.7.3}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Confusion Matrix MultinomialNB\relax }}{43}{figure.caption.30}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{43}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{43}{subfigure.8.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{43}{subfigure.8.3}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Confusion Matrix SVC\relax }}{44}{figure.caption.32}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{44}{subfigure.9.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{44}{subfigure.9.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{44}{subfigure.9.3}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Confusion Matrix PassiveAgressiveClassifier\relax }}{45}{figure.caption.34}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{45}{subfigure.10.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{45}{subfigure.10.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{45}{subfigure.10.3}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Confusion Matrix DecisionTreeClassifier\relax }}{46}{figure.caption.36}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{46}{subfigure.11.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{46}{subfigure.11.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{46}{subfigure.11.3}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Confusion Matrix RandomForestClassifier\relax }}{47}{figure.caption.38}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{47}{subfigure.12.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{47}{subfigure.12.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{47}{subfigure.12.3}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Nh\IeC {\~\uhorn }ng t\IeC {\`\uhorn } Unigram xu\IeC {\'\acircumflex }t hi\IeC {\d \ecircumflex }n nhi\IeC {\`\ecircumflex }u \IeC {\h \ohorn } l\IeC {\~\ocircumflex }i False Positive\relax }}{48}{figure.caption.40}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Nh\IeC {\~\uhorn }ng t\IeC {\`\uhorn } Unigram xu\IeC {\'\acircumflex }t hi\IeC {\d \ecircumflex }n nhi\IeC {\`\ecircumflex }u \IeC {\h \ohorn } l\IeC {\~\ocircumflex }i False Negative\relax }}{49}{figure.caption.41}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Th\IeC {\^o}ng tin m\IeC {\^o} t\IeC {\h a} b\IeC {\d \ocircumflex } d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u\relax }}{14}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Ph\IeC {\^a}n b\IeC {\'\ocircumflex } nh\IeC {\~a}n c\IeC {\h u}a b\IeC {\d \ocircumflex } d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u\relax }}{14}{figure.caption.10}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ph\IeC {\^a}n b\IeC {\'\ocircumflex } \IeC {\dj }\IeC {\d \ocircumflex } d\IeC {\`a}i n\IeC {\d \ocircumflex }i dung c\IeC {\h u}a tin t\IeC {\'\uhorn }c\relax }}{15}{figure.caption.11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Wordcloud nh\IeC {\~\uhorn }ng t\IeC {\`\uhorn } xu\IeC {\'\acircumflex }t hi\IeC {\d \ecircumflex }n nhi\IeC {\`\ecircumflex }u \IeC {\h \ohorn } hai nh\IeC {\~a}n\relax }}{15}{figure.caption.12}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces M\IeC {\^o} t\IeC {\h a} c\IeC {\'a}c vector Word Embedding Queen, King, Man, Woman\relax }}{21}{figure.caption.16}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces V\IeC {\'\i } d\IeC {\d u} v\IeC {\`\ecircumflex } m\IeC {\^o} h\IeC {\`\i }nh Word2Vec\relax }}{22}{figure.caption.17}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces M\IeC {\^o} h\IeC {\`\i }nh CBOW\relax }}{23}{figure.caption.18}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces M\IeC {\^o} h\IeC {\`\i }nh Skip-gram\relax }}{23}{figure.caption.19}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \IeC {\DJ }\IeC {\`\ocircumflex } th\IeC {\d i} h\IeC {\`a}m sigmoid\relax }}{25}{figure.caption.20}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Si\IeC {\^e}u ph\IeC {\h \abreve }ng t\IeC {\d a}o ra m\IeC {\d \ocircumflex }t bi\IeC {\^e}n gi\IeC {\'\ohorn }i ph\IeC {\^a}n chia 2 l\IeC {\'\ohorn }p c\IeC {\h u}a d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u\relax }}{28}{figure.caption.21}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Si\IeC {\^e}u ph\IeC {\h \abreve }ng t\IeC {\'\ocircumflex }i \IeC {\uhorn }u c\IeC {\'o} l\IeC {\`\ecircumflex } c\IeC {\d \uhorn }c \IeC {\dj }\IeC {\d a}i\relax }}{28}{figure.caption.22}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Thu\IeC {\d \acircumflex }t to\IeC {\'a}n Online Learning cho vi\IeC {\d \ecircumflex }c x\IeC {\h \uhorn } l\IeC {\'y} d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u l\IeC {\'\ohorn }n\relax }}{31}{figure.caption.23}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces C\IeC {\'\acircumflex }u tr\IeC {\'u}c c\IeC {\ohorn } b\IeC {\h a}n c\IeC {\h u}a m\IeC {\d \ocircumflex }t Confusion Matrix\relax }}{37}{figure.caption.25}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces V\IeC {\'\i } d\IeC {\d u} v\IeC {\`\ecircumflex } Confusion Matrix tr\IeC {\uhorn }\IeC {\'\ohorn }c v\IeC {\`a} sau khi \IeC {\dj }\IeC {\uhorn }\IeC {\d \ohorn }c chu\IeC {\h \acircumflex }n h\IeC {\'o}a\relax }}{38}{figure.caption.26}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Tr\IeC {\uhorn }\IeC {\'\ohorn }c khi chu\IeC {\h \acircumflex }n h\IeC {\'o}a}}}{38}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sau khi chu\IeC {\h \acircumflex }n h\IeC {\'o}a}}}{38}{subfigure.2.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces V\IeC {\'\i } d\IeC {\d u} v\IeC {\`\ecircumflex } \IeC {\dj }\IeC {\uhorn }\IeC {\`\ohorn }ng cong ROC v\IeC {\`a} AUC\relax }}{41}{figure.caption.27}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces \IeC {\DJ }\IeC {\uhorn }\IeC {\`\ohorn }ng cong ROC cho b\IeC {\d \ocircumflex } CountVectorizer\relax }}{42}{figure.caption.29}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces \IeC {\DJ }\IeC {\uhorn }\IeC {\`\ohorn }ng cong ROC cho b\IeC {\d \ocircumflex } TfidfVectorizer\relax }}{43}{figure.caption.30}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \IeC {\DJ }\IeC {\uhorn }\IeC {\`\ohorn }ng cong ROC cho b\IeC {\d \ocircumflex } Word2Vec\relax }}{43}{figure.caption.31}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Confusion Matrix LogisticRegression\relax }}{44}{figure.caption.32}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{44}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{44}{subfigure.7.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{44}{subfigure.7.3}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Confusion Matrix MultinomialNB\relax }}{45}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{45}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{45}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{45}{subfigure.8.3}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Confusion Matrix SVC\relax }}{46}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{46}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{46}{subfigure.9.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{46}{subfigure.9.3}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Confusion Matrix PassiveAgressiveClassifier\relax }}{47}{figure.caption.38}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{47}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{47}{subfigure.10.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{47}{subfigure.10.3}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Confusion Matrix DecisionTreeClassifier\relax }}{48}{figure.caption.40}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{48}{subfigure.11.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{48}{subfigure.11.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{48}{subfigure.11.3}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Confusion Matrix RandomForestClassifier\relax }}{49}{figure.caption.42}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{49}{subfigure.12.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{49}{subfigure.12.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{49}{subfigure.12.3}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Confusion Matrix c\IeC {\h u}a m\IeC {\^o} h\IeC {\`\i }nh Passive Agressive Classifier v\IeC {\'\ohorn }i TfidfVectorizer\relax }}{50}{figure.caption.44}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Nh\IeC {\~\uhorn }ng t\IeC {\`\uhorn } xu\IeC {\'\acircumflex }t hi\IeC {\d \ecircumflex }n nhi\IeC {\`\ecircumflex }u \IeC {\h \ohorn } hai nh\IeC {\~a}n c\IeC {\h u}a t\IeC {\d \acircumflex }p d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u\relax }}{51}{figure.caption.45}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Nh\IeC {\~\uhorn }ng t\IeC {\`\uhorn } xu\IeC {\'\acircumflex }t hi\IeC {\d \ecircumflex }n nhi\IeC {\`\ecircumflex }u \IeC {\h \ohorn } l\IeC {\~\ocircumflex }i False Negative v\IeC {\`a} False Positive tr\IeC {\^e}n t\IeC {\d \acircumflex }p ki\IeC {\h \ecircumflex }m th\IeC {\h \uhorn }\relax }}{51}{figure.caption.46}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\textbf {L\IeC {\~\ocircumflex }i False Negative}}}}{51}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\textbf {L\IeC {\~\ocircumflex }i False Positive}}}}{51}{subfigure.3.2}
 \contentsfinish 
