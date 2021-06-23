@@ -140,7 +140,7 @@
 \pagestyle{plain}
 \chapter*{LỜI CẢM ƠN}
 	\addcontentsline{toc}{chapter}{LỜI CẢM ƠN}
-	Lời đầu tiên, chúng tôi xin trân trọng cảm ơn hai Thầy giảng viên hướng dẫn là TS. Nguyễn Tấn Trần Minh Khang và ThS. Võ Duy Nguyên, các Thầy đã tận tình giảng dạy chúng tôi trong suốt quá trình học tập cũng như đã hướng dẫn chúng tôi hoàn thành đồ án của môn học này.
+	Lời đầu tiên, chúng tôi xin trân trọng cảm ơn hai Thầy giảng viên hướng dẫn là TS. Nguyễn Tấn Trần Minh Khang và ThS. Võ Duy Nguyên, các Thầy đã tận tình giảng dạy chúng tôi trong suốt quá trình học tập môn Học máy thống kê cũng như đã hướng dẫn chúng tôi hoàn thành đồ án của môn học này.
 	
 	Xin cảm ơn anh Hồ Thái Ngọc (PMCL2016) đã có sự giúp đỡ tận tình trong các tiết học lý thuyết và thực nghiệm tại lớp.
 	
@@ -251,7 +251,7 @@
 
 	\section{Khám phá và trực quan bộ dữ liệu}
 	
-	\subsection{Mô tả bộ dữ liệu}
+	\subsection{Thông tin mô tả bộ dữ liệu}
 				\begin{figure}[H]
 					\begin{center}
 						\includegraphics[width=0.78\columnwidth]{dfinfo}
@@ -269,12 +269,14 @@
 	Số điểm dữ liệu có nhãn REAL: 3171
 	
 	Số điểm dữ liệu có nhãn FAKE: 3164
+	
+	Phân bố điểm dữ liệu trên hai nhãn là cân bằng. Sự cân bằng của dữ liệu giúp cho các mô hình phân lớp đạt độ chính xác cao và có tỉ lệ dự đoán đồng đều ở mỗi nhãn.
 
 	\subsection{Phân bố độ dài nội dung}
 	
 				\begin{figure}[H]
 					\begin{center}
-						\includegraphics[width=1\columnwidth]{textlen}
+						\includegraphics[width=0.9\columnwidth]{textlen}
 					\end{center}
 					\caption{Phân bố độ dài nội dung của tin tức}
 				\end{figure}
@@ -282,11 +284,10 @@
 	\subsection{Những từ xuất hiện nhiều ở mỗi nhãn}
 				\begin{figure}[H]
 					\begin{center}
-						\includegraphics[width=1\columnwidth]{wordcloud}
+						\includegraphics[width=0.9\columnwidth]{wordcloud}
 					\end{center}
 					\caption{Wordcloud những từ xuất hiện nhiều ở hai nhãn}
 				\end{figure}
-
 
 \chapter{TIỀN XỬ LÝ VÀ VECTOR HÓA DỮ LIỆU}
 	
@@ -488,7 +489,7 @@
 	
 	\end{itemize}
 	
-	Trong đồ án này, chúng tôi sử dụng mô hình Word2Vec đã được huấn luyện sẵn trên bộ dữ liệu Google News kích thước 300 chiều với khoảng 3 triệu từ và cụm từ. Thông thường việc huấn luyện trên có thể mất đến hàng giờ, tuy nhiên mô hình đã có sẵn nên việc tải và load lên Google Colab với thư viện Gensim chỉ mất vài phút. 
+	Trong đồ án này, chúng tôi sử dụng mô hình Word2Vec đã được huấn luyện sẵn trên bộ Google News Vector kích thước 300 chiều với khoảng 3 triệu từ và cụm từ. Thông thường việc huấn luyện trên có thể mất đến hàng giờ, tuy nhiên mô hình đã có sẵn nên việc tải và load lên Google Colab với thư viện Gensim chỉ mất vài phút. 
 	
 	Sau khi đã có mô hình, chúng tôi thực hiện việc chuyển đổi dữ liệu dạng văn bản về dạng vector số thực bằng cách lấy trung bình của các giá trị vector từ pretrain model ứng với từng từ trong mỗi văn bản. Một cách chi tiết hơn, chúng tôi xét mỗi từ trong một văn bản, nếu một từ có trong bộ pretrain model Googel News Vector, mô hình sẽ trả về một vector số thực 300 chiều ứng với từ đó. Trung bình của các vector số thực này sẽ là một vector 300 chiều đại diện cho điểm dữ liệu (văn bản).
 	
@@ -686,12 +687,9 @@
 		
 	\section{Huấn luyện và tinh chỉnh mô hình}
 		Sau khi đã tìm hiểu cơ sở lý thuyết của các phương pháp Học máy, chúng tôi tiến hành huấn luyện và thẩm định các bộ giá trị siêu tham số ứng với từng mô hình nhằm tìm ra bộ tham số tối ưu.
-		
-		Do hạn chế về mặt tài nguyên và thời gian, chúng tôi chỉ thử nghiệm một số lượng nhất định tham số của các mô hình, do đó các mô hình sau khi tinh chỉnh có thể chưa là tốt nhất. Sau cùng, chúng tôi mong muốn có thể đưa ra bộ tham số tốt nhất của từng mô hình trên từng bộ vector hóa cụ thể, nhằm thực hiện việc so sánh và đánh giá một cách khách quan nhất về hiệu suất giữa các mô hình trên bộ dữ liệu.
-		
-		Việc tinh chỉnh mô hình Học máy được thực hiện bằng cách sử dụng công cụ GridsearchCV hỗ trợ bởi thư viện sklearn, đánh giá qua phương pháp k-Fold Cross Validation với k=3 trên tập huấn luyện đã được tiền xử lý và vector hóa, cùng độ đo F1\_macro.
+				
+		Việc tinh chỉnh mô hình Học máy được thực hiện bằng cách sử dụng công cụ GridsearchCV hỗ trợ bởi thư viện scikit-learn, đánh giá qua phương pháp k-Fold Cross Validation với k=3 trên tập huấn luyện đã được tiền xử lý và vector hóa, cùng độ đo F1\_macro.
 	
-		Sau đây là bảng kết quả tinh chỉnh mô hình với GridSearchCV.
 	
 		\begin{table}[H]
 			\renewcommand{\arraystretch}{1.5}
@@ -1285,7 +1283,7 @@ Nhìn sơ lược qua Confussion Matrix, dữ liệu hầu hết hội tụ về
 \end{itemize}
 
 Có thể thấy mô hình bị lỗi False Negative nhiều hơn lỗi False Positive.
-Để tìm hiểu nguyên nhân gây ra lỗi, chúng tôi xem qua những từ xuất hiện nhiều ở cả 2 nhãn trên toàn bộ tập dữ liệu và ở các điểm dữ liệu bị lỗi False Positive và False Negative.
+Để tìm hiểu nguyên nhân gây ra lỗi, chúng tôi xem qua những từ xuất hiện nhiều ở cả 2 nhãn trên toàn bộ tập dữ liệu và ở các điểm dữ liệu bị lỗi False Positive và False Negative để đưa ra so sánh.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{frequentdata}
@@ -1306,13 +1304,24 @@ Có thể thấy mô hình bị lỗi False Negative nhiều hơn lỗi False Po
 \textbf{Hướng giải quyết:} Có thể hạn chế những tác động của những từ gây nhiễu bằng cách loại bỏ chúng hoàn toàn hoặc giảm chiều dữ liệu. Tuy nhiên, lúc này cần những phương pháp mạnh hơn để hoạt động hiệu quả trên bộ dữ liệu được thu gọn.
 
 \section{Hướng phát triển}
-Trong tương lai có thể áp dụng các phương pháp Ensemble Learning như XGBoost, Adaboost,.. và mô hình Neural Network để có thể cải thiện độ chính xác trên bộ dữ liệu.
+Trong tương lai có thể áp dụng các phương pháp Ensemble Learning như XGBoost, Adaboost,.. và mô hình Neural Network như LSTM, RNN,... để có thể cải thiện độ chính xác trên bộ dữ liệu.
 
 Ngoài ra, việc sử dụng các pretrained model khác như Glove, StanfordNLP, BERT với các mô hình trên cũng cần được nghiên cứu và có khả năng ứng dụng vào thực tế.
 
 \chapter*{KẾT LUẬN}
 \addcontentsline{toc}{chapter}{KẾT LUẬN}
 
+Báo cáo đồ án của chúng tôi đã trình bày một cách ngắn gọn về cơ sở lý thuyết của các phương pháp Học máy và các kỹ thuật tiền xử lý và vector hóa dữ liệu được sử dụng. Qua đó, chúng tôi xây dựng, tinh chỉnh các mô hình Học máy trên các bộ vector hóa dữ liệu khác nhau.
+
+Do hạn chế về tài nguyên và thời gian, chúng tôi chỉ có thể thử nghiệm một số lượng nhất định giá trị tham số của các mô hình, vì vậy các mô hình sau khi tinh chỉnh có thể chưa là tốt nhất. Sau cùng, chúng tôi mong muốn có thể đưa ra bộ tham số tốt nhất của từng mô hình trên từng bộ vector hóa cụ thể, nhằm thực hiện việc so sánh và đánh giá một cách khách quan nhất về hiệu suất phân loại giữa các mô hình trên bộ dữ liệu.
+
+Thông qua kết quả đánh giá hiệu suất mô hình, chúng tôi nhận thấy khả năng nhận diện và phân loại tin giả trên bộ dữ liệu của các phương pháp Học máy đều khá tốt với hiệu suất trung bình là 89,25\%. Trong đó, phương pháp Decission Tree cho kết quả thấp nhất trên bộ Word2Vec với độ chính xác 78,41\%. Phương pháp Passive Agressive cho hiệu suất cao nhất trên bộ TfifVectorizer với độ chính xác 95,52\%, do đó có thể được xem xét để ứng dụng vào trong thực tiễn.
+
+Các bộ vector hóa dữ liệu cũng ảnh hưởng đến hiệu suất của các mô hình. Trong đó, hiệu suất trung bình của các mô hình với CountVectorizer là 89,65\% , với TfidfVectorizer là 91,22\% và với Word2Vec là 86,89\%. Bộ TfidfVectorizer mang lại hiệu suất cao hơn hai mô hình còn lại, có thể xem xét làm dữ liệu đầu vào khi thử nghiệm những phương pháp mạnh hơn.
+
+Để tối ưu hiệu suất phân loại, trong tương lai chúng tôi dự định áp dụng kỹ thuật giảm chiều dữ liệu kết hợp với các kỹ thuật Boosting tiêu biểu trong Ensemble Learning như XGBoost, Adaboost và Gradient Boosting. Cùng với dó, chúng tôi cũng xem xét áp dụng những phương pháp Học Sâu gồm các mạng neural LSTM, RNN,... nhất là khi lượng dữ liệu tăng lên đáng kể.
+
+Một số pretrain-model State-of-the-art như Glove, Transformer, StanfordNLP hay BERT có thể được xem xét áp dụng để trích xuất các đặc trưng một cách tốt hơn. Những mô hình như Transformer hay BERT có thể được ưu tiên hàng đầu vì chúng đã được huấn luyện rất nhiều để nhận diện ngữ cảnh trước khi đưa ra bộ vector embedding cho một từ nào đó. Các mô hình này còn giúp tiết kiệm thời gian, năng lực tính toán và dễ dàng thực hiện những tinh chỉnh hậu xử lý sau cùng.
 
 
 
@@ -1323,29 +1332,15 @@ Ngoài ra, việc sử dụng các pretrained model khác như Glove, StanfordNL
 18pt
 \begin{thebibliography}{99}
 	
-	\bibitem{Anh} Trần Thị Tuấn Anh , \textit{Bài toán ứng dụng cực trị trong kinh tế}, Tài liệu giảng dạy, Trường Đại học Kinh tế Thành phố Hồ Chí Minh.
+	\bibitem{} Sairamvinay Vijayaraghavan, Ye Wang, Zhiyuan Guo, John Voong, Wenda Xu, Armand Nasseri, Jiaru Cai, Linda Li, Kevin Vuong, Eshan Wadhwa,
+	\textit{Fake News Detection with Different Models}.
 	
-	\bibitem{Han} Bùi Quang Hân, Trần Văn Bồi, Phạm Ngọc Tiến, Nguyễn Thành Tương (1998), \textit{Giải toán Vật lí 10, Tập 1 }, NXB Giáo dục.
-		
-	\bibitem{Han} Bùi Quang Hân, Đào Văn Cư, Phạm Ngọc Tiến, Nguyễn Thành Tương (2000), \textit{Giải toán Vật lí 11 Tập 1 }, NXB Giáo dục.
-		
-
-		
-	\bibitem{Dung} Trần Nam Dũng (2018), \textit{Giải tích và các bài toán cực trị}, Tạp chí Thông tin Toán học, Tập 22 Số 4.
+	\url{https://arxiv.org/abs/2003.04978}
 	
-	\bibitem{Doan} Nguyễn Huy Đoan (Chủ biên) (2008), \textit{Bài tập Giải tích 12 nâng cao}, NXB Giáo dục.
+	\bibitem{} Koby Crammer, Ofer Dekel,Joseph Keshet, Shai Shalev-Shwartz, Yoram Singer (2006), \textit{Online Passive-Aggressive Algorithms}.
 	
-	\bibitem{Hao} Trần Văn Hạo (Tổng Chủ biên) (2008), \textit{Giải tích 12 }, NXB Giáo dục.	
+	\url{https://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf}
 	
-	\bibitem{Liem}  Nguyễn Xuân Liêm, Nguyễn Mạnh Quý (2009), \textit{Giáo trình phép tính vi phân và tích phân của hàm nhiều biến số}, NXB Đại học Sư phạm.
-	
-	\bibitem{Quynh} Đoàn Quỳnh (Tổng Chủ biên) (2008), \textit{Giải tích 12 nâng cao}, NXB Giáo dục.
-	
-	\bibitem{Tuan} Vũ Tuấn (Chủ biên) (2008), \textit{Bài tập Giải tích 12}, NXB Giáo dục.
-	
-	\bibitem{Thuy} Lê Đình Thúy, Nguyễn Quỳnh Lan (2012), \textit{Toán cao cấp cho các nhà kinh tế},  NXB Đại học Kinh tế Quốc dân.
-	
-	\bibitem{Vu} Lê Anh Vũ , \textit{Bài giảng Toán cao cấp }, Đại học Kinh tế- Luật, Đại học Quốc gia Thành phố Hồ Chí Minh.
 \end{thebibliography}
 
 \end{document} 
