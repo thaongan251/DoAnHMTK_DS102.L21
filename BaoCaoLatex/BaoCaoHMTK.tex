@@ -20,6 +20,7 @@
 \usepackage{etoolbox}
 \usepackage{booktabs}% http://ctan.org/pkg/booktabs
 \usepackage{textcomp}
+\usepackage{capt-of} 
 
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
 
@@ -206,7 +207,7 @@
 
 	\section{Giới thiệu chung về bộ dữ liệu}
 	
-	Bộ dữ liệu được chia sẻ bởi nhiều nguồn khác nhau trên nền tảng Kaggle. Thông qua tìm hiểu, chúng tôi tìm thấy được bộ dữ liệu gốc của tác giả Raluca Chitic đăng tải vào ngày 23/05/2018. Vào thời điểm đó, tác giả được trích dẫn là chủ nhân của bộ dữ liệu trong một số bài báo nghiên cứu khoa học về đề tài này
+	Bộ dữ liệu được chia sẻ bởi nhiều nguồn khác nhau trên nền tảng Kaggle. Thông qua tìm hiểu, chúng tôi tìm được bộ dữ liệu gốc của tác giả Raluca Chitic đăng tải vào ngày 23/05/2018. Vào thời điểm đó, tác giả được trích dẫn là chủ nhân của bộ dữ liệu trong một số bài báo nghiên cứu khoa học về đề tài này
 	\footnote{ \href{https://www.researchgate.net/publication/339299161_Application_of_Supervised_Machine_Learning_Algorithms_to_Detect_Online_Fake_News}{\textit{Application of Supervised Machine Learning Algorithms to Detect Online Fake News}}}.
 	
 	Sau đây là thông tin của bộ dữ liệu.
@@ -258,6 +259,18 @@
 					\end{center}
 					\caption{Thông tin mô tả bộ dữ liệu}
 				\end{figure}
+				
+	Chúng tôi sử dụng thư viện Pandas để đọc bộ dữ liệu từ file .csv và lưu  vào không gian làm việc dưới dạng Dataframe. Sau đó gọi thực hiện phương thức info() của Dataframe để lấy thông tin về bộ dữ liệu. 
+	
+	Bộ dữ liệu có 6335 điểm dữ liệu khác Null được đánh số từ 0 đến 6334 với đầy đủ 4 thuộc tính:
+	\begin{itemize}
+	\item \textbf{Unnamed: 0:} kiểu int
+	\item \textbf{title:} kiểu object
+	\item \textbf{text:} kiểu object
+	\item \textbf{label:} kiểu object
+
+	
+	\end{itemize}
 	\subsection{Phân bố nhãn của bộ dữ liệu}
 			\begin{figure}[H]
 				\begin{center}
@@ -272,22 +285,47 @@
 	
 	Phân bố điểm dữ liệu trên hai nhãn là cân bằng. Sự cân bằng của dữ liệu giúp cho các mô hình phân lớp đạt độ chính xác cao và có tỉ lệ dự đoán đồng đều ở mỗi nhãn.
 
+		\subsection{Những từ xuất hiện nhiều ở mỗi nhãn}
+					\begin{figure}[H]
+						\begin{center}
+							\includegraphics[width=0.9\columnwidth]{wordcloud}
+						\end{center}
+						\caption{Wordcloud những từ xuất hiện nhiều ở hai nhãn}
+					\end{figure}
+	
 	\subsection{Phân bố độ dài nội dung}
 	
-				\begin{figure}[H]
-					\begin{center}
-						\includegraphics[width=0.9\columnwidth]{textlen}
-					\end{center}
-					\caption{Phân bố độ dài nội dung của tin tức}
-				\end{figure}
-				
-	\subsection{Những từ xuất hiện nhiều ở mỗi nhãn}
-				\begin{figure}[H]
-					\begin{center}
-						\includegraphics[width=0.9\columnwidth]{wordcloud}
-					\end{center}
-					\caption{Wordcloud những từ xuất hiện nhiều ở hai nhãn}
-				\end{figure}
+	
+	
+	  \begin{figure}[!ht]
+	  	
+	    \centering
+	    \includegraphics[width=0.71\columnwidth]{textlen}
+	    \qquad
+	    \footnotesize
+	    \renewcommand{\arraystretch}{2.}
+	    \begin{tabular}[b]{cc}\hline
+	      \textbf{count} &  6335.00\\ \hline
+          \textbf{mean} & 4707.25 \\ \hline
+          \textbf{std} & 5090.96 \\ \hline
+          \textbf{min} & 1.00 \\ \hline
+          \textbf{25\%} & 1741.50 \\ \hline
+          \textbf{50\%} & 3642.00 \\ \hline
+          \textbf{75\%}  & 6192.00\\ \hline
+          \textbf{max} & 115372.00\\ \hline 
+          \vspace{2.5em} 
+	    \end{tabular}
+	    \caption{Phân bố và mô tả đồ dài nội dung tin tức}
+	  \end{figure}
+	
+	
+	
+	  
+	  
+	  
+	  
+	  
+	
 
 \chapter{TIỀN XỬ LÝ VÀ VECTOR HÓA DỮ LIỆU}
 	
@@ -1299,7 +1337,7 @@ Có thể thấy mô hình bị lỗi False Negative nhiều hơn lỗi False Po
 	\caption{Những từ xuất hiện nhiều ở lỗi False Negative và False Positive trên tập kiểm thử} 
 \end{figure}
 
-\textbf{Nhận xét:} Những từ `said', `people', `new', `trump' đều có tần suất xuất hiện rất cao ở cả hai nhãn của bộ dữ liệu. Qua hình 6.3, có thể thấy những từ này ảnh hưởng rất nhiều đến mô hình, khiến mô hình đưa ra dự đoán sai.
+\textbf{Nhận xét:} Những từ `said', `people', `new', `trump' đều có tần suất xuất hiện rất cao ở cả hai nhãn của bộ dữ liệu. Qua hình 6.3, có thể thấy những từ này ảnh hưởng lớn đến mô hình, khiến mô hình bị nhầm lẫn giữa hai nhãn và đưa ra dự đoán sai.
 
 \textbf{Hướng giải quyết:} Có thể hạn chế những tác động của những từ gây nhiễu bằng cách loại bỏ chúng hoàn toàn hoặc giảm chiều dữ liệu. Tuy nhiên, lúc này cần những phương pháp mạnh hơn để hoạt động hiệu quả trên bộ dữ liệu được thu gọn.
 
@@ -1341,6 +1379,24 @@ Một số pretrain-model State-of-the-art như Glove, Transformer, StanfordNLP 
 	
 	\url{https://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf}
 	
+	\bibitem{}Taylor Onate Egerton, Ezekiel Promise Sochima, \textit{Application of Supervised Machine Learning Algorithms to Detect Online Fake News}.
+	
+	\url{https://www.researchgate.net/publication/339299161_Application_of_Supervised_Machine_Learning_Algorithms_to_Detect_Online_Fake_News}
+	
+	\bibitem{} Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.
+	
+	
+	\url{https://machinelearningcoban.com/}
+	
+	\bibitem{} Radim {\v R}eh{\r u}{\v r}ek and Petr Sojka, \textit{Software Framework for Topic Modelling with Large Corpora}.
+	
+	\url{https://radimrehurek.com/gensim/models/word2vec.html}
+	\bibitem{}Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
+	         and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
+	         and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
+	         Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E., \textit{Scikit-learn: Machine Learning in {P}ython}.
+	         
+	\url{https://scikit-learn.org/stable/}
 \end{thebibliography}
 
 \end{document} 

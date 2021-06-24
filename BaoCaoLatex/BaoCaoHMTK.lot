@@ -1,28 +1,28 @@
 \contentsline {table}{\numberline {2.1}{\ignorespaces Th\IeC {\^o}ng tin b\IeC {\d \ocircumflex } d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u.\relax }}{13}{table.caption.8}
-\contentsline {table}{\numberline {4.1}{\ignorespaces B\IeC {\h a}ng k\IeC {\'\ecircumflex }t qu\IeC {\h a} GridSearchCV\relax }}{38}{table.caption.26}
-\contentsline {table}{\numberline {5.1}{\ignorespaces B\IeC {\h a}ng t\IeC {\h \ocircumflex }ng h\IeC {\d \ohorn }p k\IeC {\'\ecircumflex }t qu\IeC {\h a} \IeC {\dj }\IeC {\'a}nh gi\IeC {\'a} \IeC {\dj }\IeC {\d \ocircumflex } ch\IeC {\'\i }nh x\IeC {\'a}c (Accuracy) c\IeC {\h u}a c\IeC {\'a}c m\IeC {\^o} h\IeC {\`\i }nh\relax }}{44}{table.caption.30}
-\contentsline {subtable}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{46}{subtable.2.1}
-\contentsline {subtable}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{46}{subtable.2.2}
-\contentsline {subtable}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{46}{subtable.2.3}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Classification report LogisticRegression\relax }}{46}{table.caption.35}
-\contentsline {subtable}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{47}{subtable.3.1}
-\contentsline {subtable}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{47}{subtable.3.2}
-\contentsline {subtable}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{47}{subtable.3.3}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Classification report MultinomialNB\relax }}{47}{table.caption.37}
-\contentsline {subtable}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{48}{subtable.4.1}
-\contentsline {subtable}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{48}{subtable.4.2}
-\contentsline {subtable}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{48}{subtable.4.3}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Classification report SVC\relax }}{48}{table.caption.39}
-\contentsline {subtable}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{49}{subtable.5.1}
-\contentsline {subtable}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{49}{subtable.5.2}
-\contentsline {subtable}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{49}{subtable.5.3}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Classification report PassiveAgressiveClassifier\relax }}{49}{table.caption.41}
-\contentsline {subtable}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{50}{subtable.6.1}
-\contentsline {subtable}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{50}{subtable.6.2}
-\contentsline {subtable}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{50}{subtable.6.3}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Classification report DecisionTreeClassifier\relax }}{50}{table.caption.43}
-\contentsline {subtable}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{51}{subtable.7.1}
-\contentsline {subtable}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{51}{subtable.7.2}
-\contentsline {subtable}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{51}{subtable.7.3}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Classification report RandomForestClassifier\relax }}{51}{table.caption.45}
+\contentsline {table}{\numberline {4.1}{\ignorespaces B\IeC {\h a}ng k\IeC {\'\ecircumflex }t qu\IeC {\h a} GridSearchCV\relax }}{39}{table.caption.26}
+\contentsline {table}{\numberline {5.1}{\ignorespaces B\IeC {\h a}ng t\IeC {\h \ocircumflex }ng h\IeC {\d \ohorn }p k\IeC {\'\ecircumflex }t qu\IeC {\h a} \IeC {\dj }\IeC {\'a}nh gi\IeC {\'a} \IeC {\dj }\IeC {\d \ocircumflex } ch\IeC {\'\i }nh x\IeC {\'a}c (Accuracy) c\IeC {\h u}a c\IeC {\'a}c m\IeC {\^o} h\IeC {\`\i }nh\relax }}{45}{table.caption.30}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{47}{subtable.2.1}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{47}{subtable.2.2}
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{47}{subtable.2.3}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Classification report LogisticRegression\relax }}{47}{table.caption.35}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{48}{subtable.3.1}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{48}{subtable.3.2}
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{48}{subtable.3.3}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Classification report MultinomialNB\relax }}{48}{table.caption.37}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{49}{subtable.4.1}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{49}{subtable.4.2}
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{49}{subtable.4.3}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Classification report SVC\relax }}{49}{table.caption.39}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{50}{subtable.5.1}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{50}{subtable.5.2}
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{50}{subtable.5.3}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Classification report PassiveAgressiveClassifier\relax }}{50}{table.caption.41}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{51}{subtable.6.1}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{51}{subtable.6.2}
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{51}{subtable.6.3}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Classification report DecisionTreeClassifier\relax }}{51}{table.caption.43}
+\contentsline {subtable}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{52}{subtable.7.1}
+\contentsline {subtable}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{52}{subtable.7.2}
+\contentsline {subtable}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{52}{subtable.7.3}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Classification report RandomForestClassifier\relax }}{52}{table.caption.45}
 \contentsfinish 

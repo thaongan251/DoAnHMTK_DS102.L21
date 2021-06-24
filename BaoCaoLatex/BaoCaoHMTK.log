@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.5.30)  24 JUN 2021 02:18
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.5.30)  24 JUN 2021 15:00
 entering extended mode
 **BaoCaoHMTK.tex
 
@@ -630,36 +630,49 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
 )
+(E:\Program_Data\Miktex_2.8\tex\latex\ltxmisc\capt-of.sty)
 ("E:\#2. Compressed\BaoCaoLatexTmp\tmp_git\New folder\DoAnHMTK_DS102.L21\BaoCao
 Latex\BaoCaoHMTK.aux"
 
 LaTeX Warning: Label `' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
  (E:\Program_Data\Miktex_2.8\tex\latex\base\ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    ... okay on input line 48.
 
 (E:\Program_Data\Miktex_2.8\tex\latex\unicode\ucsencs.def
 File: ucsencs.def 2003/11/29 Fixes to fontencodings LGR, T3
@@ -723,7 +736,7 @@ driver: pdftex
 \MPnumerator=\count136
 \everyMPtoPDFconversion=\toks41
 )
-Package hyperref Info: Link coloring ON on input line 47.
+Package hyperref Info: Link coloring ON on input line 48.
  (E:\Program_Data\Miktex_2.8\tex\latex\hyperref\nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -732,8 +745,8 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count137
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
 
 ("E:\#2. Compressed\BaoCaoLatexTmp\tmp_git\New folder\DoAnHMTK_DS102.L21\BaoCao
 Latex\BaoCaoHMTK.out")
@@ -743,7 +756,7 @@ Latex\BaoCaoHMTK.out")
 \AtBeginShipoutBox=\box41
 Package caption Info: Begin \AtBeginDocument code.
 Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
-LaTeX Info: Redefining \subref on input line 47.
+LaTeX Info: Redefining \subref on input line 48.
 Package caption Info: End \AtBeginDocument code.
 
 (E:\Program_Data\Miktex_2.8\tex\latex\unicode\data\uni-1.def
@@ -755,18 +768,18 @@ File: uni-30.def 2004/10/17 UCS: Unicode data U+1E00..U+1EFF
 (E:\Program_Data\Miktex_2.8\tex\latex\unicode\data\uni-0.def
 File: uni-0.def 2004/10/17 UCS: Unicode data U+0000..U+00FF
 )
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 59.
-LaTeX Font Info:    Try loading font information for U+msa on input line 59.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 60.
+LaTeX Font Info:    Try loading font information for U+msa on input line 60.
 
 (E:\Program_Data\Miktex_2.8\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 59.
+LaTeX Font Info:    Try loading font information for U+msb on input line 60.
 
 (E:\Program_Data\Miktex_2.8\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 59.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 60.
 
 (E:\Program_Data\Miktex_2.8\tex\latex\base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -778,7 +791,7 @@ tination with the same identifier (name{page.1}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.90 \end{titlepage}
+l.91 \end{titlepage}
                      [1
 
 ]
@@ -787,7 +800,7 @@ Latex\BaoCaoHMTK.toc"pdfTeX warning (ext4): destination with the same identifie
 r (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.22 ... {\~\acircumflex }u}{18}{subsection.3.1.4}
+l.22 ... {\~\acircumflex }u}{19}{subsection.3.1.4}
                                                    [1
 
 ] [2])
@@ -820,7 +833,7 @@ File: QuyTrinhHMTK.png Graphic file (type png)
 [11 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/Bao
 CaoLatex/QuyTrinhHMTK.png>] [12]
 Ch\uhorn \ohorn ng 2.
-LaTeX Font Info:    Try loading font information for T5+cmtt on input line 225.
+LaTeX Font Info:    Try loading font information for T5+cmtt on input line 226.
 
 (E:\Program_Data\Miktex_2.8\tex\latex\vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -833,268 +846,306 @@ File: dfinfo.png Graphic file (type png)
 <phanbonhan.png, id=424, 511.9125pt x 264.99pt>
 File: phanbonhan.png Graphic file (type png)
  <use phanbonhan.png> [14 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/
-DoAnHMTK_DS102.L21/BaoCaoLatex/dfinfo.png> <E:/#2. Compressed/BaoCaoLatexTmp/tm
-p_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/phanbonhan.png>]
-<textlen.png, id=431, 1211.52625pt x 681.54625pt>
-File: textlen.png Graphic file (type png)
- <use textlen.png>
-<wordcloud.png, id=432, 1134.2375pt x 420.57124pt>
+DoAnHMTK_DS102.L21/BaoCaoLatex/dfinfo.png>] <wordcloud.png, id=430, 1134.2375pt
+ x 420.57124pt>
 File: wordcloud.png Graphic file (type png)
- <use wordcloud.png> [15 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/D
-oAnHMTK_DS102.L21/BaoCaoLatex/textlen.png> <E:/#2. Compressed/BaoCaoLatexTmp/tm
-p_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/wordcloud.png>]
+
+<use wordcloud.png> <textlen.png, id=431, 527.9725pt x 509.905pt>
+File: textlen.png Graphic file (type png)
+
+<use textlen.png> [15 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAn
+HMTK_DS102.L21/BaoCaoLatex/phanbonhan.png> <E:/#2. Compressed/BaoCaoLatexTmp/tm
+p_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/wordcloud.png>] [16 <E:/#2. Com
+pressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/textle
+n.png>]
 Ch\uhorn \ohorn ng 3.
-[16
+[17
 
 ] (E:\Program_Data\Miktex_2.8\tex\latex\unicode\data\uni-32.def
 File: uni-32.def 2004/10/17 UCS: Unicode data U+2000..U+20FF
-) [17]
-<bow.png, id=453, 1138.2525pt x 507.8975pt>
+) [18]
+<bow.png, id=458, 1138.2525pt x 507.8975pt>
 File: bow.png Graphic file (type png)
- <use bow.png> [18] [19 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/Do
-AnHMTK_DS102.L21/BaoCaoLatex/bow.png (PNG copy)>] <ngrams.jpg, id=462, 803.0pt 
+ <use bow.png> [19] [20 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/Do
+AnHMTK_DS102.L21/BaoCaoLatex/bow.png (PNG copy)>] <ngrams.jpg, id=467, 803.0pt 
 x 271.0125pt>
 File: ngrams.jpg Graphic file (type jpg)
  <use ngrams.jpg>
-[20 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/Bao
-CaoLatex/ngrams.jpg>] [21] [22]
+[21 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/Bao
+CaoLatex/ngrams.jpg>] [22] [23]
 (E:\Program_Data\Miktex_2.8\tex\latex\unicode\data\uni-34.def
 File: uni-34.def 2004/10/17 UCS: Unicode data U+2200..U+22FF
 )
-<wordembedding.png, id=481, 321.2pt x 197.73875pt>
+<wordembedding.png, id=487, 321.2pt x 197.73875pt>
 File: wordembedding.png Graphic file (type png)
  <use wordembedding.png>
-[23] [24 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L2
+[24] [25 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L2
 1/BaoCaoLatex/wordembedding.png>]
-<w2v_ex.jpg, id=492, 678.535pt x 426.59375pt>
+<w2v_ex.jpg, id=497, 678.535pt x 426.59375pt>
 File: w2v_ex.jpg Graphic file (type jpg)
  <use w2v_ex.jpg>
-<cbow.jpg, id=493, 247.67531pt x 215.30438pt>
+<cbow.jpg, id=498, 247.67531pt x 215.30438pt>
 File: cbow.jpg Graphic file (type jpg)
- <use cbow.jpg> [25 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHM
+ <use cbow.jpg> [26 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHM
 TK_DS102.L21/BaoCaoLatex/w2v_ex.jpg> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/
-New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/cbow.jpg>] <skipgram.jpg, id=498, 238
+New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/cbow.jpg>] <skipgram.jpg, id=503, 238
 .64156pt x 215.30438pt>
 File: skipgram.jpg Graphic file (type jpg)
 
-<use skipgram.jpg> [26 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoA
-nHMTK_DS102.L21/BaoCaoLatex/skipgram.jpg>] [27]
+<use skipgram.jpg> [27 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoA
+nHMTK_DS102.L21/BaoCaoLatex/skipgram.jpg>] [28]
 Ch\uhorn \ohorn ng 4.
-<Picture1.png, id=507, 260.47313pt x 177.66376pt>
+<Picture1.png, id=512, 260.47313pt x 177.66376pt>
 File: Picture1.png Graphic file (type png)
- <use Picture1.png> [28
+ <use Picture1.png> [29
 
  <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCao
-Latex/Picture1.png>] [29] [30] <SVM_hyperplane.png, id=525, 813.0375pt x 344.28
+Latex/Picture1.png>] [30] [31] <SVM_hyperplane.png, id=529, 813.0375pt x 344.28
 625pt>
 File: SVM_hyperplane.png Graphic file (type png)
 
-<use SVM_hyperplane.png> <SVM_maxmargin.jpeg, id=526, 588.1975pt x 311.1625pt>
+<use SVM_hyperplane.png> <SVM_maxmargin.jpeg, id=530, 588.1975pt x 311.1625pt>
 File: SVM_maxmargin.jpeg Graphic file (type jpg)
 
-<use SVM_maxmargin.jpeg> [31 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New fold
+<use SVM_maxmargin.jpeg> [32 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New fold
 er/DoAnHMTK_DS102.L21/BaoCaoLatex/SVM_hyperplane.png (PNG copy)> <E:/#2. Compre
 ssed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/SVM_maxma
-rgin.jpeg>] [32] <onl_learn.png, id=536, 520.94624pt x 306.54526pt>
+rgin.jpeg>] [33] <onl_learn.png, id=540, 520.94624pt x 306.54526pt>
 File: onl_learn.png Graphic file (type png)
 
-<use onl_learn.png> [33] [34 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New fold
-er/DoAnHMTK_DS102.L21/BaoCaoLatex/onl_learn.png>] [35] [36] [37]
-Overfull \hbox (72.96552pt too wide) in paragraph at lines 705--705
+<use onl_learn.png> [34] [35 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New fold
+er/DoAnHMTK_DS102.L21/BaoCaoLatex/onl_learn.png>] [36] [37] [38]
+Overfull \hbox (72.96552pt too wide) in paragraph at lines 743--743
 []|\T5/cmr/bx/n/10 LogisticRegression|  
  []
 
 
-Overfull \hbox (39.03908pt too wide) in paragraph at lines 708--708
+Overfull \hbox (39.03908pt too wide) in paragraph at lines 746--746
 []|\T5/cmr/bx/n/10 MultinomialNB|  
  []
 
 
-Overfull \hbox (13.06625pt too wide) in paragraph at lines 711--711
+Overfull \hbox (13.06625pt too wide) in paragraph at lines 749--749
 []|\T5/cmr/bx/n/10 SVC|  
  []
 
 
-Overfull \hbox (44.14755pt too wide) in paragraph at lines 715--715
+Overfull \hbox (44.14755pt too wide) in paragraph at lines 753--753
 []|\T5/cmr/bx/n/10 PassiveAgressive  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 715--715
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 753--753
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (29.11372pt too wide) in paragraph at lines 718--718
+Overfull \hbox (29.11372pt too wide) in paragraph at lines 756--756
 []|\T5/cmr/bx/n/10 DecissionTree  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 718--718
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 756--756
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (26.97397pt too wide) in paragraph at lines 723--723
+Overfull \hbox (26.97397pt too wide) in paragraph at lines 761--761
 []|\T5/cmr/bx/n/10 RadomForest  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 723--723
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 761--761
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (21.54672pt too wide) in paragraph at lines 699--729
+Overfull \hbox (21.54672pt too wide) in paragraph at lines 737--767
  [] 
  []
 
-[38]
+[39]
 Ch\uhorn \ohorn ng 5.
-<confusionmatrix.png, id=566, 1054.94125pt x 747.79375pt>
+<confusionmatrix.png, id=570, 1054.94125pt x 747.79375pt>
 File: confusionmatrix.png Graphic file (type png)
 
-<use confusionmatrix.png> [39
+<use confusionmatrix.png> [40
 
  <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCao
 Latex/confusionmatrix.png (PNG copy)>]
-<ucm.png, id=571, 336.25626pt x 295.1025pt>
+<ucm.png, id=575, 336.25626pt x 295.1025pt>
 File: ucm.png Graphic file (type png)
  <use ucm.png>
-<ncm.png, id=572, 329.23pt x 295.1025pt>
+<ncm.png, id=576, 329.23pt x 295.1025pt>
 File: ncm.png Graphic file (type png)
- <use ncm.png> [40 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMT
+ <use ncm.png> [41 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMT
 K_DS102.L21/BaoCaoLatex/ucm.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New 
-folder/DoAnHMTK_DS102.L21/BaoCaoLatex/ncm.png>] [41] [42] <roc_auc.png, id=590,
+folder/DoAnHMTK_DS102.L21/BaoCaoLatex/ncm.png>] [42] [43] <roc_auc.png, id=594,
  401.5pt x 281.05pt>
 File: roc_auc.png Graphic file (type png)
  <use roc_auc.png>
-[43 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/Bao
+[44 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/Bao
 CaoLatex/roc_auc.png>]
-Overfull \hbox (2.44177pt too wide) in paragraph at lines 832--832
+Overfull \hbox (2.44177pt too wide) in paragraph at lines 870--870
  []|\T5/cmr/bx/n/10.95 PassiveAgressiveClassifier| 
  []
 
-<cvroc.png, id=596, 960.58875pt x 559.08875pt>
+<cvroc.png, id=600, 960.58875pt x 559.08875pt>
 File: cvroc.png Graphic file (type png)
  <use cvroc.png>
-<tfroc.png, id=597, 960.58875pt x 559.08875pt>
+<tfroc.png, id=601, 960.58875pt x 559.08875pt>
 File: tfroc.png Graphic file (type png)
- <use tfroc.png> [44 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnH
-MTK_DS102.L21/BaoCaoLatex/cvroc.png>] <w2vroc.png, id=603, 960.58875pt x 559.08
+ <use tfroc.png> [45 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnH
+MTK_DS102.L21/BaoCaoLatex/cvroc.png>] <w2vroc.png, id=607, 960.58875pt x 559.08
 875pt>
 File: w2vroc.png Graphic file (type png)
- <use w2vroc.png> [45 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAn
+ <use w2vroc.png> [46 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAn
 HMTK_DS102.L21/BaoCaoLatex/tfroc.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git
-/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vroc.png>] <cvlr.png, id=610, 313.
+/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vroc.png>] <cvlr.png, id=614, 313.
 17pt x 262.9825pt>
 File: cvlr.png Graphic file (type png)
 
-<use cvlr.png> <tflr.png, id=611, 313.17pt x 262.9825pt>
+<use cvlr.png> <tflr.png, id=615, 313.17pt x 262.9825pt>
 File: tflr.png Graphic file (type png)
  <use tflr.png>
-<w2vlr.png, id=612, 313.17pt x 262.9825pt>
+<w2vlr.png, id=616, 313.17pt x 262.9825pt>
 File: w2vlr.png Graphic file (type png)
  <use w2vlr.png>
-<cvnb.png, id=613, 313.17pt x 262.9825pt>
+<cvnb.png, id=617, 313.17pt x 262.9825pt>
 File: cvnb.png Graphic file (type png)
  <use cvnb.png>
-<tfnb.png, id=614, 313.17pt x 262.9825pt>
+<tfnb.png, id=618, 313.17pt x 262.9825pt>
 File: tfnb.png Graphic file (type png)
  <use tfnb.png>
-<w2vnb.png, id=615, 313.17pt x 262.9825pt>
+<w2vnb.png, id=619, 313.17pt x 262.9825pt>
 File: w2vnb.png Graphic file (type png)
- <use w2vnb.png> [46 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnH
+ <use w2vnb.png> [47 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnH
 MTK_DS102.L21/BaoCaoLatex/cvlr.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/N
 ew folder/DoAnHMTK_DS102.L21/BaoCaoLatex/tflr.png> <E:/#2. Compressed/BaoCaoLat
 exTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vlr.png>] <cvsvc.png,
- id=629, 313.17pt x 262.9825pt>
+ id=634, 313.17pt x 262.9825pt>
 File: cvsvc.png Graphic file (type png)
 
-<use cvsvc.png> <tfsvc.png, id=630, 313.17pt x 262.9825pt>
+<use cvsvc.png> <tfsvc.png, id=635, 313.17pt x 262.9825pt>
 File: tfsvc.png Graphic file (type png)
  <use tfsvc.png>
-<w2vsvc.png, id=631, 313.17pt x 262.9825pt>
+<w2vsvc.png, id=636, 313.17pt x 262.9825pt>
 File: w2vsvc.png Graphic file (type png)
- <use w2vsvc.png> [47 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAn
+ <use w2vsvc.png> [48 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAn
 HMTK_DS102.L21/BaoCaoLatex/cvnb.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/
 New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/tfnb.png> <E:/#2. Compressed/BaoCaoLa
 texTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vnb.png>] <cvpa.png,
- id=646, 313.17pt x 262.9825pt>
+ id=650, 313.17pt x 262.9825pt>
 File: cvpa.png Graphic file (type png)
 
-<use cvpa.png> <tfpa.png, id=647, 313.17pt x 262.9825pt>
+<use cvpa.png> <tfpa.png, id=651, 313.17pt x 262.9825pt>
 File: tfpa.png Graphic file (type png)
  <use tfpa.png>
-<w2vpa.png, id=648, 313.17pt x 262.9825pt>
+<w2vpa.png, id=652, 313.17pt x 262.9825pt>
 File: w2vpa.png Graphic file (type png)
- <use w2vpa.png> [48 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnH
+ <use w2vpa.png> [49 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnH
 MTK_DS102.L21/BaoCaoLatex/cvsvc.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/
 New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/tfsvc.png> <E:/#2. Compressed/BaoCaoL
 atexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vsvc.png>] <cvdtree
-.png, id=662, 313.17pt x 262.9825pt>
+.png, id=666, 313.17pt x 262.9825pt>
 File: cvdtree.png Graphic file (type png)
 
-<use cvdtree.png> <tfdtree.png, id=663, 313.17pt x 262.9825pt>
+<use cvdtree.png> <tfdtree.png, id=667, 313.17pt x 262.9825pt>
 File: tfdtree.png Graphic file (type png)
 
-<use tfdtree.png> <w2vdtree.png, id=664, 313.17pt x 262.9825pt>
+<use tfdtree.png> <w2vdtree.png, id=668, 313.17pt x 262.9825pt>
 File: w2vdtree.png Graphic file (type png)
 
-<use w2vdtree.png> [49 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoA
+<use w2vdtree.png> [50 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoA
 nHMTK_DS102.L21/BaoCaoLatex/cvpa.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git
 /New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/tfpa.png> <E:/#2. Compressed/BaoCaoL
 atexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vpa.png>]
-<cvrf.png, id=678, 313.17pt x 262.9825pt>
+<cvrf.png, id=682, 313.17pt x 262.9825pt>
 File: cvrf.png Graphic file (type png)
  <use cvrf.png>
-<tfrf.png, id=679, 313.17pt x 262.9825pt>
+<tfrf.png, id=683, 313.17pt x 262.9825pt>
 File: tfrf.png Graphic file (type png)
  <use tfrf.png>
-<w2vrf.png, id=680, 313.17pt x 262.9825pt>
+<w2vrf.png, id=684, 313.17pt x 262.9825pt>
 File: w2vrf.png Graphic file (type png)
- <use w2vrf.png> [50 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnH
+ <use w2vrf.png> [51 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnH
 MTK_DS102.L21/BaoCaoLatex/cvdtree.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_gi
 t/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/tfdtree.png> <E:/#2. Compressed/Bao
 CaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vdtree.png>] [5
-1 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCa
+2 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCa
 oLatex/cvrf.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_
 DS102.L21/BaoCaoLatex/tfrf.png> <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New f
 older/DoAnHMTK_DS102.L21/BaoCaoLatex/w2vrf.png>]
 Ch\uhorn \ohorn ng 6.
-<tfpa_2.png, id=707, 313.17pt x 262.9825pt>
+<tfpa_2.png, id=711, 313.17pt x 262.9825pt>
 File: tfpa_2.png Graphic file (type png)
- <use tfpa_2.png> [52
+ <use tfpa_2.png> [53
 
  <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCao
-Latex/tfpa_2.png>] <frequentdata.png, id=713, 1148.29pt x 353.32pt>
+Latex/tfpa_2.png>] <frequentdata.png, id=718, 1148.29pt x 353.32pt>
 File: frequentdata.png Graphic file (type png)
  <use frequentdata.png>
-<fn1gram.png, id=714, 425.59pt x 281.05pt>
+<fn1gram.png, id=719, 425.59pt x 281.05pt>
 File: fn1gram.png Graphic file (type png)
  <use fn1gram.png>
-<fp1gram.png, id=715, 425.59pt x 281.05pt>
+<fp1gram.png, id=720, 425.59pt x 281.05pt>
 File: fp1gram.png Graphic file (type png)
- <use fp1gram.png> [53 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoA
+ <use fp1gram.png> [54 <E:/#2. Compressed/BaoCaoLatexTmp/tmp_git/New folder/DoA
 nHMTK_DS102.L21/BaoCaoLatex/frequentdata.png> <E:/#2. Compressed/BaoCaoLatexTmp
 /tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/fn1gram.png> <E:/#2. Compres
 sed/BaoCaoLatexTmp/tmp_git/New folder/DoAnHMTK_DS102.L21/BaoCaoLatex/fp1gram.pn
-g>] [54] [55
+g>] [55] [56
 
-] [56]
-Underfull \hbox (badness 10000) in paragraph at lines 1342--1343
+] [57]
+Underfull \hbox (badness 10000) in paragraph at lines 1380--1381
 [][][]$\T5/cmtt/m/n/14 https : / / jmlr . csail . mit . edu / papers / volume7 
 / crammer06a /$
  []
 
-[57
+
+Underfull \hbox (badness 10000) in paragraph at lines 1384--1385
+[][][]$\T5/cmtt/m/n/14 https : / / www . researchgate . net / publication / 339
+299161 _$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1384--1385
+$\T5/cmtt/m/n/14 Application _ of _ Supervised _ Machine _ Learning _ Algorithm
+s _$
+ []
+
+[58
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
 een already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1346 \end{document}
+l.1402 \end{document}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1402 \end{document}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1402 \end{document}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1402 \end{document}
+                     pdfTeX warning (ext4): destination with the same identifie
+r (name{cite.}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1402 \end{document}
                      ]
 ("E:\#2. Compressed\BaoCaoLatexTmp\tmp_git\New folder\DoAnHMTK_DS102.L21\BaoCao
 Latex\BaoCaoHMTK.aux")
@@ -1103,10 +1154,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13244 strings out of 495285
- 179016 string characters out of 3180474
+ 13242 strings out of 495285
+ 179137 string characters out of 3180474
  248413 words of memory out of 3000000
- 15953 multiletter control sequences out of 15000+200000
+ 15947 multiletter control sequences out of 15000+200000
  37718 words of font info for 90 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  44i,15n,45p,935b,503s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1125,9 +1176,9 @@ vnr10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnr12.pfb><E:/Progr
 am_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnr7.pfb><E:/Program_Data/Miktex_2.8/f
 onts/type1/vntex/vnr/vnti10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/v
 nr/vnti12.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on BaoCaoHMTK.pdf (59 pages, 1663476 bytes).
+Output written on BaoCaoHMTK.pdf (60 pages, 1659481 bytes).
 PDF statistics:
- 846 PDF objects out of 1000 (max. 8388607)
- 202 named destinations out of 1000 (max. 500000)
+ 856 PDF objects out of 1000 (max. 8388607)
+ 203 named destinations out of 1000 (max. 500000)
  637 words of extra memory for PDF output out of 10000 (max. 10000000)
 
