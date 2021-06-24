@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.6.6)  24 JUN 2021 19:11
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.6.6)  25 JUN 2021 01:11
 entering extended mode
 **BaoCaoHMTK.tex
 
@@ -883,23 +883,23 @@ aoLatex/ngrams.jpg>] [22] [23]
 ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\unicode\data\uni-34.def"
 File: uni-34.def 2004/10/17 UCS: Unicode data U+2200..U+22FF
 )
-<wordembedding.png, id=487, 321.2pt x 197.73875pt>
+[24] <wordembedding.png, id=491, 321.2pt x 197.73875pt>
 File: wordembedding.png Graphic file (type png)
- <use wordembedding.png>
-[24] [25 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLatex/worde
-mbedding.png>] <w2v_ex.jpg, id=497, 678.535pt x 426.59375pt>
+
+<use wordembedding.png> [25 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Projec
+t/BaoCaoLatex/wordembedding.png>]
+<w2v_ex.jpg, id=497, 678.535pt x 426.59375pt>
 File: w2v_ex.jpg Graphic file (type jpg)
  <use w2v_ex.jpg>
 <cbow.jpg, id=498, 247.67531pt x 215.30438pt>
 File: cbow.jpg Graphic file (type jpg)
  <use cbow.jpg> [26 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCao
-Latex/w2v_ex.jpg> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLa
-tex/cbow.jpg>]
+Latex/w2v_ex.jpg>]
 <skipgram.jpg, id=503, 238.64156pt x 215.30438pt>
 File: skipgram.jpg Graphic file (type jpg)
  <use skipgram.jpg> [27 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/Ba
-oCaoLatex/skipgram.jpg>]
-[28]
+oCaoLatex/cbow.jpg> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCao
+Latex/skipgram.jpg>] [28]
 Ch\uhorn \ohorn ng 4.
 <Picture1.png, id=512, 260.47313pt x 177.66376pt>
 File: Picture1.png Graphic file (type png)
@@ -921,52 +921,52 @@ File: onl_learn.png Graphic file (type png)
  <use onl_learn.png> [34]
 [35 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLatex/onl_learn.
 png>] [36] [37] [38]
-Overfull \hbox (72.96552pt too wide) in paragraph at lines 743--743
+Overfull \hbox (72.96552pt too wide) in paragraph at lines 744--744
 []|\T5/cmr/bx/n/10 LogisticRegression|  
  []
 
 
-Overfull \hbox (39.03908pt too wide) in paragraph at lines 746--746
+Overfull \hbox (39.03908pt too wide) in paragraph at lines 747--747
 []|\T5/cmr/bx/n/10 MultinomialNB|  
  []
 
 
-Overfull \hbox (13.06625pt too wide) in paragraph at lines 749--749
+Overfull \hbox (13.06625pt too wide) in paragraph at lines 750--750
 []|\T5/cmr/bx/n/10 SVC|  
  []
 
 
-Overfull \hbox (49.89615pt too wide) in paragraph at lines 753--753
+Overfull \hbox (49.89615pt too wide) in paragraph at lines 754--754
 []|\T5/cmr/bx/n/10 PassiveAggressive  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 753--753
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 754--754
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (24.57872pt too wide) in paragraph at lines 756--756
+Overfull \hbox (24.57872pt too wide) in paragraph at lines 757--757
 []|\T5/cmr/bx/n/10 DecisionTree  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 756--756
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 757--757
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (33.3613pt too wide) in paragraph at lines 761--761
+Overfull \hbox (33.3613pt too wide) in paragraph at lines 762--762
 []|\T5/cmr/bx/n/10 RandomForest  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 761--761
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 762--762
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (21.54672pt too wide) in paragraph at lines 737--767
+Overfull \hbox (21.54672pt too wide) in paragraph at lines 738--768
  [] 
  []
 
@@ -991,7 +991,7 @@ ncm.png>] [42] [43]
 File: roc_auc.png Graphic file (type png)
  <use roc_auc.png> [44 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/Bao
 CaoLatex/roc_auc.png>]
-Overfull \hbox (8.73648pt too wide) in paragraph at lines 870--870
+Overfull \hbox (8.73648pt too wide) in paragraph at lines 871--871
  []|\T5/cmr/bx/n/10.95 PassiveAggressiveClassifier| 
  []
 
@@ -1100,19 +1100,19 @@ BaoCaoLatex/fp1gram.png>] [55]
 [56
 
 ] [57]
-Underfull \hbox (badness 10000) in paragraph at lines 1381--1382
+Underfull \hbox (badness 10000) in paragraph at lines 1382--1383
 [][][]$\T5/cmtt/m/n/14 https : / / www . researchgate . net / publication / 339
 299161 _$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1381--1382
+Underfull \hbox (badness 10000) in paragraph at lines 1382--1383
 $\T5/cmtt/m/n/14 Application _ of _ Supervised _ Machine _ Learning _ Algorithm
 s _$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1393--1394
+Underfull \hbox (badness 10000) in paragraph at lines 1394--1395
 [][][]$\T5/cmtt/m/n/14 https : / / jmlr . csail . mit . edu / papers / volume7 
 / crammer06a /$
  []
@@ -1124,61 +1124,61 @@ een already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1419 	\bibitem{}
+l.1420 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1419 	\bibitem{}
+l.1420 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1419 	\bibitem{}
+l.1420 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1419 	\bibitem{}
+l.1420 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1419 	\bibitem{}
+l.1420 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1419 	\bibitem{}
+l.1420 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1419 	\bibitem{}
+l.1420 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.]pdfTe
 X warning (ext4): destination with the same identifier (name{cite.}) has been a
 lready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1419 	\bibitem{}
+l.1420 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1424 	\bibitem{}
+l.1425 	\bibitem{}
                   Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Miche...
 [59]
 (D:\__UIT\HK4\DS102_HMTK\Fake-News-Detection-Project\BaoCaoLatex\BaoCaoHMTK.aux
@@ -1212,7 +1212,7 @@ vnr12.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnr7.pfb><C:
 /Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnti10.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnti12.pfb><C:/Program Files (x86)/M
 iKTeX 2.8/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on BaoCaoHMTK.pdf (61 pages, 1664723 bytes).
+Output written on BaoCaoHMTK.pdf (61 pages, 1664780 bytes).
 PDF statistics:
  865 PDF objects out of 1000 (max. 8388607)
  204 named destinations out of 1000 (max. 500000)

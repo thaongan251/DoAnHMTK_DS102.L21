@@ -23,9 +23,9 @@
 \contentsline {section}{\numberline {3.2}Tr\IeC {\'\i }ch xu\IeC {\'\acircumflex }t \IeC {\dj }\IeC {\d \abreve }c tr\IeC {\uhorn }ng}{19}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}CountVectorizer}{19}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}TF-IDF}{22}{subsection.3.2.2}
-\contentsline {paragraph}{TF - Term Frequency}{22}{paragraph*.15}
+\contentsline {paragraph}{TF - Term Frequency}{23}{paragraph*.15}
 \contentsline {paragraph}{IDF \IeC {\textendash } Inverse Document Frequency}{23}{paragraph*.16}
-\contentsline {paragraph}{Gi\IeC {\'a} tr\IeC {\d i} TF-IDF}{23}{paragraph*.17}
+\contentsline {paragraph}{Gi\IeC {\'a} tr\IeC {\d i} TF-IDF}{24}{paragraph*.17}
 \contentsline {subsection}{\numberline {3.2.3}Word2Vec}{24}{subsection.3.2.3}
 \contentsline {chapter}{\bf Ch\IeC {\uhorn }\IeC {\ohorn }ng \numberline {4. } HU\IeC {\'\ACIRCUMFLEX }N LUY\IeC {\d \ECIRCUMFLEX }N V\IeC {\`A} TINH CH\IeC {\h I}NH C\IeC {\'A}C M\IeC {\^O} H\IeC {\`I}NH H\IeC {\d O}C M\IeC {\'A}Y}{29}{chapter.4}
 \contentsline {section}{\numberline {4.1}C\IeC {\ohorn } s\IeC {\h \ohorn } l\IeC {\'y} thuy\IeC {\'\ecircumflex }t}{29}{section.4.1}

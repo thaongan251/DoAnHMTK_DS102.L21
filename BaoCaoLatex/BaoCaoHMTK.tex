@@ -381,7 +381,7 @@
 	
 	Mô hình máy học không thể làm việc trực tiếp với văn bản thô, do đó chúng ta sẽ đưa văn bản thô thành dạng vector số. 
 	
-	Bag-of-Words hay BoW là một kĩ thuật đơn giản, linh hoạt và khá hiệu quả trong xử lý ngôn ngữ tự nhiên. Mô hình BoW đơn giản là đưa các từ, các câu hay đoạn văn ở dạng text về vector có độ dài cố định mà mỗi phần tử là một số. Những con số này số lượng của các từ xuất hiện trong văn bản. Trong mô hình này, một văn bản được thể hiện dưới dạng túi (multiset) chứa các từ của nó, được gọi là "túi" vì mô hình chỉ quan tâm liệu từ đó xuất hiện bao nhiêu lần trong văn bản, nhưng không quan tâm đến ngữ pháp và thậm chí trật tự từ.
+	Bag-of-Words hay BoW là một kĩ thuật đơn giản, linh hoạt và khá hiệu quả trong xử lý ngôn ngữ tự nhiên. Mô hình BoW đơn giản là đưa các từ, các câu hay đoạn văn ở dạng text về vector có độ dài cố định mà mỗi phần tử là một số. Những con số này là số lượng của các từ xuất hiện trong văn bản. Trong mô hình này, văn bản được thể hiện dưới dạng túi (multiset) chứa các từ của nó, được gọi là "túi" vì mô hình chỉ quan tâm liệu từ đó xuất hiện bao nhiêu lần trong văn bản, nhưng không quan tâm đến ngữ pháp và trật tự các từ.
 	
 	\begin{figure}[H]
 		\begin{center}
@@ -389,7 +389,7 @@
 		\end{center}
 		\caption{Ví dụ về Bag-of-Words}
 	\end{figure}
-	Ở ví dụ trên, dựa trên 3 văn bản, ta có danh sách tập các từ được sử dụng, danh sách này hay còn gọi là từ điển (vocabulary) với 18 từ. Sau khi áp dụng BoW, ta có Vector đặc trưng của văn bản thứ hai có số chiều bằng 18, với mỗi phần tử là số lần xuất hiện trong văn bản của từ tương ứng.
+	Ở ví dụ trên, dựa trên 3 văn bản, ta có danh sách tập các từ được sử dụng, danh sách này còn được gọi là từ điển (vocabulary) với 18 từ. Sau khi áp dụng BoW, ta có vector đặc trưng của văn bản thứ hai có số chiều bằng 18, với mỗi phần tử là số lần xuất hiện của từ tương ứng trong văn bản.
 	
 	\textbf{N-Grams}
 	
@@ -421,15 +421,15 @@
 	Chúng tôi sử dụng CountVectorizer của thư viện sklearn để chuyến hoá văn bản thành các vector đặc trưng với các tham số sau:
 	\begin{itemize}
 		\item ngram\_range=(1,2): tính cho Unigram và Bigram.
-		\item tokenizer=tokenize: 
-		\item token\_pattern = None: 
+		\item tokenizer=tokenize: tách câu thành từ mà vẫn giữ nguyên bước tiền xử lý và n-grams.
+		\item token\_pattern = None: Ở bước tiền xử lý chúng tôi đã loại bỏ các ký tự đặc biệt, do đó tham số này sẽ có giá trị là None.
 		\item analyzer='word': đơn vị tính là từ.
 		\item min\_df=5: bỏ qua các từ hoặc cụm từ chỉ xuất hiện dưới 5 văn bản.
 		\item max\_df=0.9: bỏ qua các từ hoặc cụm từ xuất hiện trong hơn 90\% tổng số văn bản.
 		\item strip\_accents='unicode': loại bỏ các ký tự Unicode
 	\end{itemize}
 	
-	Trong bài toán thực tế, tập các từ được sử dụng (vocabulary) có rất nhiều từ, như thế vector đặc trưng thu được sẽ rất dài. Và có rất nhiều từ trong tập vocabulary không xuất hiện trong văn bản, như vậy các vector đặc trưng thu được có nhiều phần tử bằng 0 (vector này được gọi là sparse vector) chiếm nhiều không gian lưu trữ không mong muốn. Hoặc một vấn đề có thể ta gặp phải là có những từ hiếm không nằm trong tập vocabulary và từ hiếm đôi khi mang lại thông tin quan trọng mà ta có thể bỏ qua. Có một phương pháp cải tiến khắc phục nhược điểm của BoW có tên là TFIDF, TFIDF sẽ chú trọng trong việc xác định độ quan trọng của một từ trong văn bản dựa trên toàn bộ tập các văn bản. 
+	Trong bài toán thực tế, tập các từ được sử dụng (vocabulary) có rất nhiều từ, như thế vector đặc trưng thu được sẽ rất dài. Và có rất nhiều từ trong tập vocabulary không xuất hiện trong văn bản, như vậy các vector đặc trưng thu được có nhiều phần tử bằng 0 (vector này được gọi là sparse vector) chiếm nhiều không gian lưu trữ không mong muốn. Hoặc một vấn đề có thể ta gặp phải là có những từ hiếm không nằm trong tập vocabulary và từ hiếm đôi khi mang lại thông tin quan trọng mà ta có thể bỏ qua. Có một phương pháp cải tiến khắc phục nhược điểm của BoW có tên là TFIDF. TFIDF sẽ chú trọng trong việc xác định độ quan trọng của một từ trong văn bản dựa trên toàn bộ tập các văn bản. 
 	
 	\subsection{TF-IDF}
 	
@@ -455,7 +455,7 @@
 	 		\end{equation}
 	 		\begin{itemize}
 	 			\item $\lvert D \rvert$ – tổng số văn bản trong tập \textbf{D}
-	 			\item $\lvert \{ d \in D : t \in d \} \rvert$ – số văn bản chứa từ nhất định, với điều kiện \textbf{t} xuất hiện trong văn bản \textbf{d}. Nếu từ đó không xuất hiện ở bất cứ 1 văn bản nào trong tập thì mẫu số sẽ bằng 0. Do đó, phép chia cho không không hợp lệ, vì thế người ta thường thay bằng mẫu thức là $1 + \lvert \{ d \in D : t \in d \} \rvert$
+	 			\item $\lvert \{ d \in D : t \in d \} \rvert$ – số văn bản chứa từ nhất định, với điều kiện \textbf{t} xuất hiện trong văn bản \textbf{d}. Nếu từ đó không xuất hiện ở bất cứ 1 văn bản nào trong tập thì mẫu số sẽ bằng 0. Do đó, phép chia cho không không hợp lệ, vì thế người ta thường thay mẫu thức là $1 + \lvert \{ d \in D : t \in d \} \rvert$
 	 		\end{itemize}
 	
 	 		\paragraph{Giá trị TF-IDF}
@@ -463,7 +463,7 @@
 			\operatorname{tfidf}(t,d,D) = \operatorname{tf}(t,d) \times \operatorname{idf}(t,D)
 			\end{equation}
 			
-			Trong ngôn ngữ luôn có những từ xuất hiện thường xuyên hơn. Chính vì vậy  ta cần có một phương pháp để làm mịn đường cong tần số trên hay là việc cân bằng mức độ quan trọng giữa các từ. TF-IDF cũng được sử dụng để lọc những từ stopwords trong các bài toán như tóm tắt văn bản và phân loại văn bản.
+			Trong ngôn ngữ luôn có những từ xuất hiện thường xuyên hơn. Chính vì vậy  ta cần có một phương pháp để làm mịn đường cong tần số trên hay cân bằng mức độ quan trọng giữa các từ. TF-IDF cũng được sử dụng để lọc những từ stopwords trong các bài toán như tóm tắt văn bản và phân loại văn bản.
 			
 			Để chuyển văn bản đầu vào thành các vector TFIDF, chúng tôi sử dụng công cụ \textit{TfidfVectorizer} của thư viện sklearn với các tham số sau:
 			
@@ -620,7 +620,7 @@
 		
 		\textbf{Vector hỗ trợ}
 		
-		Phía trên chính là ý tưởng của phương pháp SVM. Bên cạnh đó, các vector hỗ trợ - là các điểm dữ liệu nằm trên hoặc gần nhất với siêu phẳng chúng ảnh hưởng đến vị trí và hướng của siêu phẳng. Các vector này được sử dụng để tối ưu hóa lề và nếu xóa các điểm này, vị trí của siêu phẳng sẽ thay đổi. Một điểm lưu ý nữa đó là các vector hỗ trợ phải cách đều siêu phẳng.
+		Phía trên chính là ý tưởng của phương pháp SVM. Bên cạnh đó, các vector hỗ trợ - là các điểm dữ liệu nằm trên hoặc gần nhất với siêu phẳng, chúng ảnh hưởng đến vị trí và hướng của siêu phẳng. Các vector này được sử dụng để tối ưu hóa lề và nếu xóa các điểm này, vị trí của siêu phẳng sẽ thay đổi. Một điểm lưu ý nữa đó là các vector hỗ trợ phải cách đều siêu phẳng.
 		
 		SVM giải quyết vấn đề overfitting rất tốt, là phương pháp phân lớp nhanh, có hiệu suất tổng hợp tốt và có hiệu suất tính toán cao.
 		
@@ -635,7 +635,8 @@
 		Giá trị thấp của gamma cho thấy bán kính tương tự lớn dẫn đến nhiều điểm được nhóm lại với nhau. Đối với các giá trị cao của gamma, các điểm cần phải rất gần nhau để được xem xét trong cùng một nhóm (hoặc lớp). Do đó, các mô hình có giá trị gamma rất lớn có xu hướng quá mức.
 		
 		\textbf{Thủ thuật Kernel}
-		Một kernel là một hàm ánh xạ dữ liệu từ không gian ít nhiều hơn sang không gian nhiều chiều hơn, từ đó ta tìm được siêu phẳng phân tách dữ liệu. Các kiểu kernel:
+		
+		Một kernel là một hàm ánh xạ dữ liệu từ không gian ít chiều hơn sang không gian nhiều chiều hơn, từ đó ta tìm được siêu phẳng phân tách dữ liệu. Các kiểu kernel:
 		\begin{itemize}
 			\item Tuyến tính
 			\item Đa thức
@@ -748,7 +749,7 @@
 						\hline 
 						\multirow{3}{1em}{\textbf{SVC}} & kernel = linear & kernel = rbf & kernel = rbf  \\
 						& C = 0.1 & C = 10 & C = 10 \\ 
-						& gama = 1 & gamma = 0.1 &gamma = 0.1  \\
+						& gamma = 1 & gamma = 0.1 &gamma = 0.1  \\
 						\hline
 						\multirow{2}{4em}{\textbf{PassiveAggressive\\Classifier}} & C = 0.001 & C = 0.1 &C = 0.01 \\
 						& early\_stopping = True & early\_stopping = False & early\_stopping = False\\                         
