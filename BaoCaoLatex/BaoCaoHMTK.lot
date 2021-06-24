@@ -16,7 +16,7 @@
 \contentsline {subtable}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{50}{subtable.5.1}
 \contentsline {subtable}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{50}{subtable.5.2}
 \contentsline {subtable}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{50}{subtable.5.3}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Classification report PassiveAgressiveClassifier\relax }}{50}{table.caption.41}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Classification report PassiveAggressiveClassifier\relax }}{50}{table.caption.41}
 \contentsline {subtable}{\numberline {(a)}{\ignorespaces {\textbf {CountVectorizer}}}}{51}{subtable.6.1}
 \contentsline {subtable}{\numberline {(b)}{\ignorespaces {\textbf {TfidfVectorizer}}}}{51}{subtable.6.2}
 \contentsline {subtable}{\numberline {(c)}{\ignorespaces {\textbf {Word2Vec}}}}{51}{subtable.6.3}

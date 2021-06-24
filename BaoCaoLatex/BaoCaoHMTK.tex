@@ -176,7 +176,7 @@
 \chapter{GIỚI THIỆU CHUNG}
 
 	\section{Mục tiêu đề tài}
-	Mục tiêu đặt ra của đồ án này nhằm tìm hiểu và xây dựng các mô hình Học máy để nhận diện tin tức giả bằng cách phân loại các tin tức từ bộ dữ liệu theo 2 nhãn: REAL (tin thật) và FAKE (tin giả). Những mô hình Học máy mà chúng tôi khảo sát trong đồ án này dựa trên 6 phương pháp sau đây: Logistic Regression, Multinomial Naive Bayes, Support Vector Machine, Passive Agressive, Decission Tree và Random Forest.
+	Mục tiêu đặt ra của đồ án này nhằm tìm hiểu và xây dựng các mô hình Học máy để nhận diện tin tức giả bằng cách phân loại các tin tức từ bộ dữ liệu theo 2 nhãn: REAL (tin thật) và FAKE (tin giả). Những mô hình Học máy mà chúng tôi khảo sát trong đồ án này dựa trên 6 phương pháp sau đây: Logistic Regression, Multinomial Naive Bayes, Support Vector Machine, Passive Aggressive, Decision Tree và Random Forest.
 	
 	Ngoài ra, mục tiêu của đề tài còn nhằm tìm hiểu và so sánh khả năng trích xuất thông tin của một số bộ trích chọn đặc trưng gồm TFIDFVectorizer, Countvectorizer và Word2Vec, cũng như độ hiểu quả của chúng trên các mô hình Học máy khác nhau. Qua đó có thể tìm ra mô hình và bộ vector hóa mang lại hiệu suất cao nhất trên bộ dữ liệu.
 	
@@ -329,7 +329,7 @@
 
 \chapter{TIỀN XỬ LÝ VÀ VECTOR HÓA DỮ LIỆU}
 	
-	Trước khi thực hiện các bước tiền xử lý và vector hóa dữ liệu, chúng tôi sử dụng hàm traintestsplit() hỗ trợ bởi thư viên scikit-learn để tiến hành phân chia tập train và tập test với tỉ lệ 75\% train - 25\% test. 
+	Trước khi thực hiện các bước tiền xử lý và vector hóa dữ liệu, chúng tôi sử dụng hàm train\_test\_split() hỗ trợ bởi thư viện scikit-learn để tiến hành phân chia tập train và tập test với tỉ lệ 75\% train - 25\% test. 
 	
 	Ở mỗi tập dữ liệu, chúng tôi bỏ đi cột \textit{Unnamed} và gộp nội dung 2 cột \textit{title} và \textit{text} lại để làm dữ liệu đầu vào. Đối với nhãn \textit{label}, chúng tôi ánh xạ giá trị dạng chuỗi ký tự về dạng nhị phân để mô hình có thể hoạt động hiệu quả.
 		
@@ -490,7 +490,7 @@
 	
 	Word2Vec là một trong những mô hình đầu tiên về Word Embedding sử dụng mạng neural và vẫn còn khá phổ biến ở thời điểm hiện tại, có khả năng vector hóa từng từ dựa trên tập các từ chính và các từ ngữ cảnh.
 	
-	Về mặt toán học, thực chất Word2Vec là việc ánh xạ từ một tập các từ vựng (vocabulary) sang một không gian vector, mỗi vector được biểu diễn bởi n số thực. Mỗi từ ứng với 1 vector cố định. Sau quá trình huấn luyện mô hình bằng thuật toán backprobagation, trọng số các vector của từng từ được cập nhật liên tục. Từ đó, ta có thể thực hiện tính toán bằng các khoảng cách quen thuộc như euclide, cosine, mahattan,... Những từ càng "gần" nhau về mặt khoảng cách thường là các từ hay xuất hiện cùng nhau trong văn cảnh, các từ đồng nghĩa, các từ thuộc cùng 1 trường từ vựng,
+	Về mặt toán học, thực chất Word2Vec là việc ánh xạ từ một tập các từ vựng (vocabulary) sang một không gian vector, mỗi vector được biểu diễn bởi n số thực. Mỗi từ ứng với 1 vector cố định. Sau quá trình huấn luyện mô hình bằng thuật toán backpropagation, trọng số các vector của từng từ được cập nhật liên tục. Từ đó, ta có thể thực hiện tính toán bằng các khoảng cách quen thuộc như euclide, cosine, manhattan,... Những từ càng "gần" nhau về mặt khoảng cách thường là các từ hay xuất hiện cùng nhau trong văn cảnh, các từ đồng nghĩa, các từ thuộc cùng 1 trường từ vựng,
 	
 	Mô hình chung của Word2Vec dựa trên 1 mạng neural khá đơn giản. Gọi V là tập các tất cả các từ hay vocabulary với n từ khác nhau. Layer input biểu diễn dưới dạng one-hot encoding với n node đại diện cho n từ trong vocabulary. Activation function (hàm kích hoạt) chỉ có tại layer cuối là softmax function, loss function là cross entropy loss, tương tự như cách biểu diễn mô hình của các bài toán classification thông thường. Ở giữa hai layer input và output là một layer trung gian với size = k, chính là vector sẽ được sử dụng để biểu diễn các từ sau khi huấn luyện mô hình.
 	
@@ -513,7 +513,7 @@
 		\end{center}
 		\caption{Mô hình CBOW}
 	\end{figure}
-	Ý tưởng chính của CBOW là dựa vào các \textit{context word} để dự đoán \textit{center word}. CBOW có điểm thuận lợi là huấn luyện mô hình nhanh hơn so với mô hình Skip-gram, thường cho kết quả tốt hơn với frequence words (hay các từ thường xuất hiện trong ngữ cảnh)
+	Ý tưởng chính của CBOW là dựa vào các \textit{context word} để dự đoán \textit{center word}. CBOW có điểm thuận lợi là huấn luyện mô hình nhanh hơn so với mô hình Skip-gram, thường cho kết quả tốt hơn với frequency words (hay các từ thường xuất hiện trong ngữ cảnh)
 	\item \textbf{Skip-gram}
 	
 	\begin{figure}[H]
@@ -529,7 +529,7 @@
 	
 	Trong đồ án này, chúng tôi sử dụng mô hình Word2Vec đã được huấn luyện sẵn trên bộ Google News Vector kích thước 300 chiều với khoảng 3 triệu từ và cụm từ. Thông thường việc huấn luyện trên có thể mất đến hàng giờ, tuy nhiên mô hình đã có sẵn nên việc tải và load lên Google Colab với thư viện Gensim chỉ mất vài phút. 
 	
-	Sau khi đã có mô hình, chúng tôi thực hiện việc chuyển đổi dữ liệu dạng văn bản về dạng vector số thực bằng cách lấy trung bình của các giá trị vector từ pretrain model ứng với từng từ trong mỗi văn bản. Một cách chi tiết hơn, chúng tôi xét mỗi từ trong một văn bản, nếu một từ có trong bộ pretrain model Googel News Vector, mô hình sẽ trả về một vector số thực 300 chiều ứng với từ đó. Trung bình của các vector số thực này sẽ là một vector 300 chiều đại diện cho điểm dữ liệu (văn bản).
+	Sau khi đã có mô hình, chúng tôi thực hiện việc chuyển đổi dữ liệu dạng văn bản về dạng vector số thực bằng cách lấy trung bình của các giá trị vector từ pretrain model ứng với từng từ trong mỗi văn bản. Một cách chi tiết hơn, chúng tôi xét mỗi từ trong một văn bản, nếu một từ có trong bộ pretrain model Google News Vector, mô hình sẽ trả về một vector số thực 300 chiều ứng với từ đó. Trung bình của các vector số thực này sẽ là một vector 300 chiều đại diện cho điểm dữ liệu (văn bản).
 	
 	Như vậy ma trận thu được sau khi chuyển đổi sẽ có số chiều là n x 300, với n là kích thước của tập huấn luyện hay tập kiểm thử.
 	
@@ -598,7 +598,7 @@
 			\end{center}
 
 		\subsection{Support Vector Machine}
-		Mục tiêu của SVM là tìm ra một siêu phẳng trong không gian N chiều (ứng với N đặc trưng) chia dữ liệu thành hai phần tương ứng với lớp của chúng. Nói theo ngôn ngữ của đại số tuyển tính, siêu phẳng này phải có lề cực đại và phân chia hai bao lồi và cách đều chúng.
+		Mục tiêu của SVM là tìm ra một siêu phẳng trong không gian N chiều (ứng với N đặc trưng) chia dữ liệu thành hai phần tương ứng với lớp của chúng. Nói theo ngôn ngữ của đại số tuyến tính, siêu phẳng này phải có lề cực đại và phân chia hai bao lồi và cách đều chúng.
 		
 			\begin{figure}[H]
 			\begin{center}
@@ -645,9 +645,9 @@
 		
 		
 		
-		\subsection{Thuật toán Passive Agressive}
+		\subsection{Thuật toán Passive Aggressive}
 		
-		Thuật toán Pasive Agressive là một phân nhóm các thuật toán Online learning dùng cho hai bài toán Hồi quy và Phân loại. Thuật toán này được giới thiệu lần đầu vào năm 2006, bởi Koby Crammer cùng các cộng sự tại Đại học Hebrew của Jerusalem, Israel.
+		Thuật toán Passive Aggressive là một phân nhóm các thuật toán Online learning dùng cho hai bài toán Hồi quy và Phân loại. Thuật toán này được giới thiệu lần đầu vào năm 2006, bởi Koby Crammer cùng các cộng sự tại Đại học Hebrew của Jerusalem, Israel.
 		
 		Trong các thuật toán Online learning, tập huấn luyện được chia nhỏ và đưa vào mô hình một cách tuần tự, và dựa trên mỗi nhóm nhỏ dữ liệu này, các mô hình Học máy sẽ 'học' và tự điều chỉnh. Cơ chế này rất hữu ích trong trường hợp kích thước dữ liệu quá lớn khiến cho việc huấn luyện trên toàn bộ tâp dữ liệu gặp nhiều khó khăn. Điển hình là bài toán nhận diện tin giả trên các nền tảng mạng xã hội như Twitter, Facebook,... nơi mà dữ liệu được sinh ra liên tục và nhanh chóng đạt kích thước khổng lồ. Trong trường hợp đó, các thuật toán Online Learning được xem là lý tưởng.
 		
@@ -659,22 +659,22 @@
 			\caption{Thuật toán Online Learning cho việc xử lý dữ liệu lớn}
 		\end{figure}
 		
-		Nội dung của thuật toán Passive Agressive có thể được hiểu một cách ngắn gọn từ tên của nó:
+		Nội dung của thuật toán Passive Aggressive có thể được hiểu một cách ngắn gọn từ tên của nó:
 
 		\begin{itemize}
 		\item \textbf{Passive:} Nếu dự đoán điểm dữ liệu chính xác thì mô hình được giữ lại và không điều chỉnh (điểm dữ liệu không đủ khiến mô hình phải điều chỉnh).
-		\item \textbf{Agressive:} Nếu dự đoán sai, mô hình phải thực hiện các điều chỉnh. Trong số đó sẽ có những điều chỉnh làm cho mô hình dự đoán đúng điểm dữ liệu đó.
+		\item \textbf{Aggressive:} Nếu dự đoán sai, mô hình phải thực hiện các điều chỉnh. Trong số đó sẽ có những điều chỉnh làm cho mô hình dự đoán đúng điểm dữ liệu đó.
 		\end{itemize}
 		
-		Thư viện scikit-learn cũng hỗ trợ thuật toán Passive Agressive thông qua hai hàm PassiveAgressiveRegressor() và PassiveAgressiveClassifier() trong module linear\_model.
+		Thư viện scikit-learn cũng hỗ trợ thuật toán Passive Aggressive thông qua hai hàm PassiveAggressiveRegressor() và PassiveAggressiveClassifier() trong module linear\_model.
 		Ở đồ án này, mô hình PassiveAgressiveClassifier() được sử dụng với các tham số quan trọng sau:
 		\begin{itemize}
-		\item \textbf{C:} là độ chính quy hóa của mô hình. C càng lớn thì độ Agressive của mô hình càng cao.
+		\item \textbf{C:} là độ chính quy hóa của mô hình. C càng lớn thì độ Aggressive của mô hình càng cao.
 		\item \textbf{max\_iter:} số lần lặp tối đa của mô hình trên tập dữ liệu huấn luyện. Giá tri mặc định là 1000.
 		\item \textbf{tol:} tiêu chuẩn dừng vòng lặp của mô hình. Giá trị mặc định là 0.001.
 		\item \textbf{early\_stopping:} Nếu nhận giá trị True, mô hình sẽ tự động dừng huấn luyện nếu kết quả trên tập thẩm định không cải thiện.
 		\end{itemize}
-		\subsection{Decission Tree}
+		\subsection{Decision Tree}
 		Decision Tree (cây quyết định) là mô hình thuộc nhóm thuật toán học máy học có giám sát (Supervised Learning). Mô hình cây quyết định cho biết giá trị của một biến mục tiêu thuộc lớp nào bằng cách dựa vào các giá trị của một tập các biến dự đoán, hay tập các câu hỏi.
 		
 		Cây quyết định có dạng cấu trúc cây, bao gồm: nút gốc (root node), nút quyết định (decision node) và nút lá (leaf node).
@@ -750,15 +750,15 @@
 						& C = 0.1 & C = 10 & C = 10 \\ 
 						& gama = 1 & gamma = 0.1 &gamma = 0.1  \\
 						\hline
-						\multirow{2}{4em}{\textbf{PassiveAgressive\\Classifier}} & C = 0.001 & C = 0.1 &C = 0.01 \\
+						\multirow{2}{4em}{\textbf{PassiveAggressive\\Classifier}} & C = 0.001 & C = 0.1 &C = 0.01 \\
 						& early\_stopping = True & early\_stopping = False & early\_stopping = False\\                         
 						\hline 
-						\multirow{4}{4em}{\textbf{DecissionTree\\Classifier}} & criterion = entropy & criterion = gini & criterion = entropy  \\
+						\multirow{4}{4em}{\textbf{DecisionTree\\Classifier}} & criterion = entropy & criterion = gini & criterion = entropy  \\
 						& max\_depth = None & max\_depth = 32 & max\_depth = None \\ 
 						& min\_sample\_leaf = 1 & min\_sample\_leaf = 2 & min\_sample\_leaf = 1  \\
 						& min\_sample\_split = 2  & min\_sample\_split = 5 & min\_sample\_split = 2  \\
 						\hline 
-						\multirow{4}{4em}{\textbf{RadomForest\\Classifier}} & criterion = entropy & criterion = gini & criterion = entropy  \\
+						\multirow{4}{4em}{\textbf{RandomForest\\Classifier}} & criterion = entropy & criterion = gini & criterion = entropy  \\
 						& min\_sample\_split = 2 & min\_sample\_split = 5 & min\_sample\_split =  5 \\
 						& min\_sample\_leaf = 1 & min\_sample\_leaf = 1 & min\_sample\_leaf =  1 \\
 						& n\_estimators = 100 & n\_estimators = 400 & n\_estimators = 300 \\
@@ -788,7 +788,7 @@
 		\item \textbf{True Negative (TN):} số điểm dữ liệu có nhãn là Negative được dự đoán là Negative.
 		\end{itemize}
 		
-		Một cách tổng quát, Confusion Matrix là một ma trận vuông có kích thước mỗi chiều bằng số lượng lớp dữ liệu. Giá trị tại hàng thứ i, cột thứ j là số lượng điểm lẽ ra thuộc vào class i nhưng lại được dự đoán là thuộc vào class j. Bên cạnh cách đinh nghĩa trên thì vẫn có một số tài liệu định nghĩa ngược lại.
+		Một cách tổng quát, Confusion Matrix là một ma trận vuông có kích thước mỗi chiều bằng số lượng lớp dữ liệu. Giá trị tại hàng thứ i, cột thứ j là số lượng điểm lẽ ra thuộc vào class i nhưng lại được dự đoán là thuộc vào class j. Bên cạnh cách định nghĩa trên thì vẫn có một số tài liệu định nghĩa ngược lại.
 		
 		Để có cái nhìn rõ hơn thì Confusion Matrix còn được biểu diễn bằng cách chuẩn hóa (normalize). Việc chuẩn hóa Confusion Matrix được thực hiện bằng cách lấy từng phần tử trong mỗi hàng chia cho tổng phần tử trên hàng đó. Như vậy tổng của các phần tử trên một hàng luôn bằng 1.
 
@@ -807,9 +807,9 @@
 	
 	\centerline{$accuracy = \cfrac{TP+TN}{TP+TN+FP+FN}$}
 	\vspace{1em}
-	Độ đo Accuracry thường không phù hợp đối với bài toán phân loại có số lượng điểm dữ liệu giữa các lớp quá mất cân bằng, vì mô hình có xu hướng đánh giá dựa trên lớp có nhiều điểm dữ liệu hơn. Tuy nhiên đối với bộ dữ liệu sử dụng trong bài toán này thì độ đo Accuracy vẫn mang lại hiệu quả do phân bố điểm dữ liệu trên hai lớp là cân bằng.
+	Độ đo Accuracy thường không phù hợp đối với bài toán phân loại có số lượng điểm dữ liệu giữa các lớp quá mất cân bằng, vì mô hình có xu hướng đánh giá dựa trên lớp có nhiều điểm dữ liệu hơn. Tuy nhiên đối với bộ dữ liệu sử dụng trong bài toán này thì độ đo Accuracy vẫn mang lại hiệu quả do phân bố điểm dữ liệu trên hai lớp là cân bằng.
 	\subsection{Precision - Recall - F1}
-	Độ đo Precison được tính bằng tỉ lệ giữa số điểm dữ liệu có nhãn là Positive được dự đoán đúng trên tổng số dự đoán cho nhãn Positive đưa ra bởi mô hình:
+	Độ đo Precision được tính bằng tỉ lệ giữa số điểm dữ liệu có nhãn là Positive được dự đoán đúng trên tổng số dự đoán cho nhãn Positive đưa ra bởi mô hình:
 	
 	\centerline{$precision = \cfrac{TP}{TP+FP}$}
 	\vspace{1em}
@@ -826,7 +826,7 @@
 	
 	\centerline{$F_1 = 2 \times \cfrac{precision\cdot recall}{precision+recall}$}
 	\vspace{1em}
-	Độ đo $F_1$ thường được dùng khi chúng ta cần sự đồng đều giữa precision và recall hoặc khi bộ dữ liệu quá mất cân bằng. Vì vậy nó được sử dụng rất phổ biển trong các bài toán thực tế và trong nghiên cứu khoa học.
+	Độ đo $F_1$ thường được dùng khi chúng ta cần sự đồng đều giữa precision và recall hoặc khi bộ dữ liệu quá mất cân bằng. Vì vậy nó được sử dụng rất phổ biến trong các bài toán thực tế và trong nghiên cứu khoa học.
 	
 	\subsection{Đường cong ROC và chỉ số AUC}
 	Đường cong ROC (Receiver Operating Characteristic Curve) là một đồ thị đánh giá hiệu suất thường được sử dụng trong bài toán phân lớp nhị phân. Ứng dụng đầu tiên của nó là cho việc nghiên cứu các hệ thống nhận diện trong việc phát hiện các tín hiệu radio khi có sự hiện diện của nhiễu vào thập niên 1940, sau sự kiện cuộc tấn công Trân Châu Cảng. 
@@ -867,9 +867,9 @@
 			\hline
 			\textbf{SVC} & 0.9053 & 0.9520 & \textbf{0.9249} \\
 			\hline
-			\textbf{PassiveAgressiveClassifier} & 0.9154 & \textbf{0.9552} & 0.8958 \\
+			\textbf{PassiveAggressiveClassifier} & 0.9154 & \textbf{0.9552} & 0.8958 \\
 			\hline
-			\textbf{DecissionTreeClassifier} & 0.8182 & 0.7891 & 0.7841 \\
+			\textbf{DecisionTreeClassifier} & 0.8182 & 0.7891 & 0.7841 \\
 			\hline
 			\textbf{RandomForestClassifer} & 0.9066 & 0.9104 & 0.8996 \\
 			\hline
@@ -895,7 +895,7 @@
 	\end{figure}
 	\pagebreak
 
-	\subsection{Kết quả đánh giá LogisicRegression}
+	\subsection{Kết quả đánh giá LogisticRegression}
 		\begin{figure}[H]
 			\subfloat[\textbf{CountVectorizer}]{% 
 				\includegraphics[width=0.33\textwidth]{cvlr}} 
@@ -1032,7 +1032,7 @@
 	\caption{Classification report MultinomialNB}
 \end{table}
 
-\subsection{Kết quả dánh giá SVC}
+\subsection{Kết quả đánh giá SVC}
 
 \begin{figure}[H]
 	\subfloat[\textbf{CountVectorizer}]{% 
@@ -1100,7 +1100,7 @@
 	\caption{Classification report SVC}
 \end{table}
 
-\subsection{Kết quả đánh giá PassiveAgressiveClassifier}
+\subsection{Kết quả đánh giá PassiveAggressiveClassifier}
 
 \begin{figure}[H]
 	\subfloat[\textbf{CountVectorizer}]{% 
@@ -1111,7 +1111,7 @@
 	\hfill
 	\subfloat[\textbf{Word2Vec}]{%
 		\includegraphics[width=0.33\textwidth]{w2vpa}}
-	\caption{Confusion Matrix PassiveAgressiveClassifier} 
+	\caption{Confusion Matrix PassiveAggressiveClassifier} 
 \end{figure}
 
 \begin{table}[H]
@@ -1166,7 +1166,7 @@
 	\hrule
 	\end{center}
 	
-	\caption{Classification report PassiveAgressiveClassifier}
+	\caption{Classification report PassiveAggressiveClassifier}
 \end{table}
 
 \subsection{Kết quả đánh giá DecisionTreeClassifier}
@@ -1307,14 +1307,14 @@
 \chapter{PHÂN TÍCH LỖI VÀ HƯỚNG PHÁT TRIỂN}
 \section{Phân tích lỗi mô hình tốt nhất}
 
-Qua kết quả đánh giá tổng hợp thu được, mô hình PassiveAgressiveClassifier cho hiệu suất cao nhất trên bộ TfidfVectorizer.
+Qua kết quả đánh giá tổng hợp thu được, mô hình PassiveAggressiveClassifier cho hiệu suất cao nhất trên bộ TfidfVectorizer.
 \begin{figure}[H]
 	\centering
 	\captionsetup{width=0.6\textwidth}
 	\includegraphics[width=0.6\textwidth]{tfpa_2}
-	\caption{Confusion Matrix của mô hình Passive Agressive Classifier với TfidfVectorizer}
+	\caption{Confusion Matrix của mô hình Passive Aggressive Classifier với TfidfVectorizer}
 \end{figure}
-Nhìn sơ lược qua Confussion Matrix, dữ liệu hầu hết hội tụ về đường chéo của ma trận, chứng tỏ hiệu suất phân loại của mô hình là rất tốt. Tuy nhiên vẫn có một số điểm dữ liệu mô hình dự đoán không chính xác, cụ thể:
+Nhìn sơ lược qua Confusion Matrix, dữ liệu hầu hết hội tụ về đường chéo của ma trận, chứng tỏ hiệu suất phân loại của mô hình là rất tốt. Tuy nhiên vẫn có một số điểm dữ liệu mô hình dự đoán không chính xác, cụ thể:
 \begin{itemize}
 \item Có 38 điểm dữ liệu có nhãn là FAKE (0) bị mô hình dự đoán là REAL (1)
 \item Có 33 điểm dữ liệu có nhãn là REAL (1) bị mô hình dự đoán là FAKE (0)
@@ -1353,7 +1353,7 @@ Báo cáo đồ án của chúng tôi đã trình bày một cách ngắn gọn 
 
 Do hạn chế về tài nguyên và thời gian, chúng tôi chỉ có thể thử nghiệm một số lượng nhất định giá trị tham số của các mô hình, vì vậy các mô hình sau khi tinh chỉnh có thể chưa là tốt nhất. Sau cùng, chúng tôi mong muốn có thể đưa ra bộ tham số tốt nhất của từng mô hình trên từng bộ vector hóa cụ thể, nhằm thực hiện việc so sánh và đánh giá một cách khách quan nhất về hiệu suất phân loại giữa các mô hình trên bộ dữ liệu.
 
-Thông qua kết quả đánh giá hiệu suất mô hình, chúng tôi nhận thấy khả năng nhận diện và phân loại tin giả trên bộ dữ liệu của các phương pháp Học máy đều khá tốt với hiệu suất trung bình là 89,25\%. Trong đó, phương pháp Decission Tree cho kết quả thấp nhất trên bộ Word2Vec với độ chính xác 78,41\%. Phương pháp Passive Agressive cho hiệu suất cao nhất trên bộ TfifVectorizer với độ chính xác 95,52\%, do đó có thể được xem xét để ứng dụng vào trong thực tiễn.
+Thông qua kết quả đánh giá hiệu suất mô hình, chúng tôi nhận thấy khả năng nhận diện và phân loại tin giả trên bộ dữ liệu của các phương pháp Học máy đều khá tốt với hiệu suất trung bình là 89,25\%. Trong đó, phương pháp Decision Tree cho kết quả thấp nhất trên bộ Word2Vec với độ chính xác 78,41\%. Phương pháp Passive Aggressive cho hiệu suất cao nhất trên bộ TfidfVectorizer với độ chính xác 95,52\%, do đó có thể được xem xét để ứng dụng vào trong thực tiễn.
 
 Các bộ vector hóa dữ liệu cũng ảnh hưởng đến hiệu suất của các mô hình. Trong đó, hiệu suất trung bình của các mô hình với CountVectorizer là 89,65\% , với TfidfVectorizer là 91,22\% và với Word2Vec là 86,89\%. Bộ TfidfVectorizer mang lại hiệu suất cao hơn hai mô hình còn lại, có thể xem xét làm dữ liệu đầu vào khi thử nghiệm những phương pháp mạnh hơn.
 
@@ -1375,8 +1375,9 @@ Một số pretrain-model State-of-the-art như Glove, Transformer, StanfordNLP 
 	
 	\url{https://arxiv.org/abs/2003.04978}
 	
-	\bibitem{} Koby Crammer, Ofer Dekel,Joseph Keshet, Shai Shalev-Shwartz, Yoram Singer (2006), \textit{Online Passive-Aggressive Algorithms}.
-	
+	\bibitem{} Koby Crammer, Ofer Dekel,Joseph Keshet, Shai Shalev-Shwartz, Yoram Singer (2006),
+	\textit{Online Passive-Aggressive Algorithms}.
+
 	\url{https://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf}
 	
 	\bibitem{}Taylor Onate Egerton, Ezekiel Promise Sochima, \textit{Application of Supervised Machine Learning Algorithms to Detect Online Fake News}.
@@ -1385,18 +1386,36 @@ Một số pretrain-model State-of-the-art như Glove, Transformer, StanfordNLP 
 	
 	\bibitem{} Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.
 	
-	
 	\url{https://machinelearningcoban.com/}
 	
 	\bibitem{} Radim {\v R}eh{\r u}{\v r}ek and Petr Sojka, \textit{Software Framework for Topic Modelling with Large Corpora}.
 	
 	\url{https://radimrehurek.com/gensim/models/word2vec.html}
+	
+	\bibitem{}Obinna Chilezie Njoku,
+	\textit{Decision Trees and Their Application for Classification and Regression Problems}
+	
+	\url{https://bearworks.missouristate.edu/theses/3406/}
+	
+	\bibitem{}Iftikhar Ahmad, Muhammad Yousaf, Suhail Yousaf, and Muhammad Ovais Ahmad
+	\textit{Fake News Detection Using Machine Learning Ensemble Methods}
+	
+	\url{https://www.hindawi.com/journals/complexity/2020/8885861/}
+	
+	\bibitem{}Hussain Mujtaba, 
+	\textit{An Introduction to Bag of Words (BoW) | What is Bag of Words?}
+	
+	\url{https://www.mygreatlearning.com/blog/bag-of-words}
+	
 	\bibitem{}Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
 	         and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
 	         and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
 	         Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E., \textit{Scikit-learn: Machine Learning in {P}ython}.
 	         
 	\url{https://scikit-learn.org/stable/}
+	
+
+	
 \end{thebibliography}
 
 \end{document} 
