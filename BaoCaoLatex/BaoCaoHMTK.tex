@@ -178,7 +178,7 @@
 	\section{Mục tiêu đề tài}
 	Mục tiêu đặt ra của đồ án này nhằm tìm hiểu và xây dựng các mô hình Học máy để nhận diện tin tức giả bằng cách phân loại các tin tức từ bộ dữ liệu theo 2 nhãn: REAL (tin thật) và FAKE (tin giả). Những mô hình Học máy mà chúng tôi khảo sát trong đồ án này dựa trên 6 phương pháp sau đây: Logistic Regression, Multinomial Naive Bayes, Support Vector Machine, Passive Aggressive, Decision Tree và Random Forest.
 	
-	Ngoài ra, mục tiêu của đề tài còn nhằm tìm hiểu và so sánh khả năng trích xuất thông tin của một số bộ trích chọn đặc trưng gồm TFIDFVectorizer, Countvectorizer và Word2Vec, cũng như độ hiểu quả của chúng trên các mô hình Học máy khác nhau. Qua đó có thể tìm ra mô hình và bộ vector hóa mang lại hiệu suất cao nhất trên bộ dữ liệu.
+	Ngoài ra, mục tiêu của đề tài còn nhằm tìm hiểu và so sánh khả năng trích xuất thông tin của một số bộ trích chọn đặc trưng gồm TFIDFVectorizer, Countvectorizer và Word2Vec, cũng như độ hiệu quả của chúng trên các mô hình Học máy khác nhau. Qua đó có thể tìm ra mô hình và bộ vector hóa mang lại hiệu suất cao nhất trên bộ dữ liệu.
 	
 	\section{Bài toán học máy}
 	Bài toán Nhận diện tin giả là một dạng điển hình của bài toán Supervised Learning (Học có giám sát), vì bộ dữ liệu sử dụng cho bài toán cần được gán nhãn rõ ràng. 
@@ -198,7 +198,7 @@
 		\caption{Quy trình thực hiện bài toán Nhận diện tin giả}
 	\end{figure}
 	\section{Ứng dụng thực tiễn}
-	Mã nguồn giải pháp cho bài toán Nhận diện tin giả có thể được tích hợp thành các module sử dụng trên nền tảng web hoặc trong các thiết bị quét văn bản,... Qua đó có thể xác định, kiểm soát và ngăn chặn kịp thời tin giả từ các nguồn tin không chính thống lan ra cộng đồng, góp phần củng cố niềm tin của người dân và uy tín của các tổ chức xã hội.
+	Mã nguồn giải pháp cho bài toán Nhận diện tin giả có thể được tích hợp thành các module sử dụng trên nền tảng web hoặc trong các thiết bị quét văn bản,smartphone,... Qua đó có thể xác định, kiểm soát và ngăn chặn kịp thời tin giả từ các nguồn tin không chính thống lan ra cộng đồng, góp phần củng cố niềm tin của người dân và uy tín của các tổ chức xã hội.
 
 
 \chapter{TỔNG QUAN VỀ BỘ DỮ LIỆU}
@@ -292,7 +292,9 @@
 						\end{center}
 						\caption{Wordcloud những từ xuất hiện nhiều ở hai nhãn}
 					\end{figure}
+	Qua WordCloud có thể nhận thấy chủ đề tin tức xoay quanh tình hình chính trị và bầu cử tại Mỹ.
 	
+	Có một số từ xuất hiện nhiều ở hai nhãn như: `Trump', `Clinton', `said', `state',... Những từ này có thể gây nhiễu cho mô hình và ảnh hưởng đến kết quả dự đoán.
 	\subsection{Phân bố độ dài nội dung}
 	
 	
@@ -331,7 +333,7 @@
 	
 	Trước khi thực hiện các bước tiền xử lý và vector hóa dữ liệu, chúng tôi sử dụng hàm train\_test\_split() hỗ trợ bởi thư viện scikit-learn để tiến hành phân chia tập train và tập test với tỉ lệ 75\% train - 25\% test. 
 	
-	Ở mỗi tập dữ liệu, chúng tôi bỏ đi cột \textit{Unnamed} và gộp nội dung 2 cột \textit{title} và \textit{text} lại để làm dữ liệu đầu vào. Đối với nhãn \textit{label}, chúng tôi ánh xạ giá trị dạng chuỗi ký tự về dạng nhị phân để mô hình có thể hoạt động hiệu quả.
+	Ở mỗi tập dữ liệu, chúng tôi bỏ đi cột \textit{Unnamed:0} và gộp nội dung 2 cột \textit{title} và \textit{text} lại để làm dữ liệu đầu vào. Đối với nhãn \textit{label}, chúng tôi ánh xạ giá trị dạng chuỗi ký tự về dạng nhị phân để mô hình có thể hoạt động hiệu quả.
 		
 	\[
 	 label = \begin{cases}	    0 & \text{ nếu \textit{label} = FAKE} \\
@@ -381,7 +383,7 @@
 	
 	Mô hình máy học không thể làm việc trực tiếp với văn bản thô, do đó chúng ta sẽ đưa văn bản thô thành dạng vector số. 
 	
-	Bag-of-Words hay BoW là một kĩ thuật đơn giản, linh hoạt và khá hiệu quả trong xử lý ngôn ngữ tự nhiên. Mô hình BoW đơn giản là đưa các từ, các câu hay đoạn văn ở dạng text về vector có độ dài cố định mà mỗi phần tử là một số. Những con số này là số lượng của các từ xuất hiện trong văn bản. Trong mô hình này, văn bản được thể hiện dưới dạng túi (multiset) chứa các từ của nó, được gọi là "túi" vì mô hình chỉ quan tâm liệu từ đó xuất hiện bao nhiêu lần trong văn bản, nhưng không quan tâm đến ngữ pháp và trật tự các từ.
+	Bag-of-Words hay BoW là một kĩ thuật đơn giản, linh hoạt và khá hiệu quả trong xử lý ngôn ngữ tự nhiên. Mô hình BoW đơn giản là đưa các từ, các câu hay đoạn văn ở dạng text về vector có độ dài cố định mà mỗi phần tử là một số. Mỗi con số trong vector này là số lần xuất hiện của từ tương ứng trong văn bản đang xét. Trong mô hình này, văn bản được thể hiện dưới dạng túi (multiset) chứa các từ của nó, được gọi là "túi" vì mô hình chỉ quan tâm liệu từ đó xuất hiện bao nhiêu lần trong văn bản, nhưng không quan tâm đến ngữ pháp và trật tự các từ.
 	
 	\begin{figure}[H]
 		\begin{center}
@@ -479,7 +481,9 @@
 			
 	\subsection{Word2Vec}
 	
-	Trong Xử lý ngôn ngữ tự nhiên, Word Embedding là một kỹ thuật được sử dụng để chuyển hóa văn bản, từ hay cụm từ về dạng vector số, để từ đó làm đầu vào cho việc huấn luyện các mô hình Học máy hoặc các mô hình Học sâu. Word Embedding đảm bảo rằng các từ tương tự nhau sẽ có giá trị vector gần giống nhau. Ví dụ như vector của King, Queen hoặc vector của Man, Woman là tương tự nhau và đặc biệt ta có King – Man + Woman ≈ Queen.
+	Word2Vec là một trong những mô hình đầu tiên về Word Embedding sử dụng Neural Network và được áp dụng phổ biến trong lĩnh vực Xử lý Ngôn ngữ tự nhiên. Word2Vec có khả năng vector hóa văn bản, từ hay cụm từ về dạng vector số dựa trên tập các từ chính và các từ ngữ cảnh, từ đó làm đầu vào cho việc huấn luyện các mô hình Học máy hoặc các mô hình Học sâu.
+	
+	Với tính chất của Word Embedding, mô hình Word2Vec đảm bảo rằng các từ tương tự nhau sẽ có giá trị vector gần giống nhau. Ví dụ như vector của King, Queen hoặc vector của Man, Woman là tương tự nhau và đặc biệt ta có King – Man + Woman ≈ Queen.
 	
 	\begin{figure}[H]
 		\begin{center}
@@ -487,8 +491,7 @@
 		\end{center}
 		\caption{Mô tả các vector Word Embedding Queen, King, Man, Woman}
 	\end{figure}
-	
-	Word2Vec là một trong những mô hình đầu tiên về Word Embedding sử dụng mạng neural và vẫn còn khá phổ biến ở thời điểm hiện tại, có khả năng vector hóa từng từ dựa trên tập các từ chính và các từ ngữ cảnh.
+
 	
 	Về mặt toán học, thực chất Word2Vec là việc ánh xạ từ một tập các từ vựng (vocabulary) sang một không gian vector, mỗi vector được biểu diễn bởi n số thực. Mỗi từ ứng với 1 vector cố định. Sau quá trình huấn luyện mô hình bằng thuật toán backpropagation, trọng số các vector của từng từ được cập nhật liên tục. Từ đó, ta có thể thực hiện tính toán bằng các khoảng cách quen thuộc như euclide, cosine, manhattan,... Những từ càng "gần" nhau về mặt khoảng cách thường là các từ hay xuất hiện cùng nhau trong văn cảnh, các từ đồng nghĩa, các từ thuộc cùng 1 trường từ vựng,
 	
@@ -523,13 +526,13 @@
 		\caption{Mô hình Skip-gram}
 	\end{figure}
 		
-	Mô hình Skip-gram thì ngược lại với CBOW, dùng \textit{target word} để dự đoán các từ xung quanh. Skip-gram huấn luyện chậm hơn. Thường làm việc khá tốt với các tập data nhỏ, đặc biệt do đặc trưng của mô hình nên khả năng vector hóa cho các từ ít xuất hiện tốt hơn CBOW.
+	Mô hình Skip-gram thì ngược lại với CBOW, dùng \textit{center word} để dự đoán các từ xung quanh. Skip-gram huấn luyện chậm hơn. Thường làm việc khá tốt với các tập data nhỏ, đặc biệt do đặc trưng của mô hình nên khả năng vector hóa cho các từ ít xuất hiện tốt hơn CBOW.
 	
 	\end{itemize}
 	
 	Trong đồ án này, chúng tôi sử dụng mô hình Word2Vec đã được huấn luyện sẵn trên bộ Google News Vector kích thước 300 chiều với khoảng 3 triệu từ và cụm từ. Thông thường việc huấn luyện trên có thể mất đến hàng giờ, tuy nhiên mô hình đã có sẵn nên việc tải và load lên Google Colab với thư viện Gensim chỉ mất vài phút. 
 	
-	Sau khi đã có mô hình, chúng tôi thực hiện việc chuyển đổi dữ liệu dạng văn bản về dạng vector số thực bằng cách lấy trung bình của các giá trị vector từ pretrain model ứng với từng từ trong mỗi văn bản. Một cách chi tiết hơn, chúng tôi xét mỗi từ trong một văn bản, nếu một từ có trong bộ pretrain model Google News Vector, mô hình sẽ trả về một vector số thực 300 chiều ứng với từ đó. Trung bình của các vector số thực này sẽ là một vector 300 chiều đại diện cho điểm dữ liệu (văn bản).
+	Sau khi đã có mô hình, chúng tôi thực hiện việc chuyển đổi dữ liệu dạng văn bản về dạng vector số thực bằng cách lấy trung bình của các giá trị vector từ pretrain model ứng với từng từ trong mỗi văn bản. Một cách chi tiết hơn, chúng tôi xét mỗi từ trong một văn bản, nếu một từ có trong bộ pretrain model Google News Vector 300, mô hình sẽ trả về một vector số thực 300 chiều ứng với từ đó. Trung bình của các vector số thực này sẽ là một vector 300 chiều đại diện cho điểm dữ liệu (văn bản).
 	
 	Như vậy ma trận thu được sau khi chuyển đổi sẽ có số chiều là n x 300, với n là kích thước của tập huấn luyện hay tập kiểm thử.
 	
@@ -853,49 +856,49 @@
 	\pagebreak
 	\section{Kết quả đánh giá hiệu suất mô hình}
 		Khi đã tìm được những giá trị siêu tham số tốt nhất của từng mô hình trên từng bộ vector hóa, chúng tôi tiến hành dự đoán các điểm dữ liệu trong tập kiểm thử và thu được kết quả đánh giá dưới đây.
-
-	\begin{table}[H]
-		\renewcommand{\arraystretch}{1.5}
-		\small
-		\begin{center}
-			\begin{tabular}{ | P{12.8em} | P{3.3cm}| P{3cm} | P{2.5cm} |} 
-			\hline
-		      & \textbf{CountVectorizer} & \textbf{TfidfVectorizer} & \textbf{Word2Vec} \\ 
-			\hline
-			\textbf{LogisticRegression} & \textbf{0.9242} & 0.9533 & 0.9154\\ 
-			\hline
-			\textbf{MultinomialNB} & 0.9091 & 0.9129 & 0.7936 \\
-			\hline
-			\textbf{SVC} & 0.9053 & 0.9520 & \textbf{0.9249} \\
-			\hline
-			\textbf{PassiveAggressiveClassifier} & 0.9154 & \textbf{0.9552} & 0.8958 \\
-			\hline
-			\textbf{DecisionTreeClassifier} & 0.8182 & 0.7891 & 0.7841 \\
-			\hline
-			\textbf{RandomForestClassifer} & 0.9066 & 0.9104 & 0.8996 \\
-			\hline
-			\end{tabular}
-		\end{center}
-		\caption{Bảng tổng hợp kết quả đánh giá độ chính xác (Accuracy) của các mô hình}
-	\end{table}
-	\hfill
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=1\textwidth]{cvroc}
-		\caption{Đường cong ROC cho bộ CountVectorizer}
-	\end{figure}
 	
-	\begin{figure}[H]
-		\includegraphics[width=1\textwidth]{tfroc}
-		\caption{Đường cong ROC cho bộ TfidfVectorizer} 
-	\end{figure}
-	\hfill
-	\begin{figure}[H]
-		\includegraphics[width=1\textwidth]{w2vroc}
-		\caption{Đường cong ROC cho bộ Word2Vec} 
-	\end{figure}
-	\pagebreak
-
+	\begin{table}[H]
+			\renewcommand{\arraystretch}{1.5}
+			\small
+			\begin{center}
+				\begin{tabular}{ | P{13.2em} | P{3.2cm}| P{3cm} | P{2.5cm} |} 
+				\hline
+			      & \textbf{CountVectorizer} & \textbf{TfidfVectorizer} & \textbf{Word2Vec} \\ 
+				\hline
+				\textbf{LogisticRegression} & \textbf{0.9242} & 0.9533 & 0.9154\\ 
+				\hline
+				\textbf{MultinomialNB} & 0.9091 & 0.9129 & 0.7936 \\
+				\hline
+				\textbf{SVC} & 0.9053 & 0.9520 & \textbf{0.9249} \\
+				\hline
+				\textbf{PassiveAggressiveClassifier} & 0.9154 & \textbf{0.9552} & 0.8958 \\
+				\hline
+				\textbf{DecisionTreeClassifier} & 0.8182 & 0.7891 & 0.7841 \\
+				\hline
+				\textbf{RandomForestClassifer} & 0.9066 & 0.9104 & 0.8996 \\
+				\hline
+				\end{tabular}
+			\end{center}
+			\caption{Bảng tổng hợp kết quả đánh giá độ chính xác (Accuracy) của các mô hình}
+		\end{table}
+		\hfill
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1\textwidth]{cvroc}
+			\caption{Đường cong ROC cho bộ CountVectorizer}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\includegraphics[width=1\textwidth]{tfroc}
+			\caption{Đường cong ROC cho bộ TfidfVectorizer} 
+		\end{figure}
+		\hfill
+		\begin{figure}[H]
+			\includegraphics[width=1\textwidth]{w2vroc}
+			\caption{Đường cong ROC cho bộ Word2Vec} 
+		\end{figure}
+		\pagebreak
+	
 	\subsection{Kết quả đánh giá LogisticRegression}
 		\begin{figure}[H]
 			\subfloat[\textbf{CountVectorizer}]{% 
@@ -911,6 +914,7 @@
 
 		\begin{table}[H]
 			\renewcommand{\arraystretch}{1.5}
+		
 			\begin{center}
 			\subfloat[\textbf{CountVectorizer}]{% 
 				\begin{tabular}{ | P{5em} | P{2cm}| P{3cm} | P{3cm} | P{3cm} |} 

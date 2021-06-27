@@ -1,14 +1,15 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.6.6)  25 JUN 2021 01:11
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.5.30)  27 JUN 2021 11:24
 entering extended mode
 **BaoCaoHMTK.tex
 
-(D:\__UIT\HK4\DS102_HMTK\Fake-News-Detection-Project\BaoCaoLatex\BaoCaoHMTK.tex
+("D:\#UIT_Documents\#HK2_2020_2021\Hoc May Thong Ke\DoAnCuoiKy\Fake-News-Detect
+ion-Project\BaoCaoLatex\BaoCaoHMTK.tex"
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\book.cls"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\bk12.clo"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\bk12.clo
 File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -24,16 +25,16 @@ File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\vietnam.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\vntex\vietnam.sty
 Package: vietnam 2009/07/12 v1.3 support for Vietnamese
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ifthen.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\unicode\ucs.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\unicode\ucs.sty
 Package: ucs 2004/10/17 UCS: Unicode input support
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\unicode\data\uni-global.def"
+(E:\Program_Data\Miktex_2.8\tex\latex\unicode\data\uni-global.def
 File: uni-global.def 2004/10/17 UCS: Unicode global data
 )
 \uc@secondtry=\count88
@@ -41,46 +42,46 @@ File: uni-global.def 2004/10/17 UCS: Unicode global data
 \uc@combtoksb=\toks15
 \uc@temptokena=\toks16
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\fontenc.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\t5enc.def"
+(E:\Program_Data\Miktex_2.8\tex\latex\vntex\t5enc.def
 File: t5enc.def 2006/11/21 v1.4 Vietnamese T5 encoding
 )
 LaTeX Font Info:    Try loading font information for T5+cmr on input line 100.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\t5cmr.fd"
+(E:\Program_Data\Miktex_2.8\tex\latex\vntex\t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\inputenc.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\unicode\utf8x.def"
+(E:\Program_Data\Miktex_2.8\tex\latex\unicode\utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\vncaps.tex"
+(E:\Program_Data\Miktex_2.8\tex\latex\vntex\vncaps.tex
 File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsmath.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ams\math\amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amstext.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ams\math\amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsgen.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ams\math\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks19
 \ex@=\dimen103
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsbsy.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ams\math\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsopn.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ams\math\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count89
@@ -121,7 +122,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\classes\amsthm.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ams\classes\amsthm.sty
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks24
 \thm@bodyfont=\toks25
@@ -133,34 +134,34 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip48
 \dth@everypar=\toks29
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\amssymb.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\amsfonts.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\amsfonts\amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\latexsym.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amscd.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ams\math\amscd.sty
 Package: amscd 1999/11/29 v2.0
 \athelp@=\toks30
 \minaw@=\dimen112
 \bigaw@=\dimen113
 \minCDarrowwidth=\dimen114
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\enumerate.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\tools\enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks31
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\titlesec\titlesec.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2007/08/12 v2.8 Sectioning titles
 \ttl@box=\box28
 \beforetitleunit=\skip49
@@ -172,22 +173,22 @@ Package: titlesec 2007/08/12 v2.8 Sectioning titles
 \titlewidthlast=\dimen118
 \titlewidthfirst=\dimen119
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\titlesec\titletoc.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\titlesec\titletoc.sty
 Package: titletoc 2007/08/12 v1.6 TOC entries
 \ttl@leftsep=\dimen120
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\geometry\geometry.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\geometry\geometry.sty
 Package: geometry 2008/12/21 v4.2 Page Geometry
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\graphics\keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks33
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
+(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\ifpdf.sty
 Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in pdf mode detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ifvtex.sty"
+(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\ifvtex.sty
 Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
@@ -200,20 +201,20 @@ Package ifvtex Info: VTeX not detected.
 \Gm@even@mp=\dimen124
 \Gm@dimlist=\toks34
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\color.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\geometry\geometry.cfg))
+(E:\Program_Data\Miktex_2.8\tex\latex\graphics\color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\color.cfg"
+(E:\Program_Data\Miktex_2.8\tex\latex\00miktex\color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
+(E:\Program_Data\Miktex_2.8\tex\latex\pdftex-def\pdftex.def
 File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
 \Gread@gobject=\count104
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\fancyhdr\fancyhdr.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\fancyhdr\fancyhdr.sty
 \fancy@headwidth=\skip51
 \f@ncyO@elh=\skip52
 \f@ncyO@erh=\skip53
@@ -224,16 +225,16 @@ File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
 \f@ncyO@olf=\skip58
 \f@ncyO@orf=\skip59
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\graphics\graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\graphics\graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\graphics\trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
+(E:\Program_Data\Miktex_2.8\tex\latex\00miktex\graphics.cfg
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
@@ -241,7 +242,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\wrapfig\wrapfig.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\wrapfig\wrapfig.sty
 \wrapoverhang=\dimen127
 \WF@size=\dimen128
 \c@WF@wrappedlines=\count105
@@ -249,30 +250,30 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \WF@everypar=\toks35
 Package: wrapfig 2003/01/31  v 3.6
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\hyperref\hyperref.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\hyperref\hyperref.sty
 Package: hyperref 2009/11/20 v6.79g Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ifxetex\ifxetex.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ifxetex\ifxetex.sty
 Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\oberdiek\hycolor.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\oberdiek\hycolor.sty
 Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
 O)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\oberdiek\xcolor-patch.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\oberdiek\xcolor-patch.sty
 Package: xcolor-patch 2009/10/02 xcolor patch
 ))
 \@linkdim=\dimen129
 \Hy@linkcounter=\count106
 \Hy@pagecounter=\count107
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\hyperref\pd1enc.def"
+(E:\Program_Data\Miktex_2.8\tex\latex\hyperref\pd1enc.def
 File: pd1enc.def 2009/11/20 v6.79g Hyperref: PDFDocEncoding definition (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\etexcmds.sty"
+(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\etexcmds.sty
 Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\infwarerr.sty"
+(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\infwarerr.sty
 Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
 )
 Package etexcmds Info: Could not find \expanded.
@@ -280,20 +281,20 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\hyperref.cfg"
+(E:\Program_Data\Miktex_2.8\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\oberdiek\kvoptions.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\oberdiek\kvoptions.sty
 Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\kvsetkeys.sty"
+(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\kvsetkeys.sty
 Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
 t (HO)
 ))
 Package hyperref Info: Option `colorlinks' set `true' on input line 2911.
 Package hyperref Info: Option `unicode' set `true' on input line 2911.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\hyperref\puenc.def"
+(E:\Program_Data\Miktex_2.8\tex\latex\hyperref\puenc.def
 File: puenc.def 2009/11/20 v6.79g Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Hyper figures OFF on input line 3022.
@@ -304,30 +305,30 @@ Package hyperref Info: Backreferencing OFF on input line 3042.
 
 Implicit mode ON; LaTeX internals redefined
 Package hyperref Info: Bookmarks ON on input line 3238.
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ltxmisc\url.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\ltxmisc\url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 3475.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\bitset.sty"
+(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\bitset.sty
 Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\intcalc.sty"
+(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\intcalc.sty
 Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\bigintcalc.sty"
+(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\bigintcalc.sty
 Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\pdftexcmds.sty"
+(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\pdftexcmds.sty
 Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
  (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ifluatex.sty"
+(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\ifluatex.sty
 Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ltxcmds.sty"
+(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\ltxcmds.sty
 Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
 )
 )
@@ -347,7 +348,7 @@ Package hyperref Info: Link coloring ON on input line 4442.
 Package hyperref Info: Link coloring with OCG OFF on input line 4449.
 Package hyperref Info: PDF/A mode OFF on input line 4454.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\atbegshi.sty"
+(E:\Program_Data\Miktex_2.8\tex\generic\oberdiek\atbegshi.sty
 Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 )
 \Hy@abspage=\count109
@@ -355,15 +356,15 @@ Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 \c@Hfootnote=\count111
 )
 *hyperref using default driver hpdftex*
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\hyperref\hpdftex.def"
+(E:\Program_Data\Miktex_2.8\tex\latex\hyperref\hpdftex.def
 File: hpdftex.def 2009/11/20 v6.79g Hyperref driver for pdfTeX
 \Fld@listcount=\count112
 \c@bookmark@seq@number=\count113
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\indentfirst.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\float\float.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count114
 \float@exts=\toks37
@@ -371,12 +372,12 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks38
 \@floatcapt=\box31
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\multirow\multirow.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\multirow\multirow.sty
 \bigstrutjot=\dimen132
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\easy\easytable.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\easy\easytable.sty
 Document Style `easytable' v1.0 <2001/06/13>.
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\easy\easy.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\easy\easy.sty
 Document Style `easy' v1.1 <2001/05/31>.
 Package: easy 2001/05/31 v1.1
 \@easy@level=\count115
@@ -489,7 +490,7 @@ Package: easy 2001/05/31 v1.1
 Package: easytable 2001/05/31v1.1
 \@tab@size@rule=\dimen227
 \@tab@size@dash=\dimen228
-) ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\array.sty"
+) (E:\Program_Data\Miktex_2.8\tex\latex\tools\array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen229
 \extrarowheight=\dimen230
@@ -497,20 +498,20 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip60
 \backup@length=\skip61
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\etoolbox\etoolbox.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\etoolbox\etoolbox.sty
 Package: etoolbox 2009/08/06 v1.8 e-TeX tools for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\misc\etex.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\misc\etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count119
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\subfig\subfig.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\caption\caption.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\caption\caption.sty
 Package: caption 2009/10/09 v3.1k Customizing captions (AR)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\caption\caption3.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\caption\caption3.sty
 Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
 \captionmargin=\dimen231
 \captionmargin@=\dimen232
@@ -539,10 +540,10 @@ Package caption Info: wrapfig package is loaded.
 \sf@top=\skip65
 \sf@bottom=\skip66
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\koma-script\tocbasic.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\koma-script\tocbasic.sty
 Package: tocbasic 2009/06/08 v3.03b KOMA-Script package (handling toc-files)
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\booktabs\booktabs.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\booktabs\booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen260
 \lightrulewidth=\dimen261
@@ -562,7 +563,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count131
 \@thisrulewidth=\dimen272
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\textcomp.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -577,7 +578,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ts1enc.def"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -629,8 +630,9 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ltxmisc\capt-of.sty")
-(D:\__UIT\HK4\DS102_HMTK\Fake-News-Detection-Project\BaoCaoLatex\BaoCaoHMTK.aux
+(E:\Program_Data\Miktex_2.8\tex\latex\ltxmisc\capt-of.sty)
+("D:\#UIT_Documents\#HK2_2020_2021\Hoc May Thong Ke\DoAnCuoiKy\Fake-News-Detect
+ion-Project\BaoCaoLatex\BaoCaoHMTK.aux"
 
 LaTeX Warning: Label `' multiply defined.
 
@@ -679,12 +681,12 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
- ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ts1cmr.fd"
+ (E:\Program_Data\Miktex_2.8\tex\latex\base\ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 48.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\unicode\ucsencs.def"
+(E:\Program_Data\Miktex_2.8\tex\latex\unicode\ucsencs.def
 File: ucsencs.def 2003/11/29 Fixes to fontencodings LGR, T3
 \T5\~-\i already defined.
 \T5\`-\i already defined.
@@ -733,7 +735,7 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-("C:\Program Files (x86)\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
+(E:\Program_Data\Miktex_2.8\tex\context\base\supp-pdf.tex
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count132
 \scratchdimen=\dimen273
@@ -747,10 +749,10 @@ driver: pdftex
 \everyMPtoPDFconversion=\toks41
 )
 Package hyperref Info: Link coloring ON on input line 48.
- ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\hyperref\nameref.sty"
+ (E:\Program_Data\Miktex_2.8\tex\latex\hyperref\nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\oberdiek\refcount.sty"
+(E:\Program_Data\Miktex_2.8\tex\latex\oberdiek\refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count137
@@ -758,39 +760,40 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 LaTeX Info: Redefining \ref on input line 48.
 LaTeX Info: Redefining \pageref on input line 48.
 
-(D:\__UIT\HK4\DS102_HMTK\Fake-News-Detection-Project\BaoCaoLatex\BaoCaoHMTK.out
-)
-(D:\__UIT\HK4\DS102_HMTK\Fake-News-Detection-Project\BaoCaoLatex\BaoCaoHMTK.out
-)
+("D:\#UIT_Documents\#HK2_2020_2021\Hoc May Thong Ke\DoAnCuoiKy\Fake-News-Detect
+ion-Project\BaoCaoLatex\BaoCaoHMTK.out")
+("D:\#UIT_Documents\#HK2_2020_2021\Hoc May Thong Ke\DoAnCuoiKy\Fake-News-Detect
+ion-Project\BaoCaoLatex\BaoCaoHMTK.out")
 \@outlinefile=\write3
 \AtBeginShipoutBox=\box41
 Package caption Info: Begin \AtBeginDocument code.
 Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
 LaTeX Info: Redefining \subref on input line 48.
 Package caption Info: End \AtBeginDocument code.
- ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\unicode\data\uni-1.def"
+
+(E:\Program_Data\Miktex_2.8\tex\latex\unicode\data\uni-1.def
 File: uni-1.def 2004/10/17 UCS: Unicode data U+0100..U+01FF
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\unicode\data\uni-30.def"
+(E:\Program_Data\Miktex_2.8\tex\latex\unicode\data\uni-30.def
 File: uni-30.def 2004/10/17 UCS: Unicode data U+1E00..U+1EFF
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\unicode\data\uni-0.def"
+(E:\Program_Data\Miktex_2.8\tex\latex\unicode\data\uni-0.def
 File: uni-0.def 2004/10/17 UCS: Unicode data U+0000..U+00FF
 )
 LaTeX Font Info:    Calculating math sizes for size <14> on input line 60.
 LaTeX Font Info:    Try loading font information for U+msa on input line 60.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
+(E:\Program_Data\Miktex_2.8\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 60.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
+(E:\Program_Data\Miktex_2.8\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+lasy on input line 60.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ulasy.fd"
+(E:\Program_Data\Miktex_2.8\tex\latex\base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [1
 
@@ -804,9 +807,9 @@ l.91 \end{titlepage}
                      [1
 
 ]
-(D:\__UIT\HK4\DS102_HMTK\Fake-News-Detection-Project\BaoCaoLatex\BaoCaoHMTK.toc
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+("D:\#UIT_Documents\#HK2_2020_2021\Hoc May Thong Ke\DoAnCuoiKy\Fake-News-Detect
+ion-Project\BaoCaoLatex\BaoCaoHMTK.toc"pdfTeX warning (ext4): destination with 
+the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.22 ... {\~\acircumflex }u}{19}{subsection.3.1.4}
@@ -815,14 +818,14 @@ l.22 ... {\~\acircumflex }u}{19}{subsection.3.1.4}
 ] [2])
 \tf@toc=\write4
  [3]
-(D:\__UIT\HK4\DS102_HMTK\Fake-News-Detection-Project\BaoCaoLatex\BaoCaoHMTK.lof
-[4
+("D:\#UIT_Documents\#HK2_2020_2021\Hoc May Thong Ke\DoAnCuoiKy\Fake-News-Detect
+ion-Project\BaoCaoLatex\BaoCaoHMTK.lof" [4
 
 ])
 \tf@lof=\write5
  [5]
-(D:\__UIT\HK4\DS102_HMTK\Fake-News-Detection-Project\BaoCaoLatex\BaoCaoHMTK.lot
-)
+("D:\#UIT_Documents\#HK2_2020_2021\Hoc May Thong Ke\DoAnCuoiKy\Fake-News-Detect
+ion-Project\BaoCaoLatex\BaoCaoHMTK.lot")
 \tf@lot=\write6
  [6
 
@@ -839,12 +842,12 @@ Ch\uhorn \ohorn ng 1.
 ] <QuyTrinhHMTK.png, id=398, 1585.925pt x 1646.15pt>
 File: QuyTrinhHMTK.png Graphic file (type png)
  <use QuyTrinhHMTK.png>
-[11 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLatex/QuyTrinhHM
-TK.png>] [12]
+[11 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Det
+ection-Project/BaoCaoLatex/QuyTrinhHMTK.png>] [12]
 Ch\uhorn \ohorn ng 2.
 LaTeX Font Info:    Try loading font information for T5+cmtt on input line 226.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\vntex\t5cmtt.fd"
+(E:\Program_Data\Miktex_2.8\tex\latex\vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 <dfinfo.png, id=413, 270.41025pt x 152.9715pt>
@@ -854,100 +857,94 @@ File: dfinfo.png Graphic file (type png)
 ]
 <phanbonhan.png, id=424, 511.9125pt x 264.99pt>
 File: phanbonhan.png Graphic file (type png)
- <use phanbonhan.png> [14 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/
-BaoCaoLatex/dfinfo.png>]
+ <use phanbonhan.png> [14 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/Do
+AnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/dfinfo.png>]
 <wordcloud.png, id=430, 1134.2375pt x 420.57124pt>
 File: wordcloud.png Graphic file (type png)
- <use wordcloud.png>
-<textlen.png, id=431, 527.9725pt x 509.905pt>
+ <use wordcloud.png> [15 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoA
+nCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/phanbonhan.png> <D:/#UIT_Docume
+nts/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoC
+aoLatex/wordcloud.png>]
+<textlen.png, id=437, 527.9725pt x 509.905pt>
 File: textlen.png Graphic file (type png)
- <use textlen.png> [15 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/Bao
-CaoLatex/phanbonhan.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/B
-aoCaoLatex/wordcloud.png>]
-[16 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLatex/textlen.pn
-g>]
+ <use textlen.png> [16 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnC
+uoiKy/Fake-News-Detection-Project/BaoCaoLatex/textlen.png>]
 Ch\uhorn \ohorn ng 3.
 [17
 
-] ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\unicode\data\uni-32.def"
+] (E:\Program_Data\Miktex_2.8\tex\latex\unicode\data\uni-32.def
 File: uni-32.def 2004/10/17 UCS: Unicode data U+2000..U+20FF
-)
-[18] <bow.png, id=458, 1138.2525pt x 507.8975pt>
+) [18]
+<bow.png, id=458, 1138.2525pt x 507.8975pt>
 File: bow.png Graphic file (type png)
- <use bow.png> [19] [20 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/Ba
-oCaoLatex/bow.png (PNG copy)>]
-<ngrams.jpg, id=467, 803.0pt x 271.0125pt>
+ <use bow.png> [19] [20 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAn
+CuoiKy/Fake-News-Detection-Project/BaoCaoLatex/bow.png (PNG copy)>] <ngrams.jpg
+, id=467, 803.0pt x 271.0125pt>
 File: ngrams.jpg Graphic file (type jpg)
- <use ngrams.jpg> [21 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoC
-aoLatex/ngrams.jpg>] [22] [23]
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\unicode\data\uni-34.def"
+
+<use ngrams.jpg> [21 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
+iKy/Fake-News-Detection-Project/BaoCaoLatex/ngrams.jpg>] [22] [23] [24]
+(E:\Program_Data\Miktex_2.8\tex\latex\unicode\data\uni-34.def
 File: uni-34.def 2004/10/17 UCS: Unicode data U+2200..U+22FF
 )
-[24] <wordembedding.png, id=491, 321.2pt x 197.73875pt>
+<wordembedding.png, id=491, 321.2pt x 197.73875pt>
 File: wordembedding.png Graphic file (type png)
-
-<use wordembedding.png> [25 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Projec
-t/BaoCaoLatex/wordembedding.png>]
+ <use wordembedding.png>
+[25 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Det
+ection-Project/BaoCaoLatex/wordembedding.png>]
 <w2v_ex.jpg, id=497, 678.535pt x 426.59375pt>
 File: w2v_ex.jpg Graphic file (type jpg)
  <use w2v_ex.jpg>
 <cbow.jpg, id=498, 247.67531pt x 215.30438pt>
 File: cbow.jpg Graphic file (type jpg)
- <use cbow.jpg> [26 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCao
-Latex/w2v_ex.jpg>]
-<skipgram.jpg, id=503, 238.64156pt x 215.30438pt>
+ <use cbow.jpg> [26 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoi
+Ky/Fake-News-Detection-Project/BaoCaoLatex/w2v_ex.jpg>] <skipgram.jpg, id=503, 
+238.64156pt x 215.30438pt>
 File: skipgram.jpg Graphic file (type jpg)
- <use skipgram.jpg> [27 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/Ba
-oCaoLatex/cbow.jpg> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCao
-Latex/skipgram.jpg>] [28]
+
+<use skipgram.jpg> [27 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnC
+uoiKy/Fake-News-Detection-Project/BaoCaoLatex/cbow.jpg> <D:/#UIT_Documents/#HK2
+_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/
+skipgram.jpg>] [28]
 Ch\uhorn \ohorn ng 4.
 <Picture1.png, id=512, 260.47313pt x 177.66376pt>
 File: Picture1.png Graphic file (type png)
  <use Picture1.png> [29
 
- <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLatex/Picture1.png>
-]
-[30] [31] <SVM_hyperplane.png, id=529, 813.0375pt x 344.28625pt>
+ <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detect
+ion-Project/BaoCaoLatex/Picture1.png>] [30] [31]
+<SVM_hyperplane.png, id=529, 813.0375pt x 344.28625pt>
 File: SVM_hyperplane.png Graphic file (type png)
 
 <use SVM_hyperplane.png> <SVM_maxmargin.jpeg, id=530, 588.1975pt x 311.1625pt>
 File: SVM_maxmargin.jpeg Graphic file (type jpg)
 
-<use SVM_maxmargin.jpeg> [32 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Proje
-ct/BaoCaoLatex/SVM_hyperplane.png (PNG copy)> <D:/__UIT/HK4/DS102_HMTK/Fake-New
-s-Detection-Project/BaoCaoLatex/SVM_maxmargin.jpeg>] [33]
+<use SVM_maxmargin.jpeg> [32 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke
+/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/SVM_hyperplane.png (PNG cop
+y)> <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Det
+ection-Project/BaoCaoLatex/SVM_maxmargin.jpeg>] [33]
 <onl_learn.png, id=540, 520.94624pt x 306.54526pt>
 File: onl_learn.png Graphic file (type png)
  <use onl_learn.png> [34]
-[35 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLatex/onl_learn.
-png>] [36] [37] [38]
-Overfull \hbox (72.96552pt too wide) in paragraph at lines 744--744
+[35 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Det
+ection-Project/BaoCaoLatex/onl_learn.png>] [36] [37] [38]
+Overfull \hbox (72.96552pt too wide) in paragraph at lines 747--747
 []|\T5/cmr/bx/n/10 LogisticRegression|  
  []
 
 
-Overfull \hbox (39.03908pt too wide) in paragraph at lines 747--747
+Overfull \hbox (39.03908pt too wide) in paragraph at lines 750--750
 []|\T5/cmr/bx/n/10 MultinomialNB|  
  []
 
 
-Overfull \hbox (13.06625pt too wide) in paragraph at lines 750--750
+Overfull \hbox (13.06625pt too wide) in paragraph at lines 753--753
 []|\T5/cmr/bx/n/10 SVC|  
  []
 
 
-Overfull \hbox (49.89615pt too wide) in paragraph at lines 754--754
+Overfull \hbox (49.89615pt too wide) in paragraph at lines 757--757
 []|\T5/cmr/bx/n/10 PassiveAggressive  
- []
-
-
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 754--754
-[]\T5/cmr/bx/n/10 Classifier|  
- []
-
-
-Overfull \hbox (24.57872pt too wide) in paragraph at lines 757--757
-[]|\T5/cmr/bx/n/10 DecisionTree  
  []
 
 
@@ -956,17 +953,27 @@ Overfull \hbox (6.07074pt too wide) in paragraph at lines 757--757
  []
 
 
-Overfull \hbox (33.3613pt too wide) in paragraph at lines 762--762
-[]|\T5/cmr/bx/n/10 RandomForest  
+Overfull \hbox (24.57872pt too wide) in paragraph at lines 760--760
+[]|\T5/cmr/bx/n/10 DecisionTree  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 762--762
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 760--760
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (21.54672pt too wide) in paragraph at lines 738--768
+Overfull \hbox (33.3613pt too wide) in paragraph at lines 765--765
+[]|\T5/cmr/bx/n/10 RandomForest  
+ []
+
+
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 765--765
+[]\T5/cmr/bx/n/10 Classifier|  
+ []
+
+
+Overfull \hbox (21.54672pt too wide) in paragraph at lines 741--771
  [] 
  []
 
@@ -977,22 +984,28 @@ File: confusionmatrix.png Graphic file (type png)
 
 <use confusionmatrix.png> [40
 
- <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLatex/confusionmatr
-ix.png (PNG copy)>]
-<ucm.png, id=575, 336.25626pt x 295.1025pt>
+ <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detect
+ion-Project/BaoCaoLatex/confusionmatrix.png (PNG copy)>] <ucm.png, id=575, 336.
+25626pt x 295.1025pt>
 File: ucm.png Graphic file (type png)
  <use ucm.png>
 <ncm.png, id=576, 329.23pt x 295.1025pt>
 File: ncm.png Graphic file (type png)
- <use ncm.png> [41 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoL
-atex/ucm.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLatex/
-ncm.png>] [42] [43]
+ <use ncm.png> [41 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiK
+y/Fake-News-Detection-Project/BaoCaoLatex/ucm.png> <D:/#UIT_Documents/#HK2_2020
+_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/ncm.p
+ng>] [42] [43]
 <roc_auc.png, id=594, 401.5pt x 281.05pt>
 File: roc_auc.png Graphic file (type png)
- <use roc_auc.png> [44 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/Bao
-CaoLatex/roc_auc.png>]
-Overfull \hbox (8.73648pt too wide) in paragraph at lines 871--871
+ <use roc_auc.png> [44 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnC
+uoiKy/Fake-News-Detection-Project/BaoCaoLatex/roc_auc.png>]
+Overfull \hbox (4.35762pt too wide) in paragraph at lines 874--874
  []|\T5/cmr/bx/n/10.95 PassiveAggressiveClassifier| 
+ []
+
+
+Overfull \hbox (1.02557pt too wide) in paragraph at lines 864--881
+ [] 
  []
 
 <cvroc.png, id=600, 960.58875pt x 559.08875pt>
@@ -1000,14 +1013,15 @@ File: cvroc.png Graphic file (type png)
  <use cvroc.png>
 <tfroc.png, id=601, 960.58875pt x 559.08875pt>
 File: tfroc.png Graphic file (type png)
- <use tfroc.png> [45 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCa
-oLatex/cvroc.png>]
-<w2vroc.png, id=607, 960.58875pt x 559.08875pt>
+ <use tfroc.png> [45 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
+iKy/Fake-News-Detection-Project/BaoCaoLatex/cvroc.png>] <w2vroc.png, id=607, 96
+0.58875pt x 559.08875pt>
 File: w2vroc.png Graphic file (type png)
- <use w2vroc.png> [46 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoC
-aoLatex/tfroc.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoL
-atex/w2vroc.png>]
-<cvlr.png, id=614, 313.17pt x 262.9825pt>
+
+<use w2vroc.png> [46 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
+iKy/Fake-News-Detection-Project/BaoCaoLatex/tfroc.png> <D:/#UIT_Documents/#HK2_
+2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/w
+2vroc.png>] <cvlr.png, id=614, 313.17pt x 262.9825pt>
 File: cvlr.png Graphic file (type png)
  <use cvlr.png>
 <tflr.png, id=615, 313.17pt x 262.9825pt>
@@ -1024,11 +1038,12 @@ File: tfnb.png Graphic file (type png)
  <use tfnb.png>
 <w2vnb.png, id=619, 313.17pt x 262.9825pt>
 File: w2vnb.png Graphic file (type png)
- <use w2vnb.png> [47 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCa
-oLatex/cvlr.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLat
-ex/tflr.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLatex/w
-2vlr.png>]
-<cvsvc.png, id=634, 313.17pt x 262.9825pt>
+ <use w2vnb.png> [47 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
+iKy/Fake-News-Detection-Project/BaoCaoLatex/cvlr.png> <D:/#UIT_Documents/#HK2_2
+020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/tf
+lr.png> <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News
+-Detection-Project/BaoCaoLatex/w2vlr.png>] <cvsvc.png, id=634, 313.17pt x 262.9
+825pt>
 File: cvsvc.png Graphic file (type png)
  <use cvsvc.png>
 <tfsvc.png, id=635, 313.17pt x 262.9825pt>
@@ -1036,11 +1051,12 @@ File: tfsvc.png Graphic file (type png)
  <use tfsvc.png>
 <w2vsvc.png, id=636, 313.17pt x 262.9825pt>
 File: w2vsvc.png Graphic file (type png)
- <use w2vsvc.png> [48 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoC
-aoLatex/cvnb.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLa
-tex/tfnb.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLatex/
-w2vnb.png>]
-<cvpa.png, id=650, 313.17pt x 262.9825pt>
+ <use w2vsvc.png> [48 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCu
+oiKy/Fake-News-Detection-Project/BaoCaoLatex/cvnb.png> <D:/#UIT_Documents/#HK2_
+2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/t
+fnb.png> <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-New
+s-Detection-Project/BaoCaoLatex/w2vnb.png>] <cvpa.png, id=650, 313.17pt x 262.9
+825pt>
 File: cvpa.png Graphic file (type png)
  <use cvpa.png>
 <tfpa.png, id=651, 313.17pt x 262.9825pt>
@@ -1048,11 +1064,12 @@ File: tfpa.png Graphic file (type png)
  <use tfpa.png>
 <w2vpa.png, id=652, 313.17pt x 262.9825pt>
 File: w2vpa.png Graphic file (type png)
- <use w2vpa.png> [49 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCa
-oLatex/cvsvc.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLa
-tex/tfsvc.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLatex
-/w2vsvc.png>]
-<cvdtree.png, id=666, 313.17pt x 262.9825pt>
+ <use w2vpa.png> [49 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
+iKy/Fake-News-Detection-Project/BaoCaoLatex/cvsvc.png> <D:/#UIT_Documents/#HK2_
+2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/t
+fsvc.png> <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-Ne
+ws-Detection-Project/BaoCaoLatex/w2vsvc.png>] <cvdtree.png, id=666, 313.17pt x 
+262.9825pt>
 File: cvdtree.png Graphic file (type png)
  <use cvdtree.png>
 <tfdtree.png, id=667, 313.17pt x 262.9825pt>
@@ -1060,11 +1077,12 @@ File: tfdtree.png Graphic file (type png)
  <use tfdtree.png>
 <w2vdtree.png, id=668, 313.17pt x 262.9825pt>
 File: w2vdtree.png Graphic file (type png)
- <use w2vdtree.png> [50 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/Ba
-oCaoLatex/cvpa.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCao
-Latex/tfpa.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLate
-x/w2vpa.png>]
-<cvrf.png, id=682, 313.17pt x 262.9825pt>
+ <use w2vdtree.png> [50 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAn
+CuoiKy/Fake-News-Detection-Project/BaoCaoLatex/cvpa.png> <D:/#UIT_Documents/#HK
+2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex
+/tfpa.png> <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-N
+ews-Detection-Project/BaoCaoLatex/w2vpa.png>] <cvrf.png, id=682, 313.17pt x 262
+.9825pt>
 File: cvrf.png Graphic file (type png)
  <use cvrf.png>
 <tfrf.png, id=683, 313.17pt x 262.9825pt>
@@ -1072,47 +1090,51 @@ File: tfrf.png Graphic file (type png)
  <use tfrf.png>
 <w2vrf.png, id=684, 313.17pt x 262.9825pt>
 File: w2vrf.png Graphic file (type png)
- <use w2vrf.png> [51 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCa
-oLatex/cvdtree.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCao
-Latex/tfdtree.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoL
-atex/w2vdtree.png>] [52 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/Ba
-oCaoLatex/cvrf.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCao
-Latex/tfrf.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLate
-x/w2vrf.png>]
+ <use w2vrf.png> [51 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
+iKy/Fake-News-Detection-Project/BaoCaoLatex/cvdtree.png> <D:/#UIT_Documents/#HK
+2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex
+/tfdtree.png> <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fak
+e-News-Detection-Project/BaoCaoLatex/w2vdtree.png>] [52 <D:/#UIT_Documents/#HK2
+_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/
+cvrf.png> <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-Ne
+ws-Detection-Project/BaoCaoLatex/tfrf.png> <D:/#UIT_Documents/#HK2_2020_2021/Ho
+c May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/w2vrf.png>]
 Ch\uhorn \ohorn ng 6.
 <tfpa_2.png, id=711, 313.17pt x 262.9825pt>
 File: tfpa_2.png Graphic file (type png)
  <use tfpa_2.png> [53
 
- <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/BaoCaoLatex/tfpa_2.png>]
-<frequentdata.png, id=718, 1148.29pt x 353.32pt>
+ <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detect
+ion-Project/BaoCaoLatex/tfpa_2.png>] <frequentdata.png, id=718, 1148.29pt x 353
+.32pt>
 File: frequentdata.png Graphic file (type png)
- <use frequentdata.png>
-<fn1gram.png, id=719, 425.59pt x 281.05pt>
+
+<use frequentdata.png> <fn1gram.png, id=719, 425.59pt x 281.05pt>
 File: fn1gram.png Graphic file (type png)
- <use fn1gram.png>
-<fp1gram.png, id=720, 425.59pt x 281.05pt>
+
+<use fn1gram.png> <fp1gram.png, id=720, 425.59pt x 281.05pt>
 File: fp1gram.png Graphic file (type png)
- <use fp1gram.png> [54 <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/Bao
-CaoLatex/frequentdata.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project
-/BaoCaoLatex/fn1gram.png> <D:/__UIT/HK4/DS102_HMTK/Fake-News-Detection-Project/
-BaoCaoLatex/fp1gram.png>] [55]
-[56
+ <use fp1gram.png>
+[54 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Det
+ection-Project/BaoCaoLatex/frequentdata.png> <D:/#UIT_Documents/#HK2_2020_2021/
+Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/fn1gram.png
+> <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detec
+tion-Project/BaoCaoLatex/fp1gram.png>] [55] [56
 
 ] [57]
-Underfull \hbox (badness 10000) in paragraph at lines 1382--1383
+Underfull \hbox (badness 10000) in paragraph at lines 1386--1387
 [][][]$\T5/cmtt/m/n/14 https : / / www . researchgate . net / publication / 339
 299161 _$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1382--1383
+Underfull \hbox (badness 10000) in paragraph at lines 1386--1387
 $\T5/cmtt/m/n/14 Application _ of _ Supervised _ Machine _ Learning _ Algorithm
 s _$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1394--1395
+Underfull \hbox (badness 10000) in paragraph at lines 1398--1399
 [][][]$\T5/cmtt/m/n/14 https : / / jmlr . csail . mit . edu / papers / volume7 
 / crammer06a /$
  []
@@ -1124,95 +1146,93 @@ een already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1420 	\bibitem{}
+l.1424 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1420 	\bibitem{}
+l.1424 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1420 	\bibitem{}
+l.1424 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1420 	\bibitem{}
+l.1424 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1420 	\bibitem{}
+l.1424 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1420 	\bibitem{}
+l.1424 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1420 	\bibitem{}
+l.1424 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.]pdfTe
 X warning (ext4): destination with the same identifier (name{cite.}) has been a
 lready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1420 	\bibitem{}
+l.1424 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1425 	\bibitem{}
+l.1429 	\bibitem{}
                   Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Miche...
 [59]
-(D:\__UIT\HK4\DS102_HMTK\Fake-News-Detection-Project\BaoCaoLatex\BaoCaoHMTK.aux
-)
+("D:\#UIT_Documents\#HK2_2020_2021\Hoc May Thong Ke\DoAnCuoiKy\Fake-News-Detect
+ion-Project\BaoCaoLatex\BaoCaoHMTK.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
  13243 strings out of 495285
- 180263 string characters out of 3179870
+ 179450 string characters out of 3180474
  248413 words of memory out of 3000000
  15947 multiletter control sequences out of 15000+200000
  37718 words of font info for 90 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  44i,15n,45p,935b,503s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.8/fonts/enc/dvips/cm-super/cm-super-ts1.enc}
-<C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
-Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
- (x86)/MiKTeX 2.8/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files (x
-86)/MiKTeX 2.8/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Program Files (x86)
-/MiKTeX 2.8/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Program Files (x86)/MiKTeX 2.8
-/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type
-1/vntex/vnr/vnr10.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/
-vnr12.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnr7.pfb><C:
-/Program Files (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnti10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.8/fonts/type1/vntex/vnr/vnti12.pfb><C:/Program Files (x86)/M
-iKTeX 2.8/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on BaoCaoHMTK.pdf (61 pages, 1664780 bytes).
+{E:/Program_Data/Miktex_2.8/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<E:/Pro
+gram_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><E:/Program_Data
+/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/Program_Data/Miktex_2
+.8/fonts/type1/public/amsfonts/cm/cmmi12.pfb><E:/Program_Data/Miktex_2.8/fonts/
+type1/public/amsfonts/cm/cmmi7.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/public/cm-super/sfrm1200.pfb><E:/
+Program_Data/Miktex_2.8/fonts/type1/public/cm-super/sfrm1440.pfb><E:/Program_Da
+ta/Miktex_2.8/fonts/type1/vntex/vnr/vnbx10.pfb><E:/Program_Data/Miktex_2.8/font
+s/type1/vntex/vnr/vnbx12.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/
+vnr10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnr12.pfb><E:/Progr
+am_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnr7.pfb><E:/Program_Data/Miktex_2.8/f
+onts/type1/vntex/vnr/vnti10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/v
+nr/vnti12.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vntt12.pfb>
+Output written on BaoCaoHMTK.pdf (61 pages, 1664646 bytes).
 PDF statistics:
  865 PDF objects out of 1000 (max. 8388607)
  204 named destinations out of 1000 (max. 500000)
