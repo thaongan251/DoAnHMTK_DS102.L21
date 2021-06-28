@@ -19,3 +19,10 @@ STT | Họ tên | MSSV | Github
 
 ## Source Code
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gSm5BLCB7SBARdYfDIrpatSAMpE5YrDX#scrollTo=wSYFJUMzB7XM&uniqifier=1)
+
+## Tiến độ
+- [x] 1 báo cáo word, pdf tối thiểu 40 trang  
+- [x] 1 slide báo cáo 
+- [x] 1 source code 
+- [ ] 1 video demo 
+- [ ] 1 video báo cáo 
