@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.5.30)  27 JUN 2021 11:24
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2021.5.30)  28 JUN 2021 10:40
 entering extended mode
 **BaoCaoHMTK.tex
 
@@ -839,7 +839,7 @@ ion-Project\BaoCaoLatex\BaoCaoHMTK.lot")
 Ch\uhorn \ohorn ng 1.
 [10
 
-] <QuyTrinhHMTK.png, id=398, 1585.925pt x 1646.15pt>
+] <QuyTrinhHMTK.png, id=400, 1585.925pt x 1646.15pt>
 File: QuyTrinhHMTK.png Graphic file (type png)
  <use QuyTrinhHMTK.png>
 [11 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Det
@@ -850,22 +850,22 @@ LaTeX Font Info:    Try loading font information for T5+cmtt on input line 226.
 (E:\Program_Data\Miktex_2.8\tex\latex\vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<dfinfo.png, id=413, 270.41025pt x 152.9715pt>
+<dfinfo.png, id=415, 270.41025pt x 152.9715pt>
 File: dfinfo.png Graphic file (type png)
  <use dfinfo.png> [13
 
 ]
-<phanbonhan.png, id=424, 511.9125pt x 264.99pt>
+<phanbonhan.png, id=426, 511.9125pt x 264.99pt>
 File: phanbonhan.png Graphic file (type png)
  <use phanbonhan.png> [14 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/Do
 AnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/dfinfo.png>]
-<wordcloud.png, id=430, 1134.2375pt x 420.57124pt>
+<wordcloud.png, id=432, 1134.2375pt x 420.57124pt>
 File: wordcloud.png Graphic file (type png)
  <use wordcloud.png> [15 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoA
 nCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/phanbonhan.png> <D:/#UIT_Docume
 nts/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoC
 aoLatex/wordcloud.png>]
-<textlen.png, id=437, 527.9725pt x 509.905pt>
+<textlen.png, id=439, 527.9725pt x 509.905pt>
 File: textlen.png Graphic file (type png)
  <use textlen.png> [16 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnC
 uoiKy/Fake-News-Detection-Project/BaoCaoLatex/textlen.png>]
@@ -875,11 +875,11 @@ Ch\uhorn \ohorn ng 3.
 ] (E:\Program_Data\Miktex_2.8\tex\latex\unicode\data\uni-32.def
 File: uni-32.def 2004/10/17 UCS: Unicode data U+2000..U+20FF
 ) [18]
-<bow.png, id=458, 1138.2525pt x 507.8975pt>
+<bow.png, id=460, 1138.2525pt x 507.8975pt>
 File: bow.png Graphic file (type png)
  <use bow.png> [19] [20 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAn
 CuoiKy/Fake-News-Detection-Project/BaoCaoLatex/bow.png (PNG copy)>] <ngrams.jpg
-, id=467, 803.0pt x 271.0125pt>
+, id=469, 803.0pt x 271.0125pt>
 File: ngrams.jpg Graphic file (type jpg)
 
 <use ngrams.jpg> [21 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
@@ -887,18 +887,18 @@ iKy/Fake-News-Detection-Project/BaoCaoLatex/ngrams.jpg>] [22] [23] [24]
 (E:\Program_Data\Miktex_2.8\tex\latex\unicode\data\uni-34.def
 File: uni-34.def 2004/10/17 UCS: Unicode data U+2200..U+22FF
 )
-<wordembedding.png, id=491, 321.2pt x 197.73875pt>
+<wordembedding.png, id=493, 321.2pt x 197.73875pt>
 File: wordembedding.png Graphic file (type png)
  <use wordembedding.png>
 [25 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Det
 ection-Project/BaoCaoLatex/wordembedding.png>]
-<w2v_ex.jpg, id=497, 678.535pt x 426.59375pt>
+<w2v_ex.jpg, id=499, 678.535pt x 426.59375pt>
 File: w2v_ex.jpg Graphic file (type jpg)
  <use w2v_ex.jpg>
-<cbow.jpg, id=498, 247.67531pt x 215.30438pt>
+<cbow.jpg, id=500, 247.67531pt x 215.30438pt>
 File: cbow.jpg Graphic file (type jpg)
  <use cbow.jpg> [26 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoi
-Ky/Fake-News-Detection-Project/BaoCaoLatex/w2v_ex.jpg>] <skipgram.jpg, id=503, 
+Ky/Fake-News-Detection-Project/BaoCaoLatex/w2v_ex.jpg>] <skipgram.jpg, id=505, 
 238.64156pt x 215.30438pt>
 File: skipgram.jpg Graphic file (type jpg)
 
@@ -907,302 +907,305 @@ uoiKy/Fake-News-Detection-Project/BaoCaoLatex/cbow.jpg> <D:/#UIT_Documents/#HK2
 _2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/
 skipgram.jpg>] [28]
 Ch\uhorn \ohorn ng 4.
-<Picture1.png, id=512, 260.47313pt x 177.66376pt>
+<Picture1.png, id=514, 260.47313pt x 177.66376pt>
 File: Picture1.png Graphic file (type png)
  <use Picture1.png> [29
 
  <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detect
 ion-Project/BaoCaoLatex/Picture1.png>] [30] [31]
-<SVM_hyperplane.png, id=529, 813.0375pt x 344.28625pt>
+<SVM_hyperplane.png, id=531, 813.0375pt x 344.28625pt>
 File: SVM_hyperplane.png Graphic file (type png)
 
-<use SVM_hyperplane.png> <SVM_maxmargin.jpeg, id=530, 588.1975pt x 311.1625pt>
+<use SVM_hyperplane.png> <SVM_maxmargin.jpeg, id=532, 588.1975pt x 311.1625pt>
 File: SVM_maxmargin.jpeg Graphic file (type jpg)
 
 <use SVM_maxmargin.jpeg> [32 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke
 /DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/SVM_hyperplane.png (PNG cop
-y)> <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Det
-ection-Project/BaoCaoLatex/SVM_maxmargin.jpeg>] [33]
-<onl_learn.png, id=540, 520.94624pt x 306.54526pt>
+y)>] [33 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-New
+s-Detection-Project/BaoCaoLatex/SVM_maxmargin.jpeg>] [34]
+<onl_learn.png, id=546, 520.94624pt x 306.54526pt>
 File: onl_learn.png Graphic file (type png)
- <use onl_learn.png> [34]
-[35 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Det
-ection-Project/BaoCaoLatex/onl_learn.png>] [36] [37] [38]
-Overfull \hbox (72.96552pt too wide) in paragraph at lines 747--747
+ <use onl_learn.png> [35 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoA
+nCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/onl_learn.png>] [36] [37]
+<rf_ex.png, id=563, 569.12625pt x 329.23pt>
+File: rf_ex.png Graphic file (type png)
+ <use rf_ex.png> [38 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
+iKy/Fake-News-Detection-Project/BaoCaoLatex/rf_ex.png>] [39]
+Overfull \hbox (72.96552pt too wide) in paragraph at lines 766--766
 []|\T5/cmr/bx/n/10 LogisticRegression|  
  []
 
 
-Overfull \hbox (39.03908pt too wide) in paragraph at lines 750--750
+Overfull \hbox (39.03908pt too wide) in paragraph at lines 769--769
 []|\T5/cmr/bx/n/10 MultinomialNB|  
  []
 
 
-Overfull \hbox (13.06625pt too wide) in paragraph at lines 753--753
+Overfull \hbox (13.06625pt too wide) in paragraph at lines 772--772
 []|\T5/cmr/bx/n/10 SVC|  
  []
 
 
-Overfull \hbox (49.89615pt too wide) in paragraph at lines 757--757
+Overfull \hbox (49.89615pt too wide) in paragraph at lines 776--776
 []|\T5/cmr/bx/n/10 PassiveAggressive  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 757--757
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 776--776
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (24.57872pt too wide) in paragraph at lines 760--760
+Overfull \hbox (24.57872pt too wide) in paragraph at lines 779--779
 []|\T5/cmr/bx/n/10 DecisionTree  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 760--760
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 779--779
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (33.3613pt too wide) in paragraph at lines 765--765
+Overfull \hbox (33.3613pt too wide) in paragraph at lines 784--784
 []|\T5/cmr/bx/n/10 RandomForest  
  []
 
 
-Overfull \hbox (6.07074pt too wide) in paragraph at lines 765--765
+Overfull \hbox (6.07074pt too wide) in paragraph at lines 784--784
 []\T5/cmr/bx/n/10 Classifier|  
  []
 
 
-Overfull \hbox (21.54672pt too wide) in paragraph at lines 741--771
+Overfull \hbox (21.54672pt too wide) in paragraph at lines 760--790
  [] 
  []
 
-[39]
+[40]
 Ch\uhorn \ohorn ng 5.
-<confusionmatrix.png, id=570, 1054.94125pt x 747.79375pt>
+<confusionmatrix.png, id=578, 1054.94125pt x 747.79375pt>
 File: confusionmatrix.png Graphic file (type png)
 
-<use confusionmatrix.png> [40
+<use confusionmatrix.png> [41
 
  <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detect
-ion-Project/BaoCaoLatex/confusionmatrix.png (PNG copy)>] <ucm.png, id=575, 336.
+ion-Project/BaoCaoLatex/confusionmatrix.png (PNG copy)>] <ucm.png, id=584, 336.
 25626pt x 295.1025pt>
 File: ucm.png Graphic file (type png)
  <use ucm.png>
-<ncm.png, id=576, 329.23pt x 295.1025pt>
+<ncm.png, id=585, 329.23pt x 295.1025pt>
 File: ncm.png Graphic file (type png)
- <use ncm.png> [41 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiK
+ <use ncm.png> [42 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiK
 y/Fake-News-Detection-Project/BaoCaoLatex/ucm.png> <D:/#UIT_Documents/#HK2_2020
 _2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/ncm.p
-ng>] [42] [43]
-<roc_auc.png, id=594, 401.5pt x 281.05pt>
+ng>] [43] [44]
+<roc_auc.png, id=602, 401.5pt x 281.05pt>
 File: roc_auc.png Graphic file (type png)
- <use roc_auc.png> [44 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnC
+ <use roc_auc.png> [45 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnC
 uoiKy/Fake-News-Detection-Project/BaoCaoLatex/roc_auc.png>]
-Overfull \hbox (4.35762pt too wide) in paragraph at lines 874--874
+Overfull \hbox (4.35762pt too wide) in paragraph at lines 893--893
  []|\T5/cmr/bx/n/10.95 PassiveAggressiveClassifier| 
  []
 
 
-Overfull \hbox (1.02557pt too wide) in paragraph at lines 864--881
+Overfull \hbox (1.02557pt too wide) in paragraph at lines 883--900
  [] 
  []
 
-<cvroc.png, id=600, 960.58875pt x 559.08875pt>
+<cvroc.png, id=608, 960.58875pt x 559.08875pt>
 File: cvroc.png Graphic file (type png)
  <use cvroc.png>
-<tfroc.png, id=601, 960.58875pt x 559.08875pt>
+<tfroc.png, id=609, 960.58875pt x 559.08875pt>
 File: tfroc.png Graphic file (type png)
- <use tfroc.png> [45 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
-iKy/Fake-News-Detection-Project/BaoCaoLatex/cvroc.png>] <w2vroc.png, id=607, 96
+ <use tfroc.png> [46 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
+iKy/Fake-News-Detection-Project/BaoCaoLatex/cvroc.png>] <w2vroc.png, id=615, 96
 0.58875pt x 559.08875pt>
 File: w2vroc.png Graphic file (type png)
 
-<use w2vroc.png> [46 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
+<use w2vroc.png> [47 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
 iKy/Fake-News-Detection-Project/BaoCaoLatex/tfroc.png> <D:/#UIT_Documents/#HK2_
 2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/w
-2vroc.png>] <cvlr.png, id=614, 313.17pt x 262.9825pt>
+2vroc.png>] <cvlr.png, id=623, 313.17pt x 262.9825pt>
 File: cvlr.png Graphic file (type png)
  <use cvlr.png>
-<tflr.png, id=615, 313.17pt x 262.9825pt>
+<tflr.png, id=624, 313.17pt x 262.9825pt>
 File: tflr.png Graphic file (type png)
  <use tflr.png>
-<w2vlr.png, id=616, 313.17pt x 262.9825pt>
+<w2vlr.png, id=625, 313.17pt x 262.9825pt>
 File: w2vlr.png Graphic file (type png)
  <use w2vlr.png>
-<cvnb.png, id=617, 313.17pt x 262.9825pt>
+<cvnb.png, id=626, 313.17pt x 262.9825pt>
 File: cvnb.png Graphic file (type png)
  <use cvnb.png>
-<tfnb.png, id=618, 313.17pt x 262.9825pt>
+<tfnb.png, id=627, 313.17pt x 262.9825pt>
 File: tfnb.png Graphic file (type png)
  <use tfnb.png>
-<w2vnb.png, id=619, 313.17pt x 262.9825pt>
+<w2vnb.png, id=628, 313.17pt x 262.9825pt>
 File: w2vnb.png Graphic file (type png)
- <use w2vnb.png> [47 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
+ <use w2vnb.png> [48 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
 iKy/Fake-News-Detection-Project/BaoCaoLatex/cvlr.png> <D:/#UIT_Documents/#HK2_2
 020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/tf
 lr.png> <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News
--Detection-Project/BaoCaoLatex/w2vlr.png>] <cvsvc.png, id=634, 313.17pt x 262.9
+-Detection-Project/BaoCaoLatex/w2vlr.png>] <cvsvc.png, id=642, 313.17pt x 262.9
 825pt>
 File: cvsvc.png Graphic file (type png)
  <use cvsvc.png>
-<tfsvc.png, id=635, 313.17pt x 262.9825pt>
+<tfsvc.png, id=643, 313.17pt x 262.9825pt>
 File: tfsvc.png Graphic file (type png)
  <use tfsvc.png>
-<w2vsvc.png, id=636, 313.17pt x 262.9825pt>
+<w2vsvc.png, id=644, 313.17pt x 262.9825pt>
 File: w2vsvc.png Graphic file (type png)
- <use w2vsvc.png> [48 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCu
+ <use w2vsvc.png> [49 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCu
 oiKy/Fake-News-Detection-Project/BaoCaoLatex/cvnb.png> <D:/#UIT_Documents/#HK2_
 2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/t
 fnb.png> <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-New
-s-Detection-Project/BaoCaoLatex/w2vnb.png>] <cvpa.png, id=650, 313.17pt x 262.9
+s-Detection-Project/BaoCaoLatex/w2vnb.png>] <cvpa.png, id=658, 313.17pt x 262.9
 825pt>
 File: cvpa.png Graphic file (type png)
  <use cvpa.png>
-<tfpa.png, id=651, 313.17pt x 262.9825pt>
+<tfpa.png, id=659, 313.17pt x 262.9825pt>
 File: tfpa.png Graphic file (type png)
  <use tfpa.png>
-<w2vpa.png, id=652, 313.17pt x 262.9825pt>
+<w2vpa.png, id=660, 313.17pt x 262.9825pt>
 File: w2vpa.png Graphic file (type png)
- <use w2vpa.png> [49 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
+ <use w2vpa.png> [50 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
 iKy/Fake-News-Detection-Project/BaoCaoLatex/cvsvc.png> <D:/#UIT_Documents/#HK2_
 2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/t
 fsvc.png> <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-Ne
-ws-Detection-Project/BaoCaoLatex/w2vsvc.png>] <cvdtree.png, id=666, 313.17pt x 
+ws-Detection-Project/BaoCaoLatex/w2vsvc.png>] <cvdtree.png, id=674, 313.17pt x 
 262.9825pt>
 File: cvdtree.png Graphic file (type png)
  <use cvdtree.png>
-<tfdtree.png, id=667, 313.17pt x 262.9825pt>
+<tfdtree.png, id=675, 313.17pt x 262.9825pt>
 File: tfdtree.png Graphic file (type png)
  <use tfdtree.png>
-<w2vdtree.png, id=668, 313.17pt x 262.9825pt>
+<w2vdtree.png, id=676, 313.17pt x 262.9825pt>
 File: w2vdtree.png Graphic file (type png)
- <use w2vdtree.png> [50 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAn
+ <use w2vdtree.png> [51 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAn
 CuoiKy/Fake-News-Detection-Project/BaoCaoLatex/cvpa.png> <D:/#UIT_Documents/#HK
 2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex
 /tfpa.png> <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-N
-ews-Detection-Project/BaoCaoLatex/w2vpa.png>] <cvrf.png, id=682, 313.17pt x 262
+ews-Detection-Project/BaoCaoLatex/w2vpa.png>] <cvrf.png, id=690, 313.17pt x 262
 .9825pt>
 File: cvrf.png Graphic file (type png)
  <use cvrf.png>
-<tfrf.png, id=683, 313.17pt x 262.9825pt>
+<tfrf.png, id=691, 313.17pt x 262.9825pt>
 File: tfrf.png Graphic file (type png)
  <use tfrf.png>
-<w2vrf.png, id=684, 313.17pt x 262.9825pt>
+<w2vrf.png, id=692, 313.17pt x 262.9825pt>
 File: w2vrf.png Graphic file (type png)
- <use w2vrf.png> [51 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
+ <use w2vrf.png> [52 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuo
 iKy/Fake-News-Detection-Project/BaoCaoLatex/cvdtree.png> <D:/#UIT_Documents/#HK
 2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex
 /tfdtree.png> <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fak
-e-News-Detection-Project/BaoCaoLatex/w2vdtree.png>] [52 <D:/#UIT_Documents/#HK2
+e-News-Detection-Project/BaoCaoLatex/w2vdtree.png>] [53 <D:/#UIT_Documents/#HK2
 _2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/
 cvrf.png> <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-Ne
 ws-Detection-Project/BaoCaoLatex/tfrf.png> <D:/#UIT_Documents/#HK2_2020_2021/Ho
 c May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/w2vrf.png>]
 Ch\uhorn \ohorn ng 6.
-<tfpa_2.png, id=711, 313.17pt x 262.9825pt>
+<tfpa_2.png, id=720, 313.17pt x 262.9825pt>
 File: tfpa_2.png Graphic file (type png)
- <use tfpa_2.png> [53
+ <use tfpa_2.png> [54
 
  <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detect
-ion-Project/BaoCaoLatex/tfpa_2.png>] <frequentdata.png, id=718, 1148.29pt x 353
+ion-Project/BaoCaoLatex/tfpa_2.png>] <frequentdata.png, id=726, 1148.29pt x 353
 .32pt>
 File: frequentdata.png Graphic file (type png)
 
-<use frequentdata.png> <fn1gram.png, id=719, 425.59pt x 281.05pt>
+<use frequentdata.png> <fn1gram.png, id=727, 425.59pt x 281.05pt>
 File: fn1gram.png Graphic file (type png)
 
-<use fn1gram.png> <fp1gram.png, id=720, 425.59pt x 281.05pt>
+<use fn1gram.png> <fp1gram.png, id=728, 425.59pt x 281.05pt>
 File: fp1gram.png Graphic file (type png)
  <use fp1gram.png>
-[54 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Det
+[55 <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Det
 ection-Project/BaoCaoLatex/frequentdata.png> <D:/#UIT_Documents/#HK2_2020_2021/
 Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detection-Project/BaoCaoLatex/fn1gram.png
 > <D:/#UIT_Documents/#HK2_2020_2021/Hoc May Thong Ke/DoAnCuoiKy/Fake-News-Detec
-tion-Project/BaoCaoLatex/fp1gram.png>] [55] [56
+tion-Project/BaoCaoLatex/fp1gram.png>] [56] [57
 
-] [57]
-Underfull \hbox (badness 10000) in paragraph at lines 1386--1387
+] [58]
+Underfull \hbox (badness 10000) in paragraph at lines 1405--1406
 [][][]$\T5/cmtt/m/n/14 https : / / www . researchgate . net / publication / 339
 299161 _$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1386--1387
+Underfull \hbox (badness 10000) in paragraph at lines 1405--1406
 $\T5/cmtt/m/n/14 Application _ of _ Supervised _ Machine _ Learning _ Algorithm
 s _$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1398--1399
+Underfull \hbox (badness 10000) in paragraph at lines 1417--1418
 [][][]$\T5/cmtt/m/n/14 https : / / jmlr . csail . mit . edu / papers / volume7 
 / crammer06a /$
  []
 
-[58
+[59
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has b
 een already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1424 	\bibitem{}
+l.1443 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1424 	\bibitem{}
+l.1443 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1424 	\bibitem{}
+l.1443 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1424 	\bibitem{}
+l.1443 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1424 	\bibitem{}
+l.1443 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1424 	\bibitem{}
+l.1443 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1424 	\bibitem{}
+l.1443 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.]pdfTe
 X warning (ext4): destination with the same identifier (name{cite.}) has been a
 lready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1424 	\bibitem{}
+l.1443 	\bibitem{}
                    Vũ Hữu Tiệp, \textit{Machine Learning cơ bản}.pdfTeX
  warning (ext4): destination with the same identifier (name{cite.}) has been al
 ready used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1429 	\bibitem{}
+l.1448 	\bibitem{}
                   Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Miche...
-[59]
+[60]
 ("D:\#UIT_Documents\#HK2_2020_2021\Hoc May Thong Ke\DoAnCuoiKy\Fake-News-Detect
 ion-Project\BaoCaoLatex\BaoCaoHMTK.aux")
 
@@ -1210,10 +1213,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13243 strings out of 495285
- 179450 string characters out of 3180474
+ 13250 strings out of 495285
+ 179538 string characters out of 3180474
  248413 words of memory out of 3000000
- 15947 multiletter control sequences out of 15000+200000
+ 15951 multiletter control sequences out of 15000+200000
  37718 words of font info for 90 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  44i,15n,45p,935b,503s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1232,9 +1235,9 @@ vnr10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnr12.pfb><E:/Progr
 am_Data/Miktex_2.8/fonts/type1/vntex/vnr/vnr7.pfb><E:/Program_Data/Miktex_2.8/f
 onts/type1/vntex/vnr/vnti10.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/v
 nr/vnti12.pfb><E:/Program_Data/Miktex_2.8/fonts/type1/vntex/vnr/vntt12.pfb>
-Output written on BaoCaoHMTK.pdf (61 pages, 1664646 bytes).
+Output written on BaoCaoHMTK.pdf (62 pages, 1686481 bytes).
 PDF statistics:
- 865 PDF objects out of 1000 (max. 8388607)
- 204 named destinations out of 1000 (max. 500000)
- 637 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 874 PDF objects out of 1000 (max. 8388607)
+ 206 named destinations out of 1000 (max. 500000)
+ 642 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -566,6 +566,8 @@
 			
 			Vì tổng hai biểu thức này luôn bằng 1 nên một cách gọn hơn, ta cần xác định xem $P(y=1|\textbf{x};\textbf{w})$ có lớn hơn 0.5 hay không. Nếu lớn hơn 0.5, ta kết luận điểm dữ liệu thuộc class 1, ngược lại thì điểm dữ liệu thuộc class 0.
 			
+			\textbf{Công cụ sử dụng:} Hàm \textit{LogisticRegression} trong module \textit{linear\_model} của thư viện scikit-learn
+			
 		\subsection{Multinomial Naive Bayes}
 			Bộ phân lớp Naive Bayes (NBC) thường được sử dụng trong các bài toán phân loại văn bản, với thời gian train và test rất nhanh. Điều này có được do giả sử về tính độc lập giữa các thành phần, nếu biết class. Nếu giả sử về tính độc lập được thoả mãn (dựa vào bản chất của dữ liệu), NBC được cho là cho kết quả tốt hơn so với SVM và Logistic Regression khi có ít dữ liệu training.
 
@@ -599,7 +601,9 @@
 			\begin{center}
 				$\hat{\lambda_c}=\hat{\lambda}c1,..., \hat{\lambda}cd$
 			\end{center}
-
+			
+		\textbf{Công cụ sử dụng:} Hàm \textit{MultinomialNB} trong module \textit{naive\_bayes} của thư viện scikit-learn
+		
 		\subsection{Support Vector Machine}
 		Mục tiêu của SVM là tìm ra một siêu phẳng trong không gian N chiều (ứng với N đặc trưng) chia dữ liệu thành hai phần tương ứng với lớp của chúng. Nói theo ngôn ngữ của đại số tuyến tính, siêu phẳng này phải có lề cực đại và phân chia hai bao lồi và cách đều chúng.
 		
@@ -647,7 +651,7 @@
 			\item sigmoid
 		\end{itemize}
 		
-		
+		\textbf{Công cụ sử dụng:} Hàm \textit{SVC} trong module \textit{svm} của thư viện scikit-learn.
 		
 		\subsection{Thuật toán Passive Aggressive}
 		
@@ -678,15 +682,18 @@
 		\item \textbf{tol:} tiêu chuẩn dừng vòng lặp của mô hình. Giá trị mặc định là 0.001.
 		\item \textbf{early\_stopping:} Nếu nhận giá trị True, mô hình sẽ tự động dừng huấn luyện nếu kết quả trên tập thẩm định không cải thiện.
 		\end{itemize}
+		
+		\textbf{Công cụ sử dụng:} Hàm \textit{PassiveAgressiveClassifier} trong module \textit{linear\_model} của thư viện scikit-learn
+				
 		\subsection{Decision Tree}
 		Decision Tree (cây quyết định) là mô hình thuộc nhóm thuật toán học máy học có giám sát (Supervised Learning). Mô hình cây quyết định cho biết giá trị của một biến mục tiêu thuộc lớp nào bằng cách dựa vào các giá trị của một tập các biến dự đoán, hay tập các câu hỏi.
 		
 		Cây quyết định có dạng cấu trúc cây, bao gồm: nút gốc (root node), nút quyết định (decision node) và nút lá (leaf node).
 		
 		\begin{itemize}
-		\item Nút gốc: Là nút đầu tiên trong cấu trúc cây, thường nằm trên cùng, các nút khác trong cấu trúc cây bắt nguồn từ nút gốc.
-		\item Nút quyết định: Là nút có một hoặc nhiều phân nhánh tới nút con, nút này tương ứng với biến dự đoán.
-		\item Nút lá: Là giá trị dự đoán của biến mục tiêu.
+		\item \textbf{Nút gốc:} Là nút đầu tiên trong cấu trúc cây, thường nằm trên cùng, các nút khác trong cấu trúc cây bắt nguồn từ nút gốc.
+		\item \textbf{Nút quyết định:} Là nút có một hoặc nhiều phân nhánh tới nút con, nút này tương ứng với biến dự đoán.
+		\item \textbf{Nút lá:} Là giá trị dự đoán của biến mục tiêu.
 		\item Nhánh nối giữa một nút và nút con thể hiện giá trị cụ thể cho biến đó.
 		\end{itemize}
 		
@@ -716,7 +723,17 @@
 		
 		Hai thuật toán như nhau trong đa số trường hợp. Gini thường chạy nhanh hơn nên được mặc định trong Scikit-Learn. Entropy thường cho cây cân bằng hơn.
 			
+		\textbf{Công cụ sử dụng:} Hàm \textit{DecisionTreeClassifier} trong module \textit{tree} của thư viện scikit-learn.
+		
 		\subsection{Random Forest}
+		
+				\begin{figure}[H]
+					\begin{center}
+						\includegraphics[width=0.8\columnwidth]{rf_ex}
+					\end{center}
+					\caption{Mô hình Random Forest}
+				\end{figure}
+		
 		Random Forest là thuật toán học có giám sát nên có thể giải quyết bài toán classification.
 		
 		Random Forest (hay còn gọi là Rừng Ngẫu Nhiên)  được phát triển bởi Leo Breiman tại đại học California, Berkeley; là một trong những thuật toán thuộc kỹ thuật Bagging của phương pháp Ensemble Learning với mục đích dùng để phân loại bằng cách xây dựng vô số các cây quyết định (decision tree) trong thời gian huấn luyện. Đầu ra là tập hợp mô hình phân lớp của những cây riêng biệt:
@@ -727,6 +744,8 @@
 		
 		Trong những năm gần đây, Random Forest được sử dụng khá phổ biến bởi những điểm vượt trội của nó so với các thuật toán khác: xử lý được với dữ liệu có số lượng các thuộc tính lớn, làm việc với tập dữ liệu thiếu giá trị, thường có độ chính xác cao trong phân loại, tránh được overfitting với tập dữ liệu và quá trình học nhanh.
 		
+		\textbf{Công cụ sử dụng:} Hàm \textit{RandomForestClassifier} trong module \textit{ensemble} của thư viện scikit-learn
+		\pagebreak
 	\section{Huấn luyện và tinh chỉnh mô hình}
 		Sau khi đã tìm hiểu cơ sở lý thuyết của các phương pháp Học máy, chúng tôi tiến hành huấn luyện và thẩm định các bộ giá trị siêu tham số ứng với từng mô hình nhằm tìm ra bộ tham số tối ưu.
 				
@@ -813,7 +832,7 @@
 	\vspace{1em}
 	Độ đo Accuracy thường không phù hợp đối với bài toán phân loại có số lượng điểm dữ liệu giữa các lớp quá mất cân bằng, vì mô hình có xu hướng đánh giá dựa trên lớp có nhiều điểm dữ liệu hơn. Tuy nhiên đối với bộ dữ liệu sử dụng trong bài toán này thì độ đo Accuracy vẫn mang lại hiệu quả do phân bố điểm dữ liệu trên hai lớp là cân bằng.
 	\subsection{Precision - Recall - F1}
-	Độ đo Precision được tính bằng tỉ lệ giữa số điểm dữ liệu có nhãn là Positive được dự đoán đúng trên tổng số dự đoán cho nhãn Positive đưa ra bởi mô hình:
+	Độ đo Precision được tính bằng tỉ lệ giữa số điểm dữ liệu có nhãn là Positive được dự đoán đúng trên tổng số dự đoán Positive đưa ra bởi mô hình:
 	
 	\centerline{$precision = \cfrac{TP}{TP+FP}$}
 	\vspace{1em}
@@ -1315,7 +1334,7 @@
 Qua kết quả đánh giá tổng hợp thu được, mô hình PassiveAggressiveClassifier cho hiệu suất cao nhất trên bộ TfidfVectorizer.
 \begin{figure}[H]
 	\centering
-	\captionsetup{width=0.6\textwidth}
+	\captionsetup{width=0.7\textwidth}
 	\includegraphics[width=0.6\textwidth]{tfpa_2}
 	\caption{Confusion Matrix của mô hình Passive Aggressive Classifier với TfidfVectorizer}
 \end{figure}
@@ -1325,7 +1344,8 @@ Nhìn sơ lược qua Confusion Matrix, dữ liệu hầu hết hội tụ về 
 \item Có 33 điểm dữ liệu có nhãn là REAL (1) bị mô hình dự đoán là FAKE (0)
 \end{itemize}
 
-Có thể thấy mô hình bị lỗi False Negative nhiều hơn lỗi False Positive.
+Tỉ lệ lỗi của mô hình: $(33+38)/1584 ≈ 0.0448 = 4.48\%$. Trong đó mô hình bị lỗi False Negative nhiều hơn lỗi False Positive.
+
 Để tìm hiểu nguyên nhân gây ra lỗi, chúng tôi xem qua những từ xuất hiện nhiều ở cả 2 nhãn trên toàn bộ tập dữ liệu và ở các điểm dữ liệu bị lỗi False Positive và False Negative để đưa ra so sánh.
 \begin{figure}[H]
 	\centering
@@ -1344,7 +1364,7 @@ Có thể thấy mô hình bị lỗi False Negative nhiều hơn lỗi False Po
 
 \textbf{Nhận xét:} Những từ `said', `people', `new', `trump' đều có tần suất xuất hiện rất cao ở cả hai nhãn của bộ dữ liệu. Qua hình 6.3, có thể thấy những từ này ảnh hưởng lớn đến mô hình, khiến mô hình bị nhầm lẫn giữa hai nhãn và đưa ra dự đoán sai.
 
-\textbf{Hướng giải quyết:} Có thể hạn chế những tác động của những từ gây nhiễu bằng cách loại bỏ chúng hoàn toàn hoặc giảm chiều dữ liệu. Tuy nhiên, lúc này cần những phương pháp mạnh hơn để hoạt động hiệu quả trên bộ dữ liệu được thu gọn.
+\textbf{Hướng giải quyết:} Có thể hạn chế những tác động của những từ gây nhiễu bằng cách loại bỏ chúng hoàn toàn hoặc giảm chiều dữ liệu. Tuy nhiên, lúc này cần những phương pháp mạnh hơn để hoạt động hiệu quả trên bộ dữ liệu đã thu gọn.
 
 \section{Hướng phát triển}
 Trong tương lai có thể áp dụng các phương pháp Ensemble Learning như XGBoost, Adaboost,.. và mô hình Neural Network như LSTM, RNN,... để có thể cải thiện độ chính xác trên bộ dữ liệu.
@@ -1354,7 +1374,7 @@ Ngoài ra, việc sử dụng các pretrained model khác như Glove, StanfordNL
 \chapter*{KẾT LUẬN}
 \addcontentsline{toc}{chapter}{KẾT LUẬN}
 
-Báo cáo đồ án của chúng tôi đã trình bày một cách ngắn gọn về cơ sở lý thuyết của các phương pháp Học máy và các kỹ thuật tiền xử lý và vector hóa dữ liệu được sử dụng. Qua đó, chúng tôi xây dựng, tinh chỉnh các mô hình Học máy trên các bộ vector hóa dữ liệu khác nhau.
+Báo cáo đồ án của chúng tôi đã trình bày một cách ngắn gọn về cơ sở lý thuyết của các phương pháp Học máy và các kỹ thuật tiền xử lý và vector hóa dữ liệu được sử dụng. Qua đó, chúng tôi xây dựng và tinh chỉnh các mô hình Học máy dựa trên các bộ vector hóa dữ liệu khác nhau.
 
 Do hạn chế về tài nguyên và thời gian, chúng tôi chỉ có thể thử nghiệm một số lượng nhất định giá trị tham số của các mô hình, vì vậy các mô hình sau khi tinh chỉnh có thể chưa là tốt nhất. Sau cùng, chúng tôi mong muốn có thể đưa ra bộ tham số tốt nhất của từng mô hình trên từng bộ vector hóa cụ thể, nhằm thực hiện việc so sánh và đánh giá một cách khách quan nhất về hiệu suất phân loại giữa các mô hình trên bộ dữ liệu.
 
@@ -1362,10 +1382,9 @@ Thông qua kết quả đánh giá hiệu suất mô hình, chúng tôi nhận t
 
 Các bộ vector hóa dữ liệu cũng ảnh hưởng đến hiệu suất của các mô hình. Trong đó, hiệu suất trung bình của các mô hình với CountVectorizer là 89,65\% , với TfidfVectorizer là 91,22\% và với Word2Vec là 86,89\%. Bộ TfidfVectorizer mang lại hiệu suất cao hơn hai mô hình còn lại, có thể xem xét làm dữ liệu đầu vào khi thử nghiệm những phương pháp mạnh hơn.
 
-Để tối ưu hiệu suất phân loại, trong tương lai chúng tôi dự định áp dụng kỹ thuật giảm chiều dữ liệu kết hợp với các kỹ thuật Boosting tiêu biểu trong Ensemble Learning như XGBoost, Adaboost và Gradient Boosting. Cùng với dó, chúng tôi cũng xem xét áp dụng những phương pháp Học Sâu gồm các mạng neural LSTM, RNN,... nhất là khi lượng dữ liệu tăng lên đáng kể.
+Để tối ưu hiệu suất phân loại, trong tương lai chúng tôi dự định áp dụng kỹ thuật giảm chiều dữ liệu kết hợp với các kỹ thuật Boosting tiêu biểu trong Ensemble Learning như XGBoost, Adaboost và Gradient Boosting. Cùng với đó, chúng tôi cũng xem xét áp dụng những phương pháp Học Sâu gồm các mạng neural LSTM, RNN,... nhất là khi lượng dữ liệu tăng lên đáng kể.
 
 Một số pretrain-model State-of-the-art như Glove, Transformer, StanfordNLP hay BERT có thể được xem xét áp dụng để trích xuất các đặc trưng một cách tốt hơn. Những mô hình như Transformer hay BERT có thể được ưu tiên hàng đầu vì chúng đã được huấn luyện rất nhiều để nhận diện ngữ cảnh trước khi đưa ra bộ vector embedding cho một từ nào đó. Các mô hình này còn giúp tiết kiệm thời gian, năng lực tính toán và dễ dàng thực hiện những tinh chỉnh hậu xử lý sau cùng.
-
 
 
 \newpage
