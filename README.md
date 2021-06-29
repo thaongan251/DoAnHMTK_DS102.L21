@@ -24,5 +24,5 @@ STT | Họ tên | MSSV | Github
 - [x] 1 báo cáo word, pdf tối thiểu 40 trang  
 - [x] 1 slide báo cáo 
 - [x] 1 source code 
-- [ ] 1 video demo 
+- [x] 1 video demo 
 - [ ] 1 video báo cáo 
